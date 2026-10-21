@@ -1,5 +1,7 @@
 # Panduan Deploy — GitHub + Cloudflare Pages
 
+> Status: repo GitHub **pakgun10/pakgun** sudah dibuat. Bagian A tinggal push (lihat perintah di bawah).
+
 Ikuti urut dari atas. Bagian A dikerjakan sekali saja; setelah itu blog
 online otomatis setiap ada push baru ke GitHub.
 
@@ -10,7 +12,7 @@ online otomatis setiap ada push baru ke GitHub.
 3. Di komputer, dari folder proyek ini jalankan:
 
 ```bash
-git remote add origin https://github.com/pakgun10/blog-gunanto.git
+git remote add origin https://github.com/pakgun10/pakgun.git
 git push -u origin main
 ```
 
@@ -21,12 +23,12 @@ git push -u origin main
 
 1. Buka https://dash.cloudflare.com → login akun Cloudflare Bapak.
 2. Menu kiri: **Workers & Pages** → tombol **Create** → tab **Pages** → **Connect to Git**.
-3. Pilih akun GitHub **pakgun10**, lalu pilih repo `blog-gunanto`. Klik **Begin setup**.
+3. Pilih akun GitHub **pakgun10**, lalu pilih repo `pakgun`. Klik **Begin setup**.
 4. Isi pengaturan build persis seperti ini:
 
    | Pengaturan | Isi |
    |---|---|
-   | Project name | `blog-gunanto` (akan jadi alamat `blog-gunanto.pages.dev`) |
+   | Project name | `blog-gunanto` (akan jadi alamat `pakgun.pages.dev`) |
    | Production branch | `main` |
    | Framework preset | **Hugo** |
    | Build command | `hugo --gc --minify` |
@@ -40,7 +42,7 @@ git push -u origin main
    | `HUGO_VERSION` | `0.168.0` |
 
 6. Klik **Save and Deploy**. Tunggu ±1 menit sampai muncul tulisan sukses.
-   Blog langsung bisa dibuka di `https://blog-gunanto.pages.dev`.
+   Blog langsung bisa dibuka di `https://pakgun.pages.dev`.
 
 ## Bagian C — Pasang domain sendiri (pakgun.gezytech.web.id)
 
