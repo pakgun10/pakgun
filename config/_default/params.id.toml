@@ -1,0 +1,54 @@
+description = "Belajar dan Berkarya — Berbagi ilmu untuk kebaikan bersama. Catatan seorang guru matematika: pembelajaran, LaTeX, dan teknologi pendidikan."
+keywords = ["Matematika", "LaTeX", "TikZ", "Pembelajaran", "GezyTech"]
+
+[app]
+  title = "Gunanto"
+  noFavicon = false
+  svgFavicon = ""
+  iconColor = "#5bbad5"
+  tileColor = "#da532c"
+
+[search]
+  enable = true
+  type = "fuse"
+  contentLength = 4000
+  placeholder = "Cari judul atau konten ..."
+  maxResultLength = 10
+  snippetLength = 40
+  highlightTag = "em"
+  absoluteURL = false
+  [search.algolia]
+    index = ""
+    appID = ""
+    searchKey = ""
+  [search.fuse]
+    isCaseSensitive = false
+    minMatchCharLength = 2
+    findAllMatches = false
+    location = 0
+    threshold = 0.1
+    distance = 100
+    ignoreLocation = true
+    useExtendedSearch = false
+    ignoreFieldNorm = false
+
+[home]
+  rss = 10
+  [home.profile]
+    enable = true
+    gravatarEmail = ""
+    avatarURL = "/images/avatar.jpg"
+    avatarLinkURL = ""
+    title = ""
+    subtitle = "Belajar dan Berkarya — Berbagi ilmu untuk kebaikan bersama"
+    typeit = true
+    social = true
+    disclaimer = ""
+  [home.posts]
+    enable = true
+    paginate = 7
+
+[social]
+  Email = ""
+  GitHub = "pakgun10"
+  RSS = true

@@ -1,0 +1,11 @@
+baseURL = "https://blog.gezytech.web.id/"
+# Bahasa utama situs
+defaultContentLanguage = "id"
+# Judul situs
+title = "Gunanto"
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
+
+theme = "DoIt"
