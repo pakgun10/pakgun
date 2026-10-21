@@ -42,14 +42,14 @@ git push -u origin main
 6. Klik **Save and Deploy**. Tunggu ±1 menit sampai muncul tulisan sukses.
    Blog langsung bisa dibuka di `https://blog-gunanto.pages.dev`.
 
-## Bagian C — Pasang domain sendiri (blog.gezytech.web.id)
+## Bagian C — Pasang domain sendiri (pakgun.gezytech.web.id)
 
 Lewati bagian ini bila cukup memakai alamat `pages.dev`.
 
 1. Di Cloudflare, buka project Pages tadi → tab **Custom domains** → **Set up a custom domain**.
-2. Ketik `blog.gezytech.web.id` → **Continue** → **Activate domain**.
+2. Ketik `pakgun.gezytech.web.id` → **Continue** → **Activate domain**.
    Karena domain `gezytech.web.id` sudah dikelola Cloudflare, DNS-nya dibuat otomatis.
-3. Ganti `baseURL` di `config/_default/hugo.toml` bila alamat final berbeda dari `https://blog.gezytech.web.id/`, lalu commit + push.
+3. Ganti `baseURL` di `config/_default/hugo.toml` bila alamat final berbeda dari `https://pakgun.gezytech.web.id/`, lalu commit + push.
 
 ## Setelah online
 

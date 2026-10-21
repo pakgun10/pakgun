@@ -5,7 +5,7 @@ Dibangun dengan **Hugo + tema DoIt** (stack yang sama dengan blog referensi aant
 tulisan ditulis sebagai file Markdown, Hugo mengubahnya menjadi situs statis (HTML/CSS/JS murni, tanpa database), lalu di-online-kan lewat **Cloudflare Pages**.
 
 - Tema terang/gelap, pencarian Fuse.js, rumus matematika KaTeX, daftar isi otomatis — semua bawaan tema DoIt (lisensi MIT).
-- Alamat situs sementara di konfigurasi: `https://blog.gezytech.web.id/` (diatur di `config/_default/hugo.toml`, ganti `baseURL` bila domain berubah).
+- Alamat situs: `https://pakgun.gezytech.web.id/` (diatur di `config/_default/hugo.toml`, tetap — diatur di `config/_default/hugo.toml`).
 
 ## Struktur folder
 
