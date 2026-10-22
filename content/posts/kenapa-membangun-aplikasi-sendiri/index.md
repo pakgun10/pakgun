@@ -31,7 +31,7 @@ Portal [GezyTech](https://gezytech.web.id/) tumbuh dari satu aplikasi menjadi ke
 
 - **Aplikasi kuis** — menerima notasi matematika, bukan sekadar teks;
 - **CBT (Computer-Based Test)** — untuk ulangan besar dan asesmen sumatif, dengan database sungguhan yang sanggup menampung seluruh angkatan;
-- **Pemilih suara / multivote** — untuk pemilihan ketua kelas dan voting kegiatan sekolah, karena rekap manual di kelas itu lama dan rawan salah hitung;
+- **Pemungutan suara / multivote** — untuk pemilihan ketua kelas dan voting kegiatan sekolah, karena rekap manual di kelas itu lama dan rawan salah hitung;
 - **Media matematika interaktif** — bidang koordinat, visualisasi, alat bantu mengajar yang tampil bagus di proyektor;
 - **Slide dan materi ajar** — yang bisa dibuka dari mana saja, tanpa harus bawa flashdisk.
 
