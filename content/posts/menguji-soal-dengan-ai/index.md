@@ -1,10 +1,10 @@
 ---
 weight: 1
-title: "Menjadikan AI Murid Percobaan: Menguji Soal Sebelum Dicetak"
+title: "Ketika AI Jadi Murid Pertama di Kelas Saya"
 date: 2026-10-22T04:30:00+07:00
 draft: false
 authors: ["Gunanto"]
-description: "Soal yang menurut guru sudah jelas belum tentu jelas bagi murid. Saya memakai AI sebagai murid percobaan untuk menemukan kalimat soal yang ambigu, soal yang bisa ditebak tanpa paham konsep, dan soal yang kelewat sulit — sebelum lembar ulangannya dicetak."
+description: "Soal yang menurut guru sudah jelas belum tentu jelas bagi murid. Saya memakai AI sebagai murid pertama untuk menemukan kalimat soal yang ambigu, soal yang bisa ditebak tanpa paham konsep, dan soal yang kelewat sulit — sebelum lembar ulangannya dicetak."
 featuredImage: "featured-image.png"
 
 tags: ["AI", "Asesmen"]
@@ -49,4 +49,4 @@ AI tetap bukan murid sungguhan. Miskonsepsi khas anak-anak — misalnya kebiasaa
 
 Sejak memakai cara ini, keluhan "Pak, maksud soalnya apa?" menurun drastis di kelas saya. Waktu yang tadinya habis untuk menjelaskan maksud soal saat ulangan — waktu yang seharusnya dipakai untuk berpikir — kini kembali ke tempatnya.
 
-Biaya metodenya hampir nol: lima menit mengobrol dengan AI sebelum mencetak. Untuk guru yang selama ini menyusun soal sendirian tanpa teman diskusi, "murid percobaan" ini adalah teman diskusi yang selalu siap. Cobalah pada satu soal ulangan berikutnya; saya ingin tahu jebakan apa yang ia temukan dari soal Bapak/Ibu.
+Biaya metodenya hampir nol: lima menit mengobrol dengan AI sebelum mencetak. Untuk guru yang selama ini menyusun soal sendirian tanpa teman diskusi, "murid pertama" ini adalah teman diskusi yang selalu siap. Cobalah pada satu soal ulangan berikutnya; saya ingin tahu jebakan apa yang ia temukan dari soal Bapak/Ibu.
