@@ -56,6 +56,11 @@ Untuk soal "manakah yang bisa menjadi kubus", sering saya beri nomor pada tiap p
 }
 ```
 
+![Jaring kubus bernomor hasil kompilasi TikZ](jaring-kubus-tikz.png)
+
+*Enam persegi bernomor, hasil kompilasi nyata dari kode di atas.*
+
+
 Kebiasaan kecil ini mengubah suasana diskusi di kelas. Sebelum ada nomor, murid menjelaskan pakai "yang ini" sambil menunjuk, dan teman-temannya tidak selalu melihat yang sama. Setelah ada nomor, penjelasan mereka jadi verbal dan terstruktur: "jaring ini bisa, karena sisi atas nomor 1 nempel ke sisi kanan nomor 6". Itu latihan komunikasi matematis yang tidak saya rencanakan sebelumnya, tapi ternyata efek samping yang bagus dari sekadar menggambar ulang soal.
 
 ## Balok dan limas: menyusutkan persegi jadi persegi panjang

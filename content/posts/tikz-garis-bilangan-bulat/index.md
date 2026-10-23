@@ -58,6 +58,11 @@ Dalam latihan operasi bilangan bulat, garis bilangan biasanya bukan tujuan akhir
 \node[above=2mm] at (2,0.1) {hasil};
 ```
 
+![Garis bilangan bilangan bulat hasil kompilasi TikZ](garis-bilangan-tikz.png)
+
+*Render asli dari kode TikZ di atas — jarak antar titik persis sama.*
+
+
 Sederhana, tapi efeknya di kelas nyata. Waktu itu saya menampilkan versi bertanda ini di proyektor, dan siswa yang biasanya diam di pojok belakang langsung berkomentar, "Pak, kalau dikurangi berarti lompat ke kiri ya?" Ya. Dan diskusi kecil itu terbuka justru karena gambarnya jelas — tidak ada siswa yang sibuk menebak titik mana sebenarnya maksud saya.
 
 ## Ketika Siswa Mulai Mencurigai Gambar

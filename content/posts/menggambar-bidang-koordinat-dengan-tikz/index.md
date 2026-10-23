@@ -28,7 +28,8 @@ TikZ adalah paket gambar untuk LaTeX. Kita mendeskripsikan gambar dengan perinta
 
 Menyiapkannya cukup satu baris di preambel dokumen:
 
-```latex
+```
+latex
 \usepackage{tikz}
 ```
 
@@ -84,6 +85,11 @@ Menghubungkan $P$ dan $Q$ cukup dengan satu perintah:
 ```latex
 \draw[very thick, orange!80!black] (-2,5) -- (4,1);
 ```
+
+![Bidang koordinat dengan titik P(4,1), Q(-2,5), dan garis penghubungnya](bidang-koordinat-pq.png)
+
+*Hasil kompilasi nyata dari kode TikZ di atas.*
+
 
 Hasilnya bisa langsung kita periksa dengan hitungan gradien:
 
