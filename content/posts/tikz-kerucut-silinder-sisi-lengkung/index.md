@@ -68,6 +68,16 @@ Bapak/Ibu, jangan bayangkan saya menggambar ulang dari nol setiap membuat soal. 
 
 Kalau Bapak/Ibu mau mencoba, file `.tex` lengkap yang bisa langsung dikompilasi saya sertakan di bawah. Isinya persis kode yang menghasilkan gambar di artikel ini — bukan potongan yang sudah saya poles berlebihan.
 
+## Dua kali gagal sebelum benar
+
+Supaya adil, saya perlu cerita juga bahwa template ini tidak langsung jadi. Render pertama saya punya dua cacat yang baru saya sadari setelah gambarnya selesai dan saya tatap lama.
+
+Pertama, elips bawah silinder saya gambar utuh. Hasilnya aneh: ada garis yang seolah menembus badan silinder, dan kesannya silinder itu "transparan". Siswa yang terbiasa dengan gambar buku pelajaran akan langsung merasa ada yang tidak pas, meski tidak bisa menyebutnya. Solusinya sederhana — arc setengah seperti di atas — tapi saya butuh kegagalan dulu untuk menyadarinya.
+
+Kedua, label $t$ di silinder saya taruh terlalu ke kanan, sampai menimpa dinding silinder. Label yang menabrak garis itu masalah kecil yang efeknya besar: gambar langsung terlihat "buatan amatir". Sekarang saya punya kebiasaan baru: setelah kompilasi, gambar saya buka dan saya lihat dulu sebagai pembaca biasa — bukan sebagai pembuat kode — sebelum gambar itu masuk ke paket soal. Sering kali lima detik melihat bisa menangkap hal yang sepuluh menit membaca kode tidak menemukan.
+
+Kalau Bapak/Ibu baru mulai dengan TikZ, dua kegagalan ini barangkali berguna lebih dari segala tips: kesalahan di gambar geometri jarang terlihat di kode, hampir selalu terlihat di hasil render.
+
 ## Penutup: gambar yang jujur itu bentuk penghormatan
 
 Malam itu, setelah paket soal bangun ruang selesai saya ketik ulang, saya teringat satu siswa di kelas yang dulu bertanya, "Pak, ini kok bentuknya aneh? Kerucut kan bukan kayak gini." Ia benar. Gambar yang asal-asalan bukan cuma kurang estetis — ia mengajarkan sesuatu yang salah secara diam-diam.
