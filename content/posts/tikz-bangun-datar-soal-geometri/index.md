@@ -69,6 +69,10 @@ Trapesium adalah "bos level" pertama saya. Bentuknya miring-miring, dan kalau as
 \end{tikzpicture}
 ```
 
+![Trapesium sama kaki dengan garis tinggi putus-putus, hasil dari kode di atas](gambar-trapesium.png)
+
+*Trapesium 10-6-4 dengan garis tinggi putus-putus — jembatan berpikir menuju rumus luas.*
+
 Perhatikan garis putus-putusnya. Itu bukan hiasan — itu jembatan berpikir untuk siswa yang akan memecah trapesium menjadi persegi panjang dan dua segitiga siku-siku. Gambar soal yang baik diam-diam menggiring strategi penyelesaian, dan itu bisa saya rancang sengaja di TikZ. Ini yang tidak bisa saya lakukan dengan foto sketsa.
 
 ## Lingkaran dan label yang rapi
@@ -82,6 +86,10 @@ Untuk lingkaran, TikZ menyediakan cara yang nyaris memalukan kemudahannya:
   \fill (0,0) circle (1.5pt);
 \end{tikzpicture}
 ```
+
+![Lingkaran dengan jari-jari yang tembus tepat ke tepi](gambar-lingkaran.png)
+
+*Tiga baris kode, satu lingkaran dengan jari-jari yang persis.*
 
 Dulu masalah terbesar saya dengan lingkaran di Word adalah jari-jari yang tidak tembus ke tepi lingkaran. Sudah saya perbesar, sudah saya geser, tetap melenceng sedikit — dan "sedikit" itu cukup untuk membuat sebagian siswa menghitung dari ujung garis yang salah.
 
