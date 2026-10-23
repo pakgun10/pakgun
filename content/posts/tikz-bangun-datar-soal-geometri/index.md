@@ -96,4 +96,4 @@ Dulu saya pikir menggambar soal itu pekerjaan sampingan yang bisa asal-asal. Ter
 
 ---
 
-> 📎 **Berkas TikZ lengkap:** [bangun-datar.tex](tex/bangun-datar.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.
+> 📎 **Berkas TikZ lengkap:** [bangun-datar.tex](tex/bangun-datar.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk dokumen Anda sendiri.

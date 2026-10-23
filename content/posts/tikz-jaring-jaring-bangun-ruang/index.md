@@ -97,4 +97,4 @@ Dan seperti biasa, kalau ada teman-teman guru yang ingin file contohnya lengkap 
 
 ---
 
-> 📎 **Berkas TikZ lengkap:** [jaring-jaring-bangun-ruang.tex](tex/jaring-jaring-bangun-ruang.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.
+> 📎 **Berkas TikZ lengkap:** [jaring-jaring-bangun-ruang.tex](tex/jaring-jaring-bangun-ruang.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk dokumen Anda sendiri.

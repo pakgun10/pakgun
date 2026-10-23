@@ -84,4 +84,4 @@ Sampai jumpa di artikel berikutnya. Selamat menggambar, dan biarkan komputernya 
 
 ---
 
-> 📎 **Berkas TikZ lengkap:** [grafik-fungsi-kuadrat.tex](tex/grafik-fungsi-kuadrat.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.
+> 📎 **Berkas TikZ lengkap:** [grafik-fungsi-kuadrat.tex](tex/grafik-fungsi-kuadrat.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk dokumen Anda sendiri.

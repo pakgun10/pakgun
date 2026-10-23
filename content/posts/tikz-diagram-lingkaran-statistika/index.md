@@ -91,4 +91,4 @@ Kalau Bapak/Ibu ingin mencoba, mulailah dari satu diagram saja: ambil data kecil
 
 ---
 
-> 📎 **Berkas TikZ lengkap:** [diagram-lingkaran.tex](tex/diagram-lingkaran.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.
+> 📎 **Berkas TikZ lengkap:** [diagram-lingkaran.tex](tex/diagram-lingkaran.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk dokumen Anda sendiri.

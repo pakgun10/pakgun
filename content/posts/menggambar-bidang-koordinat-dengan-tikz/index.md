@@ -153,4 +153,4 @@ Templat dalam artikel ini sudah saya bagikan ke grup MGMP matematika kami, dan b
 
 ---
 
-> 📎 **Berkas TikZ lengkap:** [bidang-koordinat.tex](tex/bidang-koordinat.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.
+> 📎 **Berkas TikZ lengkap:** [bidang-koordinat.tex](tex/bidang-koordinat.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk dokumen Anda sendiri.
