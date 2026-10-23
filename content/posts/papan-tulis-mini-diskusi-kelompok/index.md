@@ -55,6 +55,12 @@ Saya juga harus jujur soal kekurangannya. Tulisan spidol mudah luntur kalau tang
 
 Untuk kelas besar, biaya juga menjadi pertimbangan. Tapi papan putih kecil ukuran A3 harganya cukup terjangkau, dan kalau anggaran benar-benar tidak ada, alternatifnya plastik map bening yang dilapisi kertas HVS: bisa ditulisi spidol papan tulis, bisa dilap, dan bisa diselipkan lembar soal di dalamnya. Beberapa rekan guru saya bahkan lebih suka versi plastik ini karena bisa memasukkan soal atau grid koordinat yang sudah dicetak.
 
+## Variasi yang saya coba di kelas lain
+
+Setelah semester pertama, saya mulai bereksperimen dengan cara pakainya. Di kelas yang sudah lebih terbiasa, saya mencoba format "satu papan, satu masalah": semua kelompok menerima soal yang sama persis dan bekerja serentak selama sepuluh menit. Ketika waktu habis, lima papan berisi lima jalan penyelesaian yang belum tentu sama. Di situlah saya bisa memotong diskusi dari perbedaannya, bukan dari jawaban benar yang saya siapkan sejak semalam.
+
+Variasi kedua adalah papan sebagai tempat "pikiran kelompok yang belum jadi". Saya minta mereka menulis bukan jawaban akhir, melainkan apa yang masih mereka bingungkan. Kelompok yang menulis "kok penyebutnya bisa disamakan, dari mana angka 15-nya?" justru mendapat pujian terbesar dari saya, karena menuliskan kebingungan dengan jujur itu lebih sulit daripada menyalin jawaban jadi. Sejak itu, papan mini di kelas saya bukan hanya tempat jawaban — dia juga tempat pertanyaan yang belum selesai.
+
 ## Catatan penutup
 
 Alat ini tidak ada hubungannya dengan teknologi, dan mungkin justru itu pelajarannya. Saya pernah menghabiskan malam-malam membangun aplikasi kuis dan CBT, dan saya tetap akan terus melakukannya. Tapi kadang perubahan suasana kelas yang paling besar datang dari benda seharga beberapa lembar papan kecil — benda yang hanya melakukan satu hal: membuat tulisan murid-murid saya terlihat, boleh salah, dan milik bersama.
