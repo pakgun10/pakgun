@@ -87,3 +87,8 @@ Mereka selalu bisa menebaknya — bukan karena mengukur sudut, tetapi karena mem
 Ada ironi yang saya nikmati: saya memakai alat super-presisi (TikZ) justru untuk mengajarkan sesuatu yang sederhana — bahwa gambar harus setia pada data. Siswa tidak perlu tahu `\pgfmathsetmacro`, tetapi mereka perlu tahu bahwa sektor 40% itu ada artinya, dan bahwa gambar yang tidak sesuai hitungan itu bukan gambar, melainkan klaim palsu.
 
 Kalau Bapak/Ibu ingin mencoba, mulailah dari satu diagram saja: ambil data kecil dari kelas (cara siswa ke sekolah, misalnya), hitung sudutnya bersama-sama, baru gambar. Kalau bagian kode TikZ-nya terasa berat, silakan pakai pola di atas dan ganti angkanya — dan seperti biasa, kalau ada versi yang lebih sederhana atau trik label yang lebih rapi, saya menunggu di kolom komentar.
+
+
+---
+
+> 📎 **Berkas TikZ lengkap:** [diagram-lingkaran.tex](tex/diagram-lingkaran.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.

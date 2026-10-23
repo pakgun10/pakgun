@@ -92,3 +92,8 @@ Menariknya, efek dari gambar soal yang jujur ini terasa di kelas. Waktu membahas
 Kalau Bapak/Ibu ingin memulai, saran saya jangan langsung trapesium. Mulai dari segitiga siku-siku, karena koordinatnya paling mudah dipikirkan, lalu naik bertahap. Yang penting bukan kecepatan, tapi kebiasaan baru itu: **hitung dulu, gambar kemudian**. Gambar soal kita akhirnya berdiri di sisi kebenaran yang sama dengan soalnya — dan siswa pun berhenti mendengungkan *tidak berskala* sebagai jimat.
 
 Dulu saya pikir menggambar soal itu pekerjaan sampingan yang bisa asal-asal. Ternyata setiap gambar adalah bagian dari argumen matematika itu sendiri. Dan sebagaimana biasanya di tulisan saya soal TikZ, kali ini pun saya pulang dengan satu kesimpulan: alat yang tepat tidak hanya mempercepat pekerjaan, ia memperbaiki cara kita berpikir.
+
+
+---
+
+> 📎 **Berkas TikZ lengkap:** [bangun-datar.tex](tex/bangun-datar.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.

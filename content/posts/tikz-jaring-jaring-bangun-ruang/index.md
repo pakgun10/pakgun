@@ -93,3 +93,8 @@ Saya tidak menuntut siswa belajar TikZ, tentu saja. Tapi menampilkan kode yang m
 Kalau Bapak/Ibu guru sering membuat soal geometri ruang sendiri, saya sarankan mencoba menggambar jaring-jaring dengan TikZ, walau perlahan. Mulai dari kubus saja — enam persegi, sepuluh baris kode. Setelah itu barokahnya terasa: soal berikutnya tinggal menyalin dan mengubah angka, dan yang terpenting, semua soal yang kita berikan kepada murid adalah gambar yang bisa dipercaya.
 
 Dan seperti biasa, kalau ada teman-teman guru yang ingin file contohnya lengkap — kubus, balok, limas, sampai prisma segitiga — silakan sapa saya. Senang berbagi, karena soal yang baik memang seharusnya beredar.
+
+
+---
+
+> 📎 **Berkas TikZ lengkap:** [jaring-jaring-bangun-ruang.tex](tex/jaring-jaring-bangun-ruang.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.

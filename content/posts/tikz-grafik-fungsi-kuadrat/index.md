@@ -80,3 +80,8 @@ TikZ mengajarkan saya bahwa grafik fungsi kuadrat bukan ilustrasi yang menempel 
 Untuk rekan guru yang mulai mencoba: jangan takut dengan kodenya yang kelihatan teknis. Mulailah dari satu parabola sederhana, salin pola di artikel ini, ganti angkanya, lihat apa yang berubah. Petualangan gambar saya masih panjang — berikutnya sepertinya saya berani-beraniin gambar transformasi geometri, tapi itu cerita untuk tulisan lain.
 
 Sampai jumpa di artikel berikutnya. Selamat menggambar, dan biarkan komputernya yang menghitung — kita yang tetap yang berpikir.
+
+
+---
+
+> 📎 **Berkas TikZ lengkap:** [grafik-fungsi-kuadrat.tex](tex/grafik-fungsi-kuadrat.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.

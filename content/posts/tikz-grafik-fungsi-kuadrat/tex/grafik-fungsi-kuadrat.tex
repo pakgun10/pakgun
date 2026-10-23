@@ -1,0 +1,52 @@
+% ============================================================
+% Grafik Fungsi Kuadrat dengan TikZ - pendamping artikel blog
+% https://pakgun.gezytech.web.id/tikz-grafik-fungsi-kuadrat/
+% Kompilasi: pdflatex (butuh paket tikz)
+% ============================================================
+\documentclass{article}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{tikz}
+
+\begin{document}
+
+\section*{1. Grafik $f(x) = x^2 - 4x + 1$}
+
+Perhatikan: \texttt{domain} menjaga kurva di dalam bidang,
+\texttt{samples=100} menjaga kurva tetap mulus.
+
+\begin{tikzpicture}[scale=0.7]
+  % sumbu
+  \draw[->] (-2,0) -- (6,0) node[right] {$x$};
+  \draw[->] (0,-4) -- (0,6) node[above] {$y$};
+  \foreach \x in {1,...,5}
+    \draw (\x,0.1) -- (\x,-0.1) node[below] {\footnotesize \x};
+  \foreach \y in {-3,...,5}
+    \draw (0.1,\y) -- (-0.1,\y) node[left] {\footnotesize \y};
+  % parabola
+  \draw[thick, blue, domain=-1:5, samples=100]
+    plot (\x, {\x*\x - 4*\x + 1});
+  % titik puncak
+  \filldraw[red] (2,-3) circle (2pt)
+    node[below right] {$(2, -3)$};
+\end{tikzpicture}
+
+\section*{2. Contoh lain: $g(x) = x^2 - 2x - 3$}
+
+Diskriminan $D = 4 + 12 = 16$, titik potong sumbu-$x$: $x=-1$ dan $x=3$.
+Domain dibuat lega ($-2$ sampai $4$) supaya kedua titik potong ``bernafas'':
+
+\begin{tikzpicture}[scale=0.7]
+  \draw[->] (-3,0) -- (5,0) node[right] {$x$};
+  \draw[->] (0,-4.5) -- (0,6) node[above] {$y$};
+  \foreach \x in {-2,...,4}
+    \draw (\x,0.1) -- (\x,-0.1) node[below] {\footnotesize \x};
+  \foreach \y in {-4,...,5}
+    \draw (0.1,\y) -- (-0.1,\y) node[left] {\footnotesize \y};
+  \draw[thick, blue, domain=-1.6:3.6, samples=100]
+    plot (\x, {\x*\x - 2*\x - 3});
+  \filldraw[red] (1,-4) circle (2pt) node[below right] {$(1, -4)$};
+  \filldraw[red] (-1,0) circle (2pt) node[above left] {$(-1, 0)$};
+  \filldraw[red] (3,0) circle (2pt) node[above right] {$(3, 0)$};
+\end{tikzpicture}
+
+\end{document}

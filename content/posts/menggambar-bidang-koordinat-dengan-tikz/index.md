@@ -149,3 +149,8 @@ Sejak gambar dibuat dengan kode, keluhan semacam itu hilang. Murid yang duduk di
 Buat saya, keuntungan terbesar TikZ bukan gambarnya yang rapi, melainkan keyakinan bahwa gambar dan kunci jawaban tidak akan pernah bertengkar. Sekali templatnya jadi, menyusun soal koordinat berikutnya tinggal mengganti beberapa angka — dan waktu yang tadinya habis untuk menggeser-geser titik bisa dipakai memikirkan soalnya itu sendiri.
 
 Templat dalam artikel ini sudah saya bagikan ke grup MGMP matematika kami, dan beberapa rekan mulai mencobanya untuk ulangan harian di sekolah masing-masing. Kalau Bapak/Ibu guru juga mencobanya dan menemukan cara yang lebih ringkas, saya senang sekali mendengar ceritanya — ilmu memang seharusnya berputar seperti itu, dari satu kelas ke kelas berikutnya.
+
+
+---
+
+> 📎 **Berkas TikZ lengkap:** [bidang-koordinat.tex](tex/bidang-koordinat.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk soal Anda sendiri.
