@@ -62,11 +62,11 @@ Untuk garis kedua — yang menurun — prinsipnya sama, hanya selisih $y$-nya se
 
 Sebetulnya segitiga gradien bisa digambar tangan di papan. Saya juga masih sering begitu saat menjelaskan spontan. Tapi TikZ memberi tiga hal yang gambar tangan tidak konsisten berikan.
 
-Pertama, **konsistensi antar kelas**. Kelas VIII-A pagi dan VIII-C siang mendapat gambar yang identik, dengan skala yang sama. Kalau di satu kelas segitiganya saya gambar agak semu, perbandingan "naik dua, menyamping dua" jadi kabur, dan justru miskonsepsi yang menular.
+Pertama, **konsistensi antar kelas**. Kelas VIII-A pagi dan VIII-C siang mendapat gambar yang identik, dengan skala yang sama. Kalau di satu kelas segitiganya saya gambar agak semu, perbandingan "naik dua, menyamping dua" jadi kabur, dan justru miskonsepsi yang menular. Murid yang kemarin mendengar penjelasan temannya dari kelas lain tidak akan menemukan versi gambar yang berbeda dan membingungkan.
 
 Kedua, **kemudahan membuat variasi**. Butuh soal latihan dengan gradien $-\frac{3}{2}$? Saya tinggal mengganti dua koordinat dan panjang kakinya, sisanya tata letak tetap. Untuk soal berjenjang, saya bisa membuat lima garis dengan kemiringan bertambah curam dan meminta murid mengurutkannya *sebelum* menghitung. Latihan mengurutkan kemiringan lewat mata ini ternyata lebih cepat menanamkan intuisi daripada sepuluh soal hitung.
 
-Ketiga, **kejujuran yang bisa diverifikasi**. Karena koordinat di kode dan panjang segitiganya saling mengunci, kesalahan saya tidak bisa bersembunyi. Gambar menjadi dokumen yang bisa dipertanggungjawabkan, bukan ilustrasi yang kitakaharap-harap benar.
+Tiga alasan itu sebenarnya bisa diringkas jadi satu: TikZ memaksa saya berpikir lebih jernih sebelum mengajar. Menulis kode berarti memutuskan persis di mana garis lewat, berapa panjang segitiganya, dan label apa yang boleh muncul. Kadang justru saat menulis kode itulah saya sadar gambar di kepala saya sendiri belum jelas. Alat yang menuntut kejelasan itu sekaligus melatih guru yang memakainya.
 
 ## Di Kelas, Gambar Itu Jadi Bahasa Bersama
 
