@@ -7,7 +7,8 @@ description: "Melanjutkan petualangan TikZ di kelas: kali ini giliran kerucut da
 featuredImage: "featured-image.png"
 tags: ["TikZ", "LaTeX", "media pembelajaran"]
 categories: ["Matematika"]
-math: enable: true
+math:
+  enable: true
 ---
 
 Bapak/Ibu yang juga sering mengetik soal matematika, mungkin pernah mengalami hal yang sama seperti saya. Kalau soalnya cuma butuh angka — "Sebuah kerucut berjari-jari 7 cm dan tinggi 12 cm..." — kita bisa lewat begitu saja tanpa gambar. Tapi begitu ada siswa yang bertanya, "Pak, kerucutnya mana?" saya jadi sadar sesuatu: selama ini murid saya menghitung volume benda yang tidak pernah mereka lihat, setidaknya tidak di lembar soal itu.
