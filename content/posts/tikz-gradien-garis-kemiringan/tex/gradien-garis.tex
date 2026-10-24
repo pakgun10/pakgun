@@ -1,0 +1,37 @@
+% TikZ gradien garis
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\definecolor{bgcol}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\definecolor{biru}{HTML}{7DA7D9}
+\definecolor{hijau}{HTML}{8FD18F}
+\begin{document}
+\pagecolor{bgcol}
+\begin{tikzpicture}[>=stealth, scale=1.05]
+  % ==== Panel kiri: garis miring naik (gradien 2) ====
+  \begin{scope}[xshift=0cm]
+    \draw[gray!50, very thin] (-0.4,-0.4) grid (4.4,6.4);
+    \draw[->, white, thick] (-0.4,0) -- (4.8,0) node[below left, white] {$x$};
+    \draw[->, white, thick] (0,-0.4) -- (0,6.8) node[below left, white] {$y$};
+    \draw[aksen, very thick] (0,1) -- (3,7);
+    \fill[aksen] (1,3) circle (2.5pt) node[above left, white, font=\small] {$(1,\,3)$};
+    \fill[aksen] (2,5) circle (2.5pt) node[above left, white, font=\small] {$(2,\,5)$};
+    \draw[white, thick] (1,3) -- (2,3) node[midway, below, white, font=\small] {$2$};
+    \draw[white, thick] (2,3) -- (2,5) node[midway, left, white, font=\small] {$2$};
+    \node[aksen, font=\bfseries\small] at (2.3,6.7) {$m=\tfrac{2}{2}=2$};
+  \end{scope}
+  % ==== Panel kanan: garis menurun (gradien -1/2) ====
+  \begin{scope}[xshift=8.4cm]
+    \draw[gray!50, very thin] (-0.4,-0.4) grid (4.4,6.4);
+    \draw[->, white, thick] (-0.4,0) -- (4.8,0) node[below left, white] {$x$};
+    \draw[->, white, thick] (0,-0.4) -- (0,6.8) node[below left, white] {$y$};
+    \draw[biru, very thick] (0,6.5) -- (4.3,4.35);
+    \fill[biru] (1,6) circle (2.5pt) node[above left, white, font=\small] {$(1,\,6)$};
+    \fill[biru] (3,5) circle (2.5pt) node[above right, white, font=\small] {$(3,\,5)$};
+    \draw[white, thick] (1,6) -- (3,6) node[midway, above, white, font=\small] {$2$};
+    \draw[white, thick] (3,5) -- (3,6) node[midway, left, white, font=\small] {$1$};
+    \node[biru, font=\bfseries\small] at (2.0,0.7) {$m=-\tfrac{1}{2}$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}
