@@ -1,0 +1,32 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{amsmath}
+\usepackage[x11names]{xcolor}
+\definecolor{bgdark}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bgdark}
+\color{white}
+\begin{tikzpicture}[scale=1.4, line cap=round]
+  % O=(0,0), r=2, P=(4,3): d=5, alpha=36.87deg, beta=asin(2/5)=23.58deg
+  % T1 pada sudut 60.45deg, T2 pada sudut 13.29deg
+  \coordinate (O) at (0,0);
+  \coordinate (P) at (4,3);
+  \coordinate (T1) at (0.986,1.741);
+  \coordinate (T2) at (1.946,0.460);
+  % lingkaran
+  \draw[thick, white] (O) circle (2);
+  % garis singgung (aksen kuning)
+  \draw[aksen, very thick] (P) -- (T1);
+  \draw[aksen, very thick] (P) -- (T2);
+  % jari-jari ke titik singgung + garis OP putus-putus
+  \draw[white] (O) -- (T1);
+  \draw[dashed, gray!60] (O) -- (P);
+  \pic [draw, white, angle radius=7pt] {right angle = O--T1--P};
+  % titik dan label
+  \fill (O) circle (1.6pt) node[below left] {$O$};
+  \fill (P) circle (1.6pt) node[above right] {$P$};
+  \fill (T1) circle (1.6pt) node[above left] {$T_1$};
+  \fill (T2) circle (1.6pt) node[below right] {$T_2$};
+  \node[gray!50, left=2pt] at ($(O)!0.5!(T1)$) {$r$};
+\end{tikzpicture}
+\end{document}
