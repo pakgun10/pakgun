@@ -691,3 +691,8 @@ bundle = false
   # whether to use Polyfill.io to be compatible with older browsers
   # 是否使用 Polyfill.io 来兼容旧式浏览器
   polyfill = false
+
+# GezyView — penghitung "dibaca N kali" per artikel (layanan sendiri di VPS).
+# Kosongkan url untuk menonaktifkan tampilan (skrip tidak dirender sama sekali).
+[gezyview]
+  url = "https://view.gezytech.web.id"
