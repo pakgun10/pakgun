@@ -1,0 +1,28 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{acc}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[
+  line/.style={draw=white, thick},
+  lab/.style={text=acc, font=\small},
+  res/.style={text=white, font=\small},
+  level distance = 30mm,
+  level 1/.style = {sibling distance = 46mm},
+  level 2/.style = {sibling distance = 23mm},
+  grow = right
+]
+  \node[res] {Awal}
+    child { node[res] {A}
+      child { node[res] {AA} edge from parent[line] node[lab,below] {$\tfrac12$} }
+      child { node[res] {AG} edge from parent[line] node[lab,above] {$\tfrac12$} }
+      edge from parent[line] node[lab,below] {$\tfrac12$}
+    }
+    child { node[res] {G}
+      child { node[res] {GA} edge from parent[line] node[lab,below] {$\tfrac12$} }
+      child { node[res] {GG} edge from parent[line] node[lab,above] {$\tfrac12$} }
+      edge from parent[line] node[lab,above] {$\tfrac12$}
+    };
+\end{tikzpicture}
+\end{document}
