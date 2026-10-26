@@ -1,0 +1,30 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\definecolor{biru}{HTML}{7DD3FC}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[x=0.85cm,y=0.62cm]
+  % tangga titik barisan aritmetika: Un = 4 + 3(n-1)
+  % sumbu
+  \draw[->,white!70!bg,line width=0.8pt] (-0.6,0) -- (8.2,0) node[below left,white,font=\small]{$n$};
+  \draw[->,white!70!bg,line width=0.8pt] (0,-0.6) -- (0,11.2) node[below left,white,font=\small]{$U_n$};
+  % tangga: dari (1,4) naik +3 tiap langkah
+  \draw[aksen,line width=1.4pt] (1,4) -- (1.9,4) -- (1.9,7) -- (2.9,7) -- (2.9,10);
+  \foreach \x/\y/\l in {1/4/4, 2/7/7, 3/10/10}{
+    \filldraw[aksen] (\x,\y) circle (2.2pt);
+    \node[white,font=\small\bfseries,anchor=west] at (\x+0.15,\y+0.25){\l};
+  }
+  \foreach \x in {1,2,3}{
+    \node[below,white!75!bg,font=\small] at (\x,0){\x};
+  }
+  % penjelasan kenaikan +3
+  \node[biru,font=\small,anchor=west] at (3.3,5.2) {$+3$};
+  \node[biru,font=\small,anchor=west] at (4.3,8.2) {$+3$};
+  % garis bantu: titik-titik sejajar perbedaan tetap
+  \draw[dashed,white!55!bg,line width=0.6pt] (1,4) -- (3,10);
+  \node[white,font=\small,anchor=west,align=left] at (4.4,3.2)
+    {$U_1=4$\\ $b=3$\\ $U_n=4+3(n-1)$};
+\end{tikzpicture}
+\end{document}
