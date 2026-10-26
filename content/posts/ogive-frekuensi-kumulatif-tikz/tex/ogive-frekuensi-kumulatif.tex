@@ -1,0 +1,59 @@
+% Naik Setapak demi Setapak: Ogive Frekuensi Kumulatif dengan TikZ
+% Dokumen LaTeX utuh, siap dikompilasi (butuh paket tikz).
+% Data: 32 nilai ulangan harian Matematika kelas 8C, dikelompokkan:
+% 40-49: 2 | 50-59: 4 | 60-69: 7 | 70-79: 9 | 80-89: 7 | 90-100: 3
+% Frekuensi kumulatif kurang dari: 2, 6, 13, 22, 29, 32
+% Frekuensi kumulatif lebih dari: 32, 30, 26, 19, 10, 3
+% Skala: sumbu x 0,13 cm per 1 nilai (35 -> 0) ; sumbu y 1 cm = 8 anak.
+\documentclass{article}
+\usepackage{tikz}
+
+\begin{document}
+
+\section*{Ogive kurang dari (dengan median)}
+
+\begin{tikzpicture}
+  % sumbu x: 0,13 cm per 1 nilai (35 -> 0 ; 105 -> 9,1)
+  % sumbu y: 1 cm = 8 anak
+  \draw[->] (-0.3,0) -- (9.6,0);
+  \draw[->] (0,0) -- (0,4.8);
+  \foreach \v in {40,50,60,70,80,90,100}
+    { \pgfmathsetmacro{\x}{(\v-35)*0.13}
+      \draw (\x,0) -- (\x,-0.08);
+      \node[below, font=\small] at (\x,-0.15) {\v}; }
+  \foreach \y/\label in {0/0, 1/8, 2/16, 3/24, 4/32}
+    \node[left] at (0,\y) {\label};
+  % ogive kurang dari: (tepi atas, fk) -> x = (v-35)*0,13 ; y = fk/8
+  \draw[blue, thick] (0.59,0) -- (1.89,0.25) -- (3.19,0.75)
+    -- (4.49,1.63) -- (5.79,2.75) -- (7.09,3.63) -- (8.52,4);
+  \foreach \x/\y in {0.59/0, 1.89/0.25, 3.19/0.75, 4.49/1.63,
+      5.79/2.75, 7.09/3.63, 8.52/4}
+    \fill[blue] (\x,\y) circle (2pt);
+  % membaca median: n/2 = 16 -> y = 2 ; jatuh di x = 4,91 (nilai 72,8)
+  \draw[red, thick, dashed] (0,2) -- (4.91,2) -- (4.91,0);
+  \node[below, font=\small, red] at (4.91,-0.15) {72,8};
+\end{tikzpicture}
+
+\section*{Ogive lebih dari}
+
+\begin{tikzpicture}
+  % sumbu dan skala sama seperti gambar pertama
+  \draw[->] (-0.3,0) -- (9.6,0);
+  \draw[->] (0,0) -- (0,4.8);
+  \foreach \v in {40,50,60,70,80,90,100}
+    { \pgfmathsetmacro{\x}{(\v-35)*0.13}
+      \draw (\x,0) -- (\x,-0.08);
+      \node[below, font=\small] at (\x,-0.15) {\v}; }
+  \foreach \y/\label in {0/0, 1/8, 2/16, 3/24, 4/32}
+    \node[left] at (0,\y) {\label};
+  % ogive lebih dari: (tepi bawah, fk) -> x = (v-35)*0,13 ; y = fk/8
+  % titik: (39,5; 32), (49,5; 30), (59,5; 26), (69,5; 19),
+  %        (79,5; 10), (89,5; 3), (100,5; 0)
+  \draw[orange!80!black, thick] (0.59,4) -- (1.89,3.75) -- (3.19,3.25)
+    -- (4.49,2.38) -- (5.79,1.25) -- (7.09,0.38) -- (8.52,0);
+  \foreach \x/\y in {0.59/4, 1.89/3.75, 3.19/3.25, 4.49/2.38,
+      5.79/1.25, 7.09/0.38, 8.52/0}
+    \fill[orange!80!black] (\x,\y) circle (2pt);
+\end{tikzpicture}
+
+\end{document}
