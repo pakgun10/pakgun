@@ -7,7 +7,8 @@ description: "Materi skala sering diajarkan lewat soal hitungan saja. Di tulisan
 featuredImage: "featured-image.png"
 tags: ["TikZ", "skala", "perbandingan", "peta"]
 categories: ["Matematika"]
-math: enable: true
+math:
+  enable: true
 ---
 
 Kemarin sore, sebelum bel pulang, ada siswa saya yang bertanya pelan-pelan, "Pak, kalau skala peta bilang 1 banding 50.000, yang satu itu jaraknya mana? Yang di peta atau yang sungguhan?"

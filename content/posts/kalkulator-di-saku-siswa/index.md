@@ -7,7 +7,8 @@ description: "Larangan kalkulator di kelas matematika sudah saya jalankan bertah
 featuredImage: "featured-image.png"
 tags: ["kalkulator", "numerasi", "asesmen", "media pembelajaran"]
 categories: ["Pembelajaran Matematika"]
-math: enable: true
+math:
+  enable: true
 ---
 
 Semester lalu, saat kelas VIII sedang mengerjakan latihan bangun ruang, saya menangkap seorang siswa mengeluarkan HP dari saku celana dengan gerakan yang jelas terlatih — agak merunduk, satu tangan menutupi layar. Saya pikir dia sedang mengobrol atau membuka media sosial. Ternyata bukan. Dia membuka aplikasi kalkulator, menghitung $3{,}14 \times 7 \times 7 \times 12$ dengan serius, lalu menutup HP lagi dan melanjutkan menulis di buku.

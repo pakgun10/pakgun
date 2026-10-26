@@ -7,7 +7,8 @@ description: "Setiap jawaban salah di CBT punya pola kalau kita mau membacanya. 
 featuredImage: "featured-image.png"
 tags: ["AI", "CBT", "asesmen", "diagnosis", "GezyTech"]
 categories: ["AI dalam Pendidikan"]
-math: enable: true
+math:
+  enable: true
 ---
 
 Koreksi ulangan harian bab bilangan berpangkat kemarin menghasilkan sesuatu yang tidak biasa. Dari tiga puluh dua lembar jawaban, dua puluh satu siswa salah di soal yang sama — soal nomor tujuh, tentang $(-2)^4$ berbanding $-2^4$. Saya berdiri di depan tumpukan kertas dan menyadari sesuatu yang sebenarnya sudah terjadi setiap kali koreksi, tapi jarang saya gali lebih dalam: kesalahan itu tidak tersebar acak. Mereka menggerombol. Ada kelompok yang salah di tanda, ada kelompok yang salah di urutan operasi, dan sisanya salah karena tergesa membaca soal.

@@ -7,7 +7,8 @@ description: "Kenapa saya berhenti memikul laptop dari kelas ke kelas dan akhirn
 featuredImage: "featured-image.png"
 tags: ["GezyTech", "slide", "media pembelajaran", "teknologi pendidikan"]
 categories: ["Teknologi Pendidikan"]
-math: enable: true
+math:
+  enable: true
 ---
 
 Ada satu rutinitas yang dulu menghabiskan tenaga saya setiap hari Rabu dan Kamis: memikul laptop dari ruang guru ke kelas delapan di lantai dua. Bukan laptop besar, tapi dengan charger, kabel HDMI yang ujungnya mulai lepas, dan satu USB berisi presentasi cadangan. Kalau ada kelas yang jadwalnya berurutan di lantai berbeda, saya yang naik-turun tangga dua kali. Rekan saya pernah menertawakan, "Pak Gun itu kayak pendaki gunung, cuma gunungnya tangga sekolah."
