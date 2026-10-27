@@ -1,0 +1,48 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{xcolor}
+\usetikzlibrary{calc}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[
+  line cap=round, line join=round,
+  titik/.style={circle, fill=white, inner sep=1.8pt},
+  label putih/.style={text=white, font=\large},
+]
+  % Segitiga: A(0,0), B(7,0), C(2.1,5.4)
+  % Pusat lingkaran luar O = (3.5, 1.74722), R = 3.91188
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (7,0);
+  \coordinate (C) at (2.1,5.4);
+  \coordinate (O) at (3.5,1.74722);
+
+  \coordinate (Mab) at (3.5,0);      % titik tengah AB
+  \coordinate (Mac) at (1.05,2.7);   % titik tengah AC
+  \coordinate (Mbc) at (4.55,2.7);   % titik tengah BC
+
+  \draw[aksen, thick] (O) circle (3.91188);
+  \draw[white, very thick] (A) -- (B) -- (C) -- cycle;
+
+  % tiga garis sumbu sisi (perpendicular bisectors), melewati pusat O
+  \draw[aksen!75, thick, dashed] ($(Mab)!-0.30!(O)$) -- ($(Mab)!1.55!(O)$);
+  \draw[aksen!75, thick, dashed] ($(Mac)!-0.30!(O)$) -- ($(Mac)!1.55!(O)$);
+  \draw[aksen!75, thick, dashed] ($(Mbc)!-0.30!(O)$) -- ($(Mbc)!1.55!(O)$);
+
+  % jari-jari OA
+  \draw[aksen, thick] (O) -- (A);
+
+  \node[titik] at (A) {}; \node[titik] at (B) {}; \node[titik] at (C) {};
+  \node[circle, fill=aksen, inner sep=2.2pt] at (O) {};
+
+  \node[label putih, below left=2pt]  at (A) {$A$};
+  \node[label putih, below right=2pt] at (B) {$B$};
+  \node[label putih, above left=2pt]  at (C) {$C$};
+  \node[text=aksen, font=\large\bfseries, right=3pt] at (O) {$O$};
+  \node[label putih, below left=1pt] at (Mab) {$N_{c}$};
+  \node[label putih, above left=1pt] at (Mac) {$N_{b}$};
+  \node[label putih, above right=1pt] at (Mbc) {$N_{a}$};
+
+  % caption ditambahkan lewat PIL di kanvas akhir
+\end{tikzpicture}
+\end{document}
