@@ -1,0 +1,32 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\definecolor{bgdark}{HTML}{171D2B}
+\definecolor{gold}{HTML}{F7B538}
+\definecolor{teal}{HTML}{4FD1C5}
+\usetikzlibrary{calc}
+\begin{document}
+\pagecolor{bgdark}
+\begin{tikzpicture}[line width=1.4pt, text=white, scale=1.0]
+  % Garis atas: banyak buku (0 sampai 6)
+  \draw[white, -{stealth}] (-0.3,2.2) -- (12.6,2.2);
+  % Garis bawah: harga dalam ribu rupiah
+  \draw[white, -{stealth}] (-0.3,0) -- (12.6,0);
+  % Tanda garis atas: 0..6 buku
+  \foreach \i in {0,...,6} {
+    \draw[white, line width=1.2pt] (2*\i,2.2) -- (2*\i,2.55);
+    \node[above=2pt] at (2*\i,2.55) {\i};
+  }
+  \node[gold, anchor=west] at (12.9,2.2) {buku};
+  % Tanda garis bawah: harga ribu rupiah, selalu 4 kali banyaknya buku
+  \foreach \i in {0,...,6} {
+    \pgfmathtruncatemacro{\h}{4*\i}
+    \draw[teal, line width=1.2pt] (2*\i,0) -- (2*\i,-0.35);
+    \node[below=2pt] at (2*\i,-0.35) {\h};
+  }
+  \node[teal, anchor=west] at (12.9,0) {ribu rupiah};
+  % Garis putus di pasangan 3 buku = 12 ribu
+  \draw[gold, dashed, line width=1.2pt] (6,2.2) -- (6,0);
+  \node[gold] at (6,1.1) {$\times 4$};
+\end{tikzpicture}
+\end{document}
