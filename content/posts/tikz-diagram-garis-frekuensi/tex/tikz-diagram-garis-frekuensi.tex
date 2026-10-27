@@ -1,0 +1,48 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{xcolor}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[
+  x=1.15cm, y=1.15cm,
+  line cap=round, line join=round,
+  titik/.style={circle, fill=aksen, inner sep=2.4pt},
+  label putih/.style={text=white, font=\large},
+]
+  % Data: frekuensi harian menabung (Rupiah): 1000,2000,2000,3000,5000,5000,5000,10000
+  % Nilai kumulatif: 1000:1, 2000:2, 3000:1, 5000:3, 10000:1
+  % Sumbu x: nominal (1000..10000), sumbu y: frekuensi (0..3)
+  \draw[white!70, thick, ->] (0,0) -- (10.8,0);
+  \draw[white!70, thick, ->] (0,0) -- (0,4.2);
+
+  % garis bantu horizontal
+  \foreach \y in {1,2,3} {
+    \draw[white!25, dashed, thin] (0,\y) -- (10.2,\y);
+  }
+
+  % label sumbu y
+  \foreach \y in {1,2,3} {
+    \node[label putih, left=4pt] at (0,\y) {\y};
+  }
+  \node[label putih, rotate=90, above=22pt] at (0,2.2) {Frekuensi};
+
+  % titik-titik data: (1000,1) (2000,2) (3000,1) (5000,3) (10000,1)
+  % skala x: 1 unit = 1000 rupiah
+  \draw[aksen, very thick] (1,1) -- (2,2) -- (3,1) -- (5,3) -- (10,1);
+  \node[titik] at (1,1) {};
+  \node[titik] at (2,2) {};
+  \node[titik] at (3,1) {};
+  \node[titik] at (5,3) {};
+  \node[titik] at (10,1) {};
+
+  % label sumbu x (nominal)
+  \node[label putih, below=6pt] at (1,0) {1000};
+  \node[label putih, below=6pt] at (2,0) {2000};
+  \node[label putih, below=6pt] at (3,0) {3000};
+  \node[label putih, below=6pt] at (5,0) {5000};
+  \node[label putih, below=6pt] at (10,0) {10000};
+  \node[text=aksen, font=\large\bfseries, below left=2pt] at (0,0) {0};
+  \node[label putih, below=24pt] at (5.5,0) {Nominal uang jajan (Rupiah)};
+\end{tikzpicture}
+\end{document}
