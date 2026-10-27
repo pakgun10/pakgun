@@ -73,6 +73,8 @@ di mana $K_{alas}$ adalah keliling alas. Rumus yang tadinya dihafal ("dua kali l
 
 ## Dari gambar guru ke gambar siswa
 
+Ada juga sisi kecil yang saya pelajari dari kejadian ini: soal hitung dan soal gambar ternyata menguji pemahaman yang berbeda. Nilai kuis tadi pagi membuat saya senang, tetapi lembar gambar siang itu membuat saya sadar ada jarak antara "bisa menghitung" dan "mengerti bentuknya". Karena itu sekarang di setiap materi bangun ruang, saya menyisipkan minimal satu soal gambar — bukan untuk menghukum, tetapi sebagai cermin: kalau gambarnya kacau, berarti konsepnya belum utuh, dan itu layak kita bongkar bersama di kelas.
+
 Seperti biasa, saya tidak berhenti di demonstrasi. Tugas lanjutannya bergantian: sebagian siswa mendapat prisma dengan alas segitiga sama sisi, sebagian alas segitiga tumpul, dan mereka diminta menghitung lalu menggambar (kertas berpetak pun cukup, yang penting kakinya sejajar). Saya yang menyusun gambar-gambar soalnya dengan TikZ di rumah — dan berterima kasih karena tidak ada lagi soal yang gambarnya bertentangan dengan hitungannya sendiri.
 
 Pekan ini, waktu saya mengumpulkan tugas, Bima memberi catatan kecil di pojok kertasnya: "Pak, prisma itu kayak meja bertiga kaki, kalau kakinya ga sama, jebol." Saya tempel di dinding kelas. Kadang pemahaman yang paling bertahan justru dirumuskan siswa dengan bahasa mereka sendiri — tugas saya hanya memastikan gambar yang mereka lihat layak dipercaya.
