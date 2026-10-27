@@ -1,0 +1,41 @@
+% Segi Banyak Beraturan dengan TikZ — Gunanto, S.Pd.
+% Kompilasi: pdflatex tikz-segi-banyak-beraturan.tex
+\documentclass[tikz,border=10pt]{standalone}
+\definecolor{aksen}{HTML}{F7B538}
+\definecolor{latar}{HTML}{171D2B}
+\pagecolor{latar}
+\color{white}
+\usetikzlibrary{angles,quotes}
+
+\begin{document}
+\begin{tikzpicture}[scale=1.1,
+    titik/.style={circle,fill=white,draw,inner sep=1.6pt}]
+
+  % ================= KIRI: Segi Enam =================
+  \begin{scope}[xshift=-6.2cm]
+    \draw[gray,dashed] (0,0) circle (3);
+    \foreach \i in {0,1,...,5} {\coordinate (P\i) at ({60*\i}:3);}
+    \draw[very thick,aksen] (P0) -- (P1) -- (P2) -- (P3) -- (P4) -- (P5) -- cycle;
+    \foreach \i in {0,1,...,5} {\node[titik] at (P\i) {}; \draw[gray!60] (0,0) -- (P\i);}
+    \fill (0,0) circle (2pt) node[below=2pt,white] {$O$};
+    \foreach \i/\l in {0/$P_0$,1/$P_1$,2/$P_2$,3/$P_3$,4/$P_4$,5/$P_5$} {\node[white] at ({60*\i+30}:3.55) {\l};}
+    \draw[white] (0:1.2) arc[start angle=0,end angle=60,radius=1.2];
+    \node[white] at (30:1.55) {$60^\circ$};
+    \node[white] at (0,-3.9) {Segi enam beraturan: $360^\circ/6 = 60^\circ$};
+  \end{scope}
+
+  % ================= KANAN: Segi Lima =================
+  \begin{scope}[xshift=6.2cm]
+    \draw[gray,dashed] (0,0) circle (3);
+    \foreach \i in {0,1,...,4} {\coordinate (Q\i) at ({90-72*\i}:3);}
+    \draw[very thick,aksen] (Q0) -- (Q1) -- (Q2) -- (Q3) -- (Q4) -- cycle;
+    \foreach \i in {0,1,...,4} {\node[titik] at (Q\i) {}; \draw[gray!60] (0,0) -- (Q\i);}
+    \fill (0,0) circle (2pt) node[below=2pt,white] {$O$};
+    \foreach \i/\l in {0/$Q_0$,1/$Q_1$,2/$Q_2$,3/$Q_3$,4/$Q_4$} {\node[white] at ({90-72*\i+36}:3.55) {\l};}
+    \draw[white] (90:1.1) arc[start angle=90,end angle=18,radius=1.1];
+    \node[white] at (54:1.45) {$72^\circ$};
+    \node[white] at (0,-3.9) {Segi lima beraturan: $360^\circ/5 = 72^\circ$};
+  \end{scope}
+
+\end{tikzpicture}
+\end{document}
