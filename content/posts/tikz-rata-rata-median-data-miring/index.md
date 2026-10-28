@@ -7,7 +7,8 @@ description: "Ketika satu nilai ulangan 100 mengubah rata-rata kelas, murid bert
 featuredImage: "featured-image.png"
 tags: ["tikz", "statistika", "rata-rata", "median"]
 categories: ["Matematika", "TikZ"]
-math: enable: true
+math:
+  enable: true
 ---
 
 Percakapan yang mengubah rencana mengajar saya terjadi tahun lalu, tepat setelah pembagian hasil ulangan statistika dasar. Seorang murid—sebut saja Rani—mengangkat tangan dan bertanya dengan nada curiga, "Pak, kok rata-rata kelas kami 73, padahal saya lihat nilai terbanyak cuma 70? Lalu kenapa ada yang bilang rata-ratanya 76?"
