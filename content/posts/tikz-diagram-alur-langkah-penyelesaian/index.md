@@ -71,6 +71,8 @@ Yang saya suka dari TikZ di sini bukan hasil visualnya saja, tapi fakta bahwa po
 
 Saya tidak akan mengklaim diagram ini mengubah segalanya dalam satu pekan. Tiga minggu setelah menempelnya, yang saya lihat: siswa-siswa yang tadinya hanya menulis jawaban akhir mulai menulis minimal dua baris sebelum angka mereka. Ada yang bahkan menggambar kotak kecil sendiri di kertas — versi kasarnya diagram alur itu — dan mencentang tiap kotaknya. Kertas pekerjaan mereka menjadi lebih panjang, tapi jauh lebih bisa didiagnosis. Ketika mereka salah, sekarang saya bisa melihat di kotak mana mereka tersandung: soalnya yang belum dibaca tuntas, modelnya yang keliru, atau hitungannya yang lolos dari pemeriksaan masuk akal.
 
+Beberapa rekan guru bertanya, apakah siswa tidak akan bosan dengan langkah yang sama di setiap soal. Pengalaman saya justru sebaliknya: justru karena langkahnya selalu sama, siswa bisa mencurahkan seluruh energinya ke bagian yang berubah — soalnya sendiri. Rutinitas di kerangka justru memberi ruang bagi pemikiran di isinya.
+
 Dan jujur saja, diagram itu juga mengoreksi saya. Dulu, ketika koreksi tumpukan pekerjaan, saya cenderung langsung mengejar kebenaran jawaban akhir. Sekarang mata saya otomatis membaca baris-baris sebelum angka terakhir. Guru yang diajari gambar yang dia buat sendiri — itu mungkin bonus yang tidak pernah saya rencanakan.
 
 Kalau Bapak/Ibu ingin mencoba, berkas `.tex` lengkapnya saya sertakan di bawah. Silakan ganti kata-kata di kotaknya sesuai bahasa kelas Bapak/Ibu — yang penting kotak kuningnya jangan dihilangkan.
