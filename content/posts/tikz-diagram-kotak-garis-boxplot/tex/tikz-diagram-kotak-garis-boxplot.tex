@@ -1,0 +1,38 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{ak}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[x=0.135cm, y=1.05cm, line width=1.1pt]
+  \draw[white!55] (40,0.4) -- (40,2.8);
+  \draw[white!55] (50,0.4) -- (50,2.8);
+  \draw[white!55] (60,0.4) -- (60,2.8);
+  \draw[white!55] (70,0.4) -- (70,2.8);
+  \draw[white!55] (80,0.4) -- (80,2.8);
+  \draw[white!55] (90,0.4) -- (90,2.8);
+  \draw[white!55] (100,0.4) -- (100,2.8);
+  \foreach \v in {40,50,60,70,80,90,100} {
+    \node[white, below, font=\small] at (\v,0.35) {\v};
+  }
+  \node[white, font=\small\itshape] at (70,-0.55) {Nilai ulangan};
+
+  % VII-A : min 45 Q1 60 med 68 Q3 78 max 92
+  \draw[white] (45,2) -- (60,2);
+  \draw[white] (78,2) -- (92,2);
+  \draw[white] (45,1.8) -- (45,2.2);
+  \draw[white] (92,1.8) -- (92,2.2);
+  \filldraw[fill=ak, draw=white] (60,1.6) rectangle (78,2.4);
+  \draw[white, line width=1.6pt] (68,1.6) -- (68,2.4);
+  \node[white, anchor=east, font=\small] at (43,2) {VII-A};
+
+  % VII-B : min 50 Q1 55 med 68 Q3 70 max 88
+  \draw[white] (50,1) -- (55,1);
+  \draw[white] (70,1) -- (88,1);
+  \draw[white] (50,0.8) -- (50,1.2);
+  \draw[white] (88,0.8) -- (88,1.2);
+  \filldraw[fill=ak, draw=white] (55,0.6) rectangle (70,1.4);
+  \draw[white, line width=1.6pt] (68,0.6) -- (68,1.4);
+  \node[white, anchor=east, font=\small] at (43,1) {VII-B};
+\end{tikzpicture}
+\end{document}
