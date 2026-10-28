@@ -1,6 +1,6 @@
 ---
 title: "Menggambar Prisma Segitiga dengan TikZ: Sisi Tegak yang Punya Kaki Sama"
-date: 2026-10-28T09:40:00+07:00
+date: 2026-10-28T08:31:41+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Siswa lancar menghitung volume prisma, tetapi kaget ketika diminta menggambar bentuk aslinya. Dengan TikZ, kita bisa menggambar prisma segitiga yang sisi-sisi tegaknya benar-benar sama tinggi — dan menjadikannya alat diskusi di kelas."

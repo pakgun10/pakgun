@@ -1,6 +1,6 @@
 ---
 title: "Hafalan Rumus yang Retak: Membiarkan Siswa Menemukan Darimana Rumus Itu"
-date: 2026-10-28T10:30:00+07:00
+date: 2026-10-28T08:31:41+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Murid saya hafal luas permukaan balok, tapi bingung saat kotaknya diganti. Kisah kelas ketika saya menahan diri untuk tidak memberi rumus lebih dulu, dan apa yang terjadi setelahnya."
