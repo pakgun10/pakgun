@@ -1,0 +1,38 @@
+% Rotasi titik A(2,1) sebesar +90 derajat (berlawanan arah jarum jam)
+% di sekitar titik pusat O(0,0). Bayangan A'(-1,2) dihitung dari
+% matriks rotasi, bukan ditebak: (x,y) -> (-y, x).
+% Emas = jari-jari OA dan OA' (sama panjang), hijau = busur putar,
+% label sudut 90 derajat di pusat.
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{bgcol}{HTML}{171D2B}
+\definecolor{acc}{HTML}{F7B538}
+\definecolor{tealc}{HTML}{2DD4BF}
+\begin{document}
+\pagecolor{bgcol}
+\definecolor{tx}{HTML}{FFFFFF}
+\begin{tikzpicture}[x=1cm,y=1cm,>=Stealth,
+  every node/.style={text=tx}]
+  \draw[help lines, color=gray!25] (-2.5,-1.5) grid (3.5,3.5);
+  \draw[->,gray!60] (-2.5,0) -- (3.5,0) node[right] {$x$};
+  \draw[->,gray!60] (0,-1.5) -- (0,3.5) node[above] {$y$};
+  % titik pusat
+  \fill[tx] (0,0) circle (2.5pt) node[below left] {$O$};
+  % titik asal
+  \fill[acc] (2,1) circle (2.5pt) node[right=2pt] {$A(2,1)$};
+  % titik bayangan
+  \fill[tealc] (-1,2) circle (2.5pt) node[left=2pt] {$A'(-1,2)$};
+  % jari-jari sama panjang
+  \draw[acc, very thick] (0,0) -- (2,1);
+  \draw[tealc, very thick] (0,0) -- (-1,2);
+  % busur putar (radius = |OA| = sqrt5 ~ 2.24)
+  \draw[tx, thick] (2,1) arc[start angle=26.565, end angle=116.565, radius=2.236];
+  % tanda sudut 90 derajat di pusat
+  \draw[tx, thick] (0.55,0) arc[start angle=0, end angle=90, radius=0.55];
+  \node[tx] at (0.95,0.95) {$90^{\circ}$};
+  % panah arah putar
+  \node[tx] at (2.6,1.55) {berlawanan arah jarum jam};
+\end{tikzpicture}
+\end{document}
