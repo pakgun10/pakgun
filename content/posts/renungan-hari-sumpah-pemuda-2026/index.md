@@ -1,6 +1,6 @@
 ---
 title: "Satu Nusa, Satu Bangsa, Satu Bahasa — dan Ribuan Cara Bicara: Renungan Hari Sumpah Pemuda"
-date: 2026-10-28T09:30:00+07:00
+date: 2026-10-28T08:57:40+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Hari Sumpah Pemuda bukan hanya seremoni bendera dan pidato. Renungan seorang guru matematika tentang apa arti satu bahasa, satu bangsa, satu nusa di ruang kelas hari ini — dan apa yang bisa kita lakukan bersama, bukan hanya diingat."
