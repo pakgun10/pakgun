@@ -1,0 +1,34 @@
+
+\documentclass[tikz]{standalone}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{ak}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[line cap=round, text=white]
+  % jam pertama (kiri): 3.00 -> 90 derajat
+  \begin{scope}[shift={(0,0)}]
+    \draw[white, line width=2.5pt] (0,0) circle (2.2);
+    \foreach \a in {0,30,...,330}
+      \draw[white!60, line width=1pt] (\a:1.95) -- (\a:2.2);
+    \foreach \n/\a in {12/90,3/0,6/270,9/180}
+      \node[white] at (\a:1.6) {\n};
+    \draw[ak, line width=3pt] (0,0) -- (0,1.4);        % jarum menit di angka 12
+    \draw[white, line width=4pt] (0,0) -- (1.2,0);     % jarum jam di angka 3
+    \fill[ak] (0,0) circle (0.09);
+    \node[white] at (0,-2.75) {Pukul 03.00 $\rightarrow$ $90^\circ$};
+  \end{scope}
+  % jam kedua (kanan): 5.00 -> 150 derajat, busur ditandai
+  \begin{scope}[shift={(7.2,0)}]
+    \draw[white, line width=2.5pt] (0,0) circle (2.2);
+    \foreach \a in {0,30,...,330}
+      \draw[white!60, line width=1pt] (\a:1.95) -- (\a:2.2);
+    \foreach \n/\a in {12/90,3/0,6/270,9/180}
+      \node[white] at (\a:1.6) {\n};
+    \draw[ak, line width=3pt] (0,0) -- (90:1.4);       % menit di 12
+    \draw[white, line width=4pt] (0,0) -- (-60:1.2);   % jam di 5
+    \draw[ak, line width=1.5pt] (0.75,0) arc[start angle=0, end angle=-60, radius=0.75];
+    \node[ak] at (-25:1.25) {$150^\circ$};
+    \node[white] at (0,-2.75) {Pukul 05.00 $\rightarrow$ $150^\circ$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}
