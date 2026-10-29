@@ -1,0 +1,35 @@
+\documentclass[tikz]{standalone}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\definecolor{teks}{HTML}{FFFFFF}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}
+\begin{axis}[
+    width=15cm, height=9cm,
+    axis lines=left,
+    axis line style={teks},
+    tick label style={text=teks, font=\small},
+    label style={text=teks, font=\normalsize},
+    xlabel={Interval nilai},
+    ylabel={Frekuensi},
+    ymin=0, ymax=16,
+    ybar,
+    bar width=28pt,
+    symbolic x coords={a,b,c,d,e},
+    xtick=data,
+    xticklabels={50--59,60--69,70--79,80--89,90--99},
+    enlarge x limits=0.08,
+    ymajorgrids=true,
+    grid style={teks!20},
+    nodes near coords,
+    every node near coord/.append style={text=teks, font=\small\bfseries},
+]
+\addplot[fill=aksen, draw=teks!70] coordinates {
+  (a,3) (b,9) (c,14) (d,10) (e,4)
+};
+\end{axis}
+\end{tikzpicture}
+\end{document}
