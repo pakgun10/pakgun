@@ -5,3 +5,6 @@ tex/*.aux
 tex/*.log
 tex/*.pdf
 content/posts/*/tex/*-*.png
+tex/*.aux
+tex/*.log
+tex/*.pdf
