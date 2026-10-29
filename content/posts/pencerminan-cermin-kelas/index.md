@@ -1,6 +1,6 @@
 ---
 title: "Kertas Dilipat, Bayangan Muncul: Mengajar Pencerminan dari Cermin Kelas"
-date: 2026-10-29T10:20:00+07:00
+date: 2026-10-29T09:14:44+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Cermin kecil, kertas lipat, dan huruf F yang tidak boleh terbalik: kegiatan refleksi geometri yang membuat siswa menemukan sendiri aturan pencerminan sebelum rumusnya ditulis."

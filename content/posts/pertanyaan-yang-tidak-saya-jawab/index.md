@@ -1,6 +1,6 @@
 ---
 title: "Pertanyaan yang Tidak Saya Jawab Hari Itu"
-date: 2026-10-29T13:40:00+07:00
+date: 2026-10-29T09:29:44+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Seorang siswa bertanya sesuatu yang tidak saya tahu jawabannya. Dulu itu akan memalukan. Tapi hari itu saya memilih berkata jujur — dan kelasnya berubah sejak saat itu."

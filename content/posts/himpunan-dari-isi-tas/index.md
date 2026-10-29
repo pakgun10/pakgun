@@ -1,6 +1,6 @@
 ---
 title: "Mengajar Himpunan dari Isi Tas"
-date: 2026-10-29T11:00:00+07:00
+date: 2026-10-29T09:19:44+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Irisan dan gabungan tidak perlu dimulai dari diagram Venn kosong. Cukup satu tas berisi barang-barang tidak seragam, dan seluruh kelas menemukan irisan-irisan sendiri."

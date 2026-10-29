@@ -1,6 +1,6 @@
 ---
 title: "Ketika Saya Salah Menghitung di Depan Kelas"
-date: 2026-10-29T12:30:00+07:00
+date: 2026-10-29T09:24:44+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Sebuah kesalahan hitung sederhana di papan tulis yang hampir saya tutup-tutupi, dan kenapa sekarang saya justru bersyukur pernah melakukannya."
