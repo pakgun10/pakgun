@@ -1,0 +1,31 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[line cap=round,line join=round,>=stealth,x=1cm,y=1cm]
+
+% ---------- KIRI: berpelurus (satu garis, satu sinar, dua sudut) ----------
+\begin{scope}[shift={(0,0)}]
+  \draw[thick,white] (-0.5,0) -- (6.5,0);   % garis lurus
+  \draw[thick,aksen] (3,0) -- (3+3.4*cos 55, 3.4*sin 55); % sinar 55 derajat
+  \draw[aksen!70] (4.3,0) arc (0:55:1.3);
+  \node[text=white,font=\small] at (4.9,0.5) {$55^\circ$};
+  \draw[white!70] (3+1.6*cos 55,1.6*sin 55) arc (55:180:1.6);
+  \node[text=white,font=\small] at (1.1,0.85) {$125^\circ$};
+  \node[text=white,font=\small\bfseries] at (3,4.2) {Berpelurus: jumlahnya $180^\circ$};
+\end{scope}
+
+% ---------- KANAN: berpenyiku ----------
+\begin{scope}[shift={(9.5,0)}]
+  \draw[thick,white] (-0.5,0) -- (5.5,0);
+  \draw[thick,aksen] (2.5,0) -- (2.5+3.2*cos 62, 3.2*sin 62);
+  \draw[aksen!70] (3.6,0) arc (0:62:1.1);
+  \node[text=white,font=\small] at (4.05,0.5) {$62^\circ$};
+  \draw[white!70] (2.5+1.5*cos 62,1.5*sin 62) arc (62:180:1.5);
+  \node[text=white,font=\small] at (1.35,0.65) {$28^\circ$};
+  \node[text=white,font=\small\bfseries] at (2.5,4.2) {Berpenyiku: jumlahnya $90^\circ$};
+\end{scope}
+\end{tikzpicture}
+\end{document}
