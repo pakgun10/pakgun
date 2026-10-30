@@ -1,0 +1,33 @@
+% Gambar garis tinggi segitiga (lancip) — article TikZ
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[scale=1.2, line width=1pt]
+  \coordinate (A) at (0,3.2);
+  \coordinate (B) at (-2.2,0);
+  \coordinate (C) at (3.0,0);
+  \coordinate (Ha) at ($(B)!(A)!(C)$);
+  \coordinate (Hb) at ($(A)!(B)!(C)$);
+  \coordinate (Hc) at ($(A)!(C)!(B)$);
+  \coordinate (O) at (intersection of A--Ha and B--Hb);
+  % garis tinggi diperpanjang biar jelas
+  \draw[aksen] (A) -- (Ha);
+  \draw[aksen] (B) -- (Hb);
+  \draw[aksen] (C) -- (Hc);
+  \draw[white, thick] (A) -- (B) -- (C) -- cycle;
+  % tanda siku kecil di kaki garis tinggi
+  \draw[white, thin] ($(Ha)!0.18cm!(B)$) -- ($($(Ha)!0.18cm!(B)$)!0.18cm!90:(Ha)$) -- ($(Ha)!0.18cm!(A)$);
+  \draw[white, thin] ($(Hb)!0.18cm!(C)$) -- ($($(Hb)!0.18cm!(C)$)!0.18cm!90:(Hb)$) -- ($(Hb)!0.18cm!(B)$);
+  % titik temu
+  \fill[aksen] (O) circle (2.2pt);
+  \node[above right, white, font=\large] at (O) {$O$};
+  \node[above, white, font=\large] at (A) {$A$};
+  \node[below left, white, font=\large] at (B) {$B$};
+  \node[below right, white, font=\large] at (C) {$C$};
+  \node[below, aksen] at (Ha) {$H_a$};
+\end{tikzpicture}
+\end{document}
