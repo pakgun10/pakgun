@@ -1,0 +1,20 @@
+\documentclass[tikz]{standalone}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[scale=0.55,font=\sffamily\small]
+  \draw[very thick,white] (0,0) grid (10,10);
+  \foreach \x in {1,...,10} \node[white] at (\x-0.5,10.45) {\x};
+  \foreach \y/\h in {1/A,2/B,3/C,4/D,5/E,6/F,7/G,8/H,9/I,10/J}
+    \node[white] at (-0.5,\y-0.5) {\h};
+  % kapal milik lawan yang sudah ditemukan (aksen kuning)
+  \fill[aksen,opacity=0.85] (2,7) rectangle +(1,1);
+  \fill[aksen,opacity=0.85] (5,3) rectangle +(1,1);
+  \fill[aksen,opacity=0.85] (8,5) rectangle +(1,1);
+  % bidang yang sudah dilewati tembakan (putih transparan)
+  \foreach \p in {(1,2),(4,9),(6,7),(9,8),(3,4),(7,1)}
+    \fill[white,opacity=0.18] \p rectangle +(1,1);
+  \node[white,anchor=south] at (5,11.1) {\large Papan Tembakan: kolom (angka), baris (huruf)};
+\end{tikzpicture}
+\end{document}
