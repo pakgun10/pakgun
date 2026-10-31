@@ -17,7 +17,7 @@ Blog ini adalah tempat saya mencatat dan berbagi:
 
 * **Pembelajaran matematika** — ide mengajar, bahan ajar, dan media interaktif untuk kelas.
 * **LaTeX dan TikZ** — cara membuat soal, gambar geometri, dan grafik yang presisi untuk bahan ajar.
-* **Teknologi pendidikan** — pengalaman membangun aplikasi pembelajaran di portal [GezyTech](https://gezytech.web.id/), dari LMS, aplikasi raport, sampai media permainan matematika.
+* **Teknologi pendidikan** — pengalaman membangun aplikasi pembelajaran di portal [GezyTech](https://pakgun.web.id/), dari LMS, aplikasi raport, sampai media permainan matematika.
 
 ## Prinsip
 
@@ -28,4 +28,4 @@ Semua tulisan di blog ini boleh dibaca dan dibagikan untuk keperluan pendidikan 
 ## Kontak
 
 * GitHub: [pakgun10](https://github.com/pakgun10)
-* Portal aplikasi: [gezytech.web.id](https://gezytech.web.id/)
+* Portal aplikasi: [pakgun.web.id](https://pakgun.web.id/)
