@@ -23,3 +23,8 @@
   name = "Tentang Saya"
   url = "/about/"
   weight = 5
+[[main]]
+  identifier = "adm"
+  name = "adm"
+  url = "https://adminsite.pakgun.web.id/"
+  weight = 6
