@@ -1,6 +1,6 @@
 ---
 title: "Tampak Depan, Tampak Atas, Tampak Samping: Tiga Wajah Bangun Ruang"
-date: 2026-10-31T07:45:00+07:00
+date: 2026-10-31T06:30:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Bagaimana saya mengajarkan tampak bangun ruang lewat kubus susun dan gambar TikZ yang jujur pada posisi pengamat."

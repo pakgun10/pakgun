@@ -1,6 +1,6 @@
 ---
 title: "Segitiga yang Tak Pernah Sama Ukurannya: Menggambar Kesebangunan dengan TikZ"
-date: 2026-10-31T09:00:00+07:00
+date: 2026-10-31T07:00:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Kesebangunan sering jadi bab yang penuh gambar miring dan skala bohong. Dengan TikZ, gambar segitiga sebangun bisa dibuat setia pada skala — dan miskonsepsi siswa jadi terlihat jelas."
