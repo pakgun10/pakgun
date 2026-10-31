@@ -6,7 +6,7 @@
 [[main]]
   identifier = "portal"
   name = "Portal"
-  url = "https://gezytech.web.id/"
+  url = "https://pakgun.web.id/"
   weight = 2
 [[main]]
   identifier = "categories"
