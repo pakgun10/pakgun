@@ -12,7 +12,7 @@ math:
   enable: true
 ---
 
-Seorang murid kelas VII, sebut saja Rani, berjalan ke meja saya sambil membawa ponselnya. Di layarnya ada percakapan dengan chatbot AI tentang soal operasi hitung campuran: $12 - 3 \times 4 + 6$. Ia sudah memotret soalnya, menyalinnya, dan mesin itu menjawab dengan langkah-langkah yang rapi — lengkap sampai hasil akhirnya, 6. Rani cuma ingin memastikan: "Bu, ini bener nggak?" Jawabannya benar. Tapi ada yang mengganjal di kepala saya sejak beberapa minggu: dalam percakapan itu, siapa yang sebenarnya belajar? Rani tidak menghitung apa pun. Ia hanya mengangkut soal dari buku ke mesin, lalu mengangkut jawaban dari mesin ke bukunya. Ia menjadi kurir yang rajin.
+Seorang murid kelas VII, sebut saja Rani, berjalan ke meja saya sambil membawa ponselnya. Di layarnya ada percakapan dengan chatbot AI tentang soal operasi hitung campuran: $12 - 3 \times 4 + 6$. Ia sudah memotret soalnya, menyalinnya, dan mesin itu menjawab dengan langkah-langkah yang rapi — lengkap sampai hasil akhirnya, 6. Rani cuma ingin memastikan: "Pak Gun, ini bener nggak?" Jawabannya benar. Tapi ada yang mengganjal di kepala saya sejak beberapa minggu: dalam percakapan itu, siapa yang sebenarnya belajar? Rani tidak menghitung apa pun. Ia hanya mengangkut soal dari buku ke mesin, lalu mengangkut jawaban dari mesin ke bukunya. Ia menjadi kurir yang rajin.
 
 <!--more-->
 
@@ -46,4 +46,4 @@ Tapi saya juga tidak mau berlebihan. Tutor AI seperti ini punya batas yang jelas
 
 Kalau Bapak/Ibu Guru ingin mencoba, saran saya sederhana: jangan mulai dari aplikasi canggih. Mulailah dari satu instruksi yang jujur dan tegas tentang apa yang mesin *tidak boleh* lakukan. Uji dulu sendiri, pura-pura menjadi murid yang bandel, dan lihat di giliran ke berapa instruksi itu mulai bocor. Dari situ Bapak/Ibu akan tahu di mana perlu menambal. Dan satu lagi: siapkan diri untuk merasa sedikit tersindir. Karena ketika mesin itu patuh, ia ternyata menjadi contoh terbaik tentang bagaimana guru seharusnya mendengar.
 
-Kelas berikutnya, Rani datang lagi membawa ponselnya. Tapi kali ini ia tidak menanyakan jawaban. "Bu, boleh saya pakai tutor tanya-balik yang kemarin?" Ia sudah menyalin sendiri instruksi yang saya tulis di papan. Saya tersenyum dan mengiyakan. Di percakapan berikutnya, saya memilih untuk tidak ikut membaca. Ada hal-hal yang lebih baik dibiarkan tumbuh tanpa diawasi terlalu dekat.
+Kelas berikutnya, Rani datang lagi membawa ponselnya. Tapi kali ini ia tidak menanyakan jawaban. "Pak Gun, boleh saya pakai tutor tanya-balik yang kemarin?" Ia sudah menyalin sendiri instruksi yang saya tulis di papan. Saya tersenyum dan mengiyakan. Di percakapan berikutnya, saya memilih untuk tidak ikut membaca. Ada hal-hal yang lebih baik dibiarkan tumbuh tanpa diawasi terlalu dekat.

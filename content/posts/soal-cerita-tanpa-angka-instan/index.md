@@ -11,7 +11,7 @@ math:
   enable: true
 ---
 
-Ada satu momen yang tidak akan saya lupakan dari kelas VII-B tahun lalu. Saya baru saja membagikan lembar soal cerita tentang harga beras dan uang saku. Sebelum lembar itu benar-benar sampai ke meja terakhir, sudah ada suara dari barisan depan: "Bu, ini rumusnya persen atau diskon?" Padahal mereka belum membaca satu kalimat pun.
+Ada satu momen yang tidak akan saya lupakan dari kelas VII-B tahun lalu. Saya baru saja membagikan lembar soal cerita tentang harga beras dan uang saku. Sebelum lembar itu benar-benar sampai ke meja terakhir, sudah ada suara dari barisan depan: "Pak Gun, ini rumusnya persen atau diskon?" Padahal mereka belum membaca satu kalimat pun.
 
 Saya diam sejenak, lalu sadar sesuatu yang agak memalukan bagi saya sendiri: soal-soal cerita yang selama ini saya buat ternyata punya pola yang terlalu sopan. Angka selalu muncul di kalimat tertentu, pertanyaannya selalu di akhir, dan operasi yang diminta hampir selalu bisa ditebak dari kata kunci. "Total" berarti jumlah, "sisa" berarti kurang, "tiap" berarti kali atau bagi. Siswa saya bukan membaca soal — mereka memindai soal, mencari angka, menebak operasi, berhenti.
 
@@ -25,7 +25,7 @@ Bentuk paling ringan dari perubahan ini adalah soal yang menyimpan angkanya di d
 
 Tidak ada satu pun ukuran yang diberikan langsung. Siswa harus membuat jalan sendiri: misalkan lebar $l$, panjang $3l$, lalu keliling $2(l + 3l) = 48$, sehingga $l = 6$ cm dan luasnya $6 \times 18 = 108 \text{ cm}^2$. Angka-angkanya bukan diberikan, tapi diturunkan. Perbedaannya terdengar kecil, tapi di kelas rasanya besar.
 
-Waktu itu saya sengaja memilih kelas yang biasanya paling cepat berhitung. Saya pikir soal seperti ini akan mereka lewati dalam dua menit. Ternyata tidak. Beker, anak yang nilainya biasanya paling atas, mendekat ke meja saya dan bertanya pelan: "Bu, angkanya mana?" Saya jawab, "Ada, tapi kamu harus minta dia keluar." Dia tertegun — lalu itu justru pertanyaan yang paling banyak diajukan anak-anak di hari itu, dan bertahan sampai jam pelajaran berikutnya.
+Waktu itu saya sengaja memilih kelas yang biasanya paling cepat berhitung. Saya pikir soal seperti ini akan mereka lewati dalam dua menit. Ternyata tidak. Beker, anak yang nilainya biasanya paling atas, mendekat ke meja saya dan bertanya pelan: "Pak Gun, angkanya mana?" Saya jawab, "Ada, tapi kamu harus minta dia keluar." Dia tertegun — lalu itu justru pertanyaan yang paling banyak diajukan anak-anak di hari itu, dan bertahan sampai jam pelajaran berikutnya.
 
 ## Kenapa Siswa Terbiasa Memindai, Bukan Membaca
 
@@ -53,7 +53,7 @@ Ketiga, dan ini yang paling sering saya lupakan dulu: biarkan siswa menjelaskan 
 
 ## Hasil yang Tidak Instan, Tapi Terlihat
 
-Saya tidak akan mengklaim keajaiban. Nilai kelas tidak langsung melesat, dan memang bukan itu sasarannya. Tapi ada perubahan kecil yang justru lebih saya hargai: pertanyaan di kelas berubah. Dulu yang terdengar "Bu, pakai rumus apa?" — sekarang kadang terdengar "Bu, satu lima koma lima ini itu sisa atau total, ya?" Pertanyaan kedua adalah pertanyaan pembaca. Siswa itu sedang menimbang informasi, bukan mencari tombol.
+Saya tidak akan mengklaim keajaiban. Nilai kelas tidak langsung melesat, dan memang bukan itu sasarannya. Tapi ada perubahan kecil yang justru lebih saya hargai: pertanyaan di kelas berubah. Dulu yang terdengar "Pak Gun, pakai rumus apa?" — sekarang kadang terdengar "Pak Gun, satu lima koma lima ini itu sisa atau total, ya?" Pertanyaan kedua adalah pertanyaan pembaca. Siswa itu sedang menimbang informasi, bukan mencari tombol.
 
 Ada juga efek samping yang tidak saya duga: soal seperti ini memaksa saya mengajar jujur. Ketika angka tidak lagi bisa ditebak dari kata kunci, siswa yang belum paham konsep tidak bisa menyembunyikan kebingungannya di balik prosedur. Itu membuat diagnosis saya di kelas lebih akurat. Siswa yang bingung bukan karena lupa rumus, tapi karena belum membangun hubungan antara kuantitas — dan itu masalah yang jauh lebih penting untuk dibereskan daripada sekadar mengulang rumus luas.
 

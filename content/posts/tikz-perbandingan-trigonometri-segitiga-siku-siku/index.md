@@ -66,7 +66,7 @@ Setelah satu segitiga beres, langkah kedua adalah yang jadi inti pelajaran: meng
 ![](segitiga-polos.png)
 *Segitiga yang sama tanpa sudut ditandai — versi yang saya bagikan saat siswa diminta mengukur sisi sendiri lalu menghitung perbandingannya.*
 
-Di kelas, latihannya sederhana dan berbau kertas: setiap kelompok mengukur ketiga sisi segitiga yang saya cetak (ukurannya sengaja saya beda-beda antar kelompok), lalu menghitung $\frac{\text{depan}}{\text{miring}}$ dengan pembagian biasa. Kelompok yang segitiganya kecil mendapat sekitar $0{,}47$. Kelompok yang segitiganya dua kali lebih besar mendapat... $0{,}47$ juga. Di titik ini biasanya ada satu suara dari pojok kelas, setengah percaya: "Bu, kok sama?"
+Di kelas, latihannya sederhana dan berbau kertas: setiap kelompok mengukur ketiga sisi segitiga yang saya cetak (ukurannya sengaja saya beda-beda antar kelompok), lalu menghitung $\frac{\text{depan}}{\text{miring}}$ dengan pembagian biasa. Kelompok yang segitiganya kecil mendapat sekitar $0{,}47$. Kelompok yang segitiganya dua kali lebih besar mendapat... $0{,}47$ juga. Di titik ini biasanya ada satu suara dari pojok kelas, setengah percaya: "Pak Gun, kok sama?"
 
 Pertanyaan itu adalah momen yang selama ini tidak pernah saya dapatkan dari satu gambar di papan tulis. Angka yang sama dari segitiga yang berbeda ukuran jauh lebih meyakinkan daripada kalimat "perbandingannya tidak tergantung ukuran" yang saya tulis tebal-tebal. Dan dari titik itu, tiga nama — sinus, cosinus, tangen — tinggal jadi *label* untuk tiga perbandingan yang sudah mereka buktikan sendiri, bukan tiga rumus baru yang harus dihafal.
 

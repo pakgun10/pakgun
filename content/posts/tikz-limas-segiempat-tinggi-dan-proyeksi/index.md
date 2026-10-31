@@ -21,7 +21,7 @@ Garis tinggi itu, saya sadari, selama ini saya gambar jatuhnya ke tengah rusuk d
 
 Saya jujur saja: bertahun-tahun saya menggambar limas untuk soal volume dengan tinggi yang jatuhnya "asal ke bawah". Di lembar soal, itu masih bisa dimaklumi; siswa cukup memakai angka $t$ yang diberikan. Tapi ketika gambar itu dipakai untuk menjelaskan *mengapa* rumus volume limas sepertiga volume prisma, kejenuhan itu jadi masalah. Saya menunjuk garis tinggi, siswa mengikuti garis tinggi, dan semua berpura-pura paham bahwa garis itu memang tegak lurus alas.
 
-Keesokan paginya saya membawa gambar lama saya ke kelas, sengaja tanpa saya perbaiki dulu. Saya tanya, "Ada yang janggal dari gambar ini?" Awalnya hening. Lalu seorang siswa di baris kedua berkata pelan, "Bu, garis putus-putusnya kok miring ke depan? Katanya tinggi." Pertanyaan itu saya balas dengan pertanyaan lagi: "Kalau tinggi limas, dia harus jatuh di titik mana di alas?"
+Keesokan paginya saya membawa gambar lama saya ke kelas, sengaja tanpa saya perbaiki dulu. Saya tanya, "Ada yang janggal dari gambar ini?" Awalnya hening. Lalu seorang siswa di baris kedua berkata pelan, "Pak Gun, garis putus-putusnya kok miring ke depan? Katanya tinggi." Pertanyaan itu saya balas dengan pertanyaan lagi: "Kalau tinggi limas, dia harus jatuh di titik mana di alas?"
 
 Diskusinya berjalan lebih panjang dari yang saya duga. Ada yang menjawab tengah alas, ada yang menjawab "di bawah puncak", dan seorang siswa menangkap sesuatu yang lebih dalam: "Di bawah puncak" dan "di pusat alas" itu sama saja kalau limasnya bercatur — tapi tidak sama kalau puncaknya digeser. Momen itu adalah momen yang tidak akan saya dapat kalau saya terus menggambar limas yang "cukup benar".
 
@@ -63,7 +63,7 @@ Setelah gambar jadi, soal-soal di lembar itu jadi lebih bisa "dibaca". Misalnya 
 
 $$V = \frac{1}{3} \times L_{alas} \times t = \frac{1}{3} \times 36 \times 4 = 48 \text{ cm}^3$$
 
-Satu siswa sempat bertanya, "Bu, kalau puncak limasnya digeser ke samping, tingginya berubah tidak?" Pertanyaan bagus. Tingginya tetap, selama jarak tegak lurusnya ke bidang alas sama — hanya titik jatuhnya di alas yang berpindah. Saya tidak berencana membahas limas miring di kelas VIII, tapi pertanyaan itu terbuka justru karena gambar kita jujur pada konsep tinggi sebagai jarak tegak lurus, bukan sekadar garis vertikal yang kita taruh di tengah-tengah karena kelihatan rapi.
+Satu siswa sempat bertanya, "Pak Gun, kalau puncak limasnya digeser ke samping, tingginya berubah tidak?" Pertanyaan bagus. Tingginya tetap, selama jarak tegak lurusnya ke bidang alas sama — hanya titik jatuhnya di alas yang berpindah. Saya tidak berencana membahas limas miring di kelas VIII, tapi pertanyaan itu terbuka justru karena gambar kita jujur pada konsep tinggi sebagai jarak tegak lurus, bukan sekadar garis vertikal yang kita taruh di tengah-tengah karena kelihatan rapi.
 
 ## Gambar yang Bisa Dipercaya, Kelas yang Berani Bertanya
 

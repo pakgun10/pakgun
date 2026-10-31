@@ -78,7 +78,7 @@ Perhatikan saya menaruh kedua jalur di *satu* bidang koordinat, bukan dua gambar
 
 ## Aktivitas kelas: tebak urutannya
 
-Diagram ini justru jadi bahan aktivitas. Saya menampilkan hasil akhir saja — dua titik berwarna — lalu menutupi titik-titik perantara, dan meminta siswa menebak: mana jalur yang refleksinya dulu, mana yang translasinya dulu? Anak-anak jadi berdebat: "yang merah translasinya dulu, Bu/Pak, karena garisnya miring dulu sebelum turun!" Argumen seperti itu adalah bukti mereka benar-benar membaca pergerakan titik, bukan sekadar menghafal definisi.
+Diagram ini justru jadi bahan aktivitas. Saya menampilkan hasil akhir saja — dua titik berwarna — lalu menutupi titik-titik perantara, dan meminta siswa menebak: mana jalur yang refleksinya dulu, mana yang translasinya dulu? Anak-anak jadi berdebat: "yang merah translasinya dulu, Pak Gun, karena garisnya miring dulu sebelum turun!" Argumen seperti itu adalah bukti mereka benar-benar membaca pergerakan titik, bukan sekadar menghafal definisi.
 
 ![Diagram dua rute dengan label langkah](diagram-rute.png)
 *Perbandingan dua rute dalam satu bidang: cabang biru (refleksi dulu) dan cabang merah (translasi dulu).*

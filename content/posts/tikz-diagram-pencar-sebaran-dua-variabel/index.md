@@ -11,7 +11,7 @@ math:
   enable: true
 ---
 
-Ada satu pertanyaan yang setiap tahun muncul di kelas, biasanya dari anak yang duduk di barisan belakang, ketika saya baru selesai menggambar diagram batang nilai ulangan: "Bu, kalau nilainya naik karena sering belajar, kok tidak digambar sekalian?" Saya dulu menjawabnya sambil beralasan — diagram batang kita memang hanya untuk satu kolom data. Tapi pertanyaan itu mengganjal. Anak itu, tanpa menyadarinya, sedang bertanya tentang sesuatu yang lebih dalam daripada frekuensi: ia bertanya tentang *hubungan*. Dan hubungan dua hal memang punya gambar tersendiri — diagram pencar, atau yang di beberapa buku disebut diagram dosir.
+Ada satu pertanyaan yang setiap tahun muncul di kelas, biasanya dari anak yang duduk di barisan belakang, ketika saya baru selesai menggambar diagram batang nilai ulangan: "Pak Gun, kalau nilainya naik karena sering belajar, kok tidak digambar sekalian?" Saya dulu menjawabnya sambil beralasan — diagram batang kita memang hanya untuk satu kolom data. Tapi pertanyaan itu mengganjal. Anak itu, tanpa menyadarinya, sedang bertanya tentang sesuatu yang lebih dalam daripada frekuensi: ia bertanya tentang *hubungan*. Dan hubungan dua hal memang punya gambar tersendiri — diagram pencar, atau yang di beberapa buku disebut diagram dosir.
 
 Tahun ini saya memutuskan tidak lagi mengelak. Kami mencobanya dengan data yang paling dekat dengan hidup mereka: jam belajar per minggu dan nilai ulangan harian.
 
@@ -58,7 +58,7 @@ Hasilnya begini — inilah gambar yang saya tunjukkan di papan (atau slide, kala
 
 *Gambar: diagram pencar 15 titik data — sumbu mendatar jam belajar per minggu, sumbu tegak nilai ulangan. Setiap titik adalah satu anak.*
 
-Yang saya suka dari momen ini di kelas: begitu gambarnya jadi, anak tidak lagi bertanya "kesimpulannya apa, Bu?" — mereka langsung melihatnya. Titik-titik itu merambat naik dari kiri bawah ke kanan atas. Bukan rapi seperti tangga, bukan lurus seperti jalan tol, tapi arahnya jelas.
+Yang saya suka dari momen ini di kelas: begitu gambarnya jadi, anak tidak lagi bertanya "kesimpulannya apa, Pak Gun?" — mereka langsung melihatnya. Titik-titik itu merambat naik dari kiri bawah ke kanan atas. Bukan rapi seperti tangga, bukan lurus seperti jalan tol, tapi arahnya jelas.
 
 ![Tiga wajah korelasi: positif, negatif, dan tidak berpola](tiga-sebaran.png)
 
@@ -68,7 +68,7 @@ Gambar di atas saya pakai untuk memberi nama pada apa yang baru mereka lihat. Ka
 
 ## Titik yang menentang: pelajaran terbaik dari anak M
 
-Sebentar — jangan buru-buru menutup pelajaran. Ada satu titik dalam gambar kami yang selalu saya tunggu-tunggu untuk ditanyakan anak, dan tahun ini Reza — bukan nama sebenarnya, tapi karakternya persis — menanyakannya lebih cepat dari dugaan: "Bu, kalau makin lama belajar makin pinter, kok anak M belajar tiga setengah jam tapi nilainya 62,7? Padahal anak C cuma belajar dua jam dapat 69,3."
+Sebentar — jangan buru-buru menutup pelajaran. Ada satu titik dalam gambar kami yang selalu saya tunggu-tunggu untuk ditanyakan anak, dan tahun ini Reza — bukan nama sebenarnya, tapi karakternya persis — menanyakannya lebih cepat dari dugaan: "Pak Gun, kalau makin lama belajar makin pinter, kok anak M belajar tiga setengah jam tapi nilainya 62,7? Padahal anak C cuma belajar dua jam dapat 69,3."
 
 Itu pertanyaan terbaik hari itu, dan saya tidak menjawabnya. Saya balik ke kelas. Jawaban yang muncul beragam: mungkin ia belajar sambil buka telepon, mungkin soalnya kebetulan bagian yang tidak ia pelajari, mungkin ia belajar malam sebelum ulangan padahal capek. Semua kemungkinan itu — dan inilah intinya — **tidak menggugurkan pola yang terlihat**. Sebagian besar titik tetap merambat naik. Tapi satu titik yang menentang mengingatkan kami bahwa korelasi bukan janji; ia hanya kecenderungan, bukan undang-undang yang mengikat setiap anak satu per satu.
 

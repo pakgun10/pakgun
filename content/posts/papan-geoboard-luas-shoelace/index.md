@@ -35,7 +35,7 @@ Siswa yang paling gigih biasanya menemukan trik ini lebih dulu: gambar saja kota
 
 Segitiga $ABC$ di papan saya muat dalam kotak $3 \times 3$. Luas kotaknya 9. Bagian yang tersisa terdiri dari dua segitiga siku-siku kecil dan satu segitiga lagi di bawah — semuanya bisa dihitung dengan rumus yang sudah mereka kuasai. Kurangi, dapat luas segitiga miring tadi. Beberapa kelompok mendapat 4,5. Ada yang mendapat 4,5 juga tapi lewat jalan berbeda, dan momen ketika dua kelompok menyadari jawaban mereka sama padahal caranya beda itu selalu jadi momen favorit saya. Di situ terlihat jelas bahwa luas itu milik bangunnya, bukan milik caranya.
 
-Tapi saya tidak berhenti di situ. Saya tarik lagi karet gelang, bentuk segitiga lain. Lalu lagi. Dan di tiap bangun, saya minta mereka mencatat luasnya dengan metode kotak pembatas. Di bangun ketiga atau keempat, mulai terdengar keluhan: "Bu, kalau bentuknya banyak banget sisi, capek juga ya kurang-kurang begini."
+Tapi saya tidak berhenti di situ. Saya tarik lagi karet gelang, bentuk segitiga lain. Lalu lagi. Dan di tiap bangun, saya minta mereka mencatat luasnya dengan metode kotak pembatas. Di bangun ketiga atau keempat, mulai terdengar keluhan: "Pak Gun, kalau bentuknya banyak banget sisi, capek juga ya kurang-kurang begini."
 
 Kalimat itu yang saya tunggu. Karena dari keluhan itulah kebutuhan akan *rumus yang lebih efisien* muncul dari mereka, bukan dari saya.
 
@@ -55,7 +55,7 @@ $$L = \frac{1}{2} \left| (1 \cdot 2 + 4 \cdot 4 + 1 \cdot 1) - (1 \cdot 4 + 2 \c
 
 Tunggu — dapat 5,5? Padahal tadi kelompok yang pakai kotak pembatas dapat 4,5? Justru di sinilah magangnya. Saya sengaja menuliskan perhitungan dengan satu koordinat yang "keseleo" — koordinat $B$ yang saya tulis $(4,2)$ padahal di papan titiknya ada di kolom keempat setelah kolom nol. Begitu siswa menghitung ulang dari papan, mereka menemukan sendiri letak salahnya. Rumus tidak pernah bohong; yang sering bohong adalah data yang kita masukkan.
 
-> Saya benar-benar melewatkan kejadian ini di kelas: saya tulis rumus shoelace, dapat jawaban yang berbeda dari hitungan kotak pembatas, dan satu anak di barisan belakang berteriak, "Bu, titiknya aja yang salah di papan tulis!" Itu mungkin satu-satunya kali sepanjang semester murid itu berteriak, dan ia benar.
+> Saya benar-benar melewatkan kejadian ini di kelas: saya tulis rumus shoelace, dapat jawaban yang berbeda dari hitungan kotak pembatas, dan satu anak di barisan belakang berteriak, "Pak Gun, titiknya aja yang salah di papan tulis!" Itu mungkin satu-satunya kali sepanjang semester murid itu berteriak, dan ia benar.
 
 Begitu koordinat dikoreksi, kedua metode bertemu di angka yang sama, dan kepercayaan siswa terhadap rumus itu jadi berbeda kualitas. Mereka tidak percaya karena saya bilang rumusnya benar; mereka percaya karena rumusnya *lolos uji* terhadap hitungan kotak yang bisa mereka lihat dan sentuh.
 

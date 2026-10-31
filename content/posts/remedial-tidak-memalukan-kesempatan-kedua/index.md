@@ -15,7 +15,7 @@ Ada satu kebiasaan lama yang dulu saya jalani tanpa banyak mikir: habis ulangan,
 
 <!--more-->
 
-Tahun-tahun awal mengajar, saya pikir begitulah wajar. Remedial memang untuk anak yang belum lulus, ya toh? Tapi makin lama saya makin tidak enak hati. Ada satu kejadian yang jadi titik balik: seorang murid yang biasanya rajin mendapat nilai rendah di ulangan bilangan berpangkat. Ketika saya panggil untuk remedial, dia menolak halus, "Bu, nanti teman saya bilang saya bodoh lagi." Dia lebih memilih nilai rendahnya dibiarkan daripada harus berdiri di depan kelas sebagai "anak remedial". Di situ saya sadar, masalahnya bukan cuma nilai yang belum capai. Masalahnya adalah cara saya menyajikan kesempatan memperbaikinya.
+Tahun-tahun awal mengajar, saya pikir begitulah wajar. Remedial memang untuk anak yang belum lulus, ya toh? Tapi makin lama saya makin tidak enak hati. Ada satu kejadian yang jadi titik balik: seorang murid yang biasanya rajin mendapat nilai rendah di ulangan bilangan berpangkat. Ketika saya panggil untuk remedial, dia menolak halus, "Pak Gun, nanti teman saya bilang saya bodoh lagi." Dia lebih memilih nilai rendahnya dibiarkan daripada harus berdiri di depan kelas sebagai "anak remedial". Di situ saya sadar, masalahnya bukan cuma nilai yang belum capai. Masalahnya adalah cara saya menyajikan kesempatan memperbaikinya.
 
 ## Remedial bukan hukuman, tapi janji
 
@@ -23,7 +23,7 @@ Sekarang saya pegang prinsip sederhana: remedial itu bukan hukuman atas kegagala
 
 Pertama, saya tidak lagi mengumumkan nama "yang remedial" di depan kelas. Semua murid menerima lembar tindak lanjut yang sama. Isinya beda-beda sesuai hasil diagnosa mereka, tapi bentuknya sama. Anak yang nilainya bagus dapat pengayaan, anak yang belum capai dapat latihan remedial. Kelas jadi tidak punya dua kasta.
 
-Kedua, saya pisahkan antara "remedial" dan "pengayaan" secara verbal juga. Saya sebut keduanya "Program Lanjutan". Kedengarannya sepele, tapi efeknya nyata. Anak-anak yang tadinya menunduk sekarang datang ke meja saya bertanya, "Bu, lembar lanjutan saya yang mana?" Tidak ada gengsi. Yang mengubah bukan materinya, tapi labelnya.
+Kedua, saya pisahkan antara "remedial" dan "pengayaan" secara verbal juga. Saya sebut keduanya "Program Lanjutan". Kedengarannya sepele, tapi efeknya nyata. Anak-anak yang tadinya menunduk sekarang datang ke meja saya bertanya, "Pak Gun, lembar lanjutan saya yang mana?" Tidak ada gengsi. Yang mengubah bukan materinya, tapi labelnya.
 
 Ketiga, remedial saya buat bertahap dan spesifik. Saya tidak lagi mengulang soal ulangan yang sama persis. Itu percuma dan sering cuma menguji ingatan jangka pendek. Saya cermati dulu di bagian mana murid kesulitan, baru dari situ saya susun latihan yang menyasar akar kesalahannya.
 

@@ -1,10 +1,10 @@
 ---
 weight: 1
-title: "Ini Buat Apa, Bu?: Pertanyaan yang Saya Berhenti Menolak"
+title: "Ini Buat Apa, Pak Gun?: Pertanyaan yang Saya Berhenti Menolak"
 date: 2026-10-28T09:20:00+07:00
 draft: false
 authors: ["Gunanto"]
-description: "Pertanyaan 'Ini buat apa, Bu?' sering saya anggap penantang. Ternyata itu pertanyaan paling jujur tentang makna belajar matematika, dan layak dijawab dengan sungguh-sungguh."
+description: "Pertanyaan 'Ini buat apa, Pak Gun?' sering saya anggap penantang. Ternyata itu pertanyaan paling jujur tentang makna belajar matematika, dan layak dijawab dengan sungguh-sungguh."
 featuredImage: "featured-image.png"
 
 tags: ["Makna Belajar", "Ide Mengajar", "Refleksi"]
@@ -14,7 +14,7 @@ math:
   enable: true
 ---
 
-Pertanyaan itu muncul di kelas VIII, di tengah pelajaran tentang bilangan berpangkat. Saya sedang menuliskan contoh di papan tulis ketika seorang anak di barisan belakang mengangkat tangan setengah malas, setengah serius, dan bertanya: "Ini buat apa, Bu? Nanti kerja juga nggak kepake." Suara kelas langsung hening sejenak, lalu ada yang terkikik. Saya waktu itu menjawab cepat — semacam refleks guru yang sudah sering ditanya — "Nanti waktu SMA dipakai kok, ini dasar untuk materi berikutnya." Anak itu mengangguk-angguk, tapi saya tahu dia tidak puas. Saya juga tidak puas dengan jawaban saya sendiri.
+Pertanyaan itu muncul di kelas VIII, di tengah pelajaran tentang bilangan berpangkat. Saya sedang menuliskan contoh di papan tulis ketika seorang anak di barisan belakang mengangkat tangan setengah malas, setengah serius, dan bertanya: "Ini buat apa, Pak Gun? Nanti kerja juga nggak kepake." Suara kelas langsung hening sejenak, lalu ada yang terkikik. Saya waktu itu menjawab cepat — semacam refleks guru yang sudah sering ditanya — "Nanti waktu SMA dipakai kok, ini dasar untuk materi berikutnya." Anak itu mengangguk-angguk, tapi saya tahu dia tidak puas. Saya juga tidak puas dengan jawaban saya sendiri.
 
 <!--more-->
 
@@ -50,11 +50,11 @@ Rasa ketiga, dan ini yang paling sulit: **jawaban tentang berpikir**. Kalau dita
 
 Tidak semua "ini buat apa" ditanyakan dengan polos. Ada juga yang datang dengan nada menantang, kadang diikuti senyum teman-temannya, dan jelas-jelas menguji kesabaran guru. Dulu saya merasa harus memenangkan duel itu. Sekarang saya memandangnya sama saja: pertanyaannya tetap sah, meski nadanya tidak.
 
-Bahkan ada satu momen yang saya simpan. Seorang siswa bertanya dengan nada senada-tidak-senada, "Nilai-nilai rapat ini buat apa, Bu? Nanti kerja nggak dilihat." Saya bisa saja tersinggung. Sebaliknya, kami diskusi singkat lima menit — tentang apa yang sebenarnya diukur dari nilai, dan bagaimana angka yang sama bisa berarti hal berbeda bagi dua orang. Di akhir obrolan itu dia bilang, "Oh, gitu." Dua kata saja, tapi nadanya berubah. Tidak semua pertanyaan harus dijawab dengan jawaban; kadang cukup dengan menunjukkan bahwa pertanyaan itu layak ditimbang serius.
+Bahkan ada satu momen yang saya simpan. Seorang siswa bertanya dengan nada senada-tidak-senada, "Nilai-nilai rapat ini buat apa, Pak Gun? Nanti kerja nggak dilihat." Saya bisa saja tersinggung. Sebaliknya, kami diskusi singkat lima menit — tentang apa yang sebenarnya diukur dari nilai, dan bagaimana angka yang sama bisa berarti hal berbeda bagi dua orang. Di akhir obrolan itu dia bilang, "Oh, gitu." Dua kata saja, tapi nadanya berubah. Tidak semua pertanyaan harus dijawab dengan jawaban; kadang cukup dengan menunjukkan bahwa pertanyaan itu layak ditimbang serius.
 
 ## Yang saya pelajari dari pertanyaan sepele itu
 
-Kalau saya boleh merangkum, ada tiga hal yang saya pelajari dari "ini buat apa, Bu?" selama bertahun-tahun menahannya di kelas.
+Kalau saya boleh merangkum, ada tiga hal yang saya pelajari dari "ini buat apa, Pak Gun?" selama bertahun-tahun menahannya di kelas.
 
 Pertama, pertanyaan itu adalah alarm makna. Ia muncul paling sering justru di materi yang penghubungnya ke dunia anak sudah paling tipis — bukan di materi yang paling susah. Kelas saya bisa menyiksa diri lewat soal cerita yang panjang tanpa protes, tapi memberontak di materi yang terasa hanya latihan-latihan tanpa arah. Sirene itu patut dibaca sebagai data, seperti halnya jawaban salah di CBT yang bercerita tentang pola kesalahan.
 
