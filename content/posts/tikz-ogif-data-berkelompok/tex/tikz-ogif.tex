@@ -1,0 +1,33 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\pagecolor{bg}
+\color{white}
+\begin{document}
+\begin{tikzpicture}[x=1.9cm,y=0.85cm]
+  % sumbu
+  \draw[thick,white,->] (-0.6,0) -- (6.4,0) node[below right] {\large Interval nilai};
+  \draw[thick,white,->] (0,-0.6) -- (0,6.6) node[above left] {\large Frekuensi};
+  \foreach \y in {1,...,6} \draw[gray!60] (-0.08,\y) -- (-0.08,\y) node[left] {\small \y};
+  \foreach \y in {1,...,6} \draw[gray!30,thin] (0,\y) -- (6.2,\y);
+  % puncak kelas (titik tengah interval) dari data kelas
+  \coordinate (A) at (0.5,2);
+  \coordinate (B) at (1.5,4);
+  \coordinate (C) at (2.5,6);
+  \coordinate (D) at (3.5,5);
+  \coordinate (E) at (4.5,3);
+  \coordinate (F) at (5.5,1);
+  % segmen ogif melalui titik tengah kelas
+  \draw[aksen,very thick] (A) -- (B) -- (C) -- (D) -- (E) -- (F);
+  \foreach \p in {(A),(B),(C),(D),(E),(F)} \fill[aksen] \p circle (2.6pt);
+  \node[below,white] at (0.5,-0.1) {\small $41$};
+  \node[below,white] at (1.5,-0.1) {\small $46$};
+  \node[below,white] at (2.5,-0.1) {\small $51$};
+  \node[below,white] at (3.5,-0.1) {\small $56$};
+  \node[below,white] at (4.5,-0.1) {\small $61$};
+  \node[below,white] at (5.5,-0.1) {\small $66$};
+  \node[aksen, above] at (2.5,6.15) {\small titik tengah kelas};
+\end{tikzpicture}
+\end{document}
