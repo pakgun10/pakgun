@@ -1,0 +1,33 @@
+\documentclass[tikz]{standalone}
+\definecolor{bgdark}{HTML}{171D2B}
+\definecolor{accent}{HTML}{F7B538}
+\pagecolor{bgdark}
+\color{white}
+\begin{document}
+\begin{tikzpicture}[
+  bignum/.style={font=\Huge, text=white},
+  smallnum/.style={font=\large, text=accent},
+  x=1.1cm, y=1.1cm
+]
+  % simpanan di atas kolom penerima
+  \node[smallnum] at (1.0, 1.55) {1};
+  \node[smallnum] at (0.5, 1.55) {1};
+  % baris pertama: 457
+  \node[bignum] at (0.5, 0.7) {4};
+  \node[bignum] at (1.0, 0.7) {5};
+  \node[bignum] at (1.5, 0.7) {7};
+  % baris kedua: 268
+  \node[bignum] at (0.5, 0.0) {2};
+  \node[bignum] at (1.0, 0.0) {6};
+  \node[bignum] at (1.5, 0.0) {8};
+  % garis pemisah
+  \draw[thick, white] (0.15, -0.35) -- (1.85, -0.35);
+  % hasil: 725
+  \node[bignum] at (0.5, -1.05) {7};
+  \node[bignum] at (1.0, -1.05) {2};
+  \node[bignum] at (1.5, -1.05) {5};
+  % sorot kolom satuan
+  \draw[accent, thick, rounded corners]
+    (1.15, -0.45) rectangle (1.9, 1.15);
+\end{tikzpicture}
+\end{document}
