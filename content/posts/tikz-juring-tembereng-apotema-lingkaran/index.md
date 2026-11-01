@@ -40,6 +40,8 @@ Saya meletakkan pusat di $O = (0, 0)$, satu jari-jari mendatar ke $A = (3, 0)$, 
 \draw[thick] (O) -- (B);
 \draw[thick] (A) arc (0:60:3);
 ```
+![Juring lingkaran dengan sudut pusat 60 derajat](gambar-juring.png)
+
 
 Perintah `arc (0:60:3)` adalah kuncinya: busur digambar dari sudut $0^\circ$ sampai $60^\circ$ dengan jari-jari $3$, sehingga busur itu tepat menghubungkan ujung kedua jari-jari. Karena arsiran oranye itu menyentuh titik $O$, siswa langsung melihat: inilah potongan yang titiknya di pusat.
 
@@ -58,6 +60,8 @@ Di TikZ, tembereng digambar dengan mengisi daerah antara busur dan tali busurnya
 \draw[thick] (A) -- (B); % tali busur
 \draw[thick] (A) arc (30:150:3);
 ```
+![Tembereng lingkaran antara tali busur dan busur](gambar-tembereng.png)
+
 
 Perintah `arc (30:150:3)` menggambar busur dari $A$ ke $B$ melewati atas, lalu `-- cycle` menutup daerah itu dengan garis lurus kembali ke $A$, dan garis lurus itulah tali busurnya. Arsiran biru itu tidak menyentuh pusat sama sekali, dan justru di situlah letak pelajarannya: kalau arsiran tidak menyentuh pusat, ia bukan juring.
 
@@ -81,6 +85,8 @@ Di TikZ saya meletakkan pusat di $O = (0, 0)$ dan tali busur mendatar pada $y = 
 \node[left] at (O) {$O$};
 \node[above] at (M) {$M$};
 ```
+![Apotema lingkaran, garis merah tegak lurus dari pusat ke tali busur](gambar-apotema.png)
+
 
 Garis merah dari pusat ke tengah tali busur, dengan tanda siku di ujungnya, adalah gambar apotema yang tidak mungkin tertukar dengan arsiran juring atau tembereng. Dan karena panjangnya $3$ cm pada contoh ini, siswa bisa langsung mengaitkannya dengan hitungan Pythagoras yang baru saja mereka pelajari.
 
