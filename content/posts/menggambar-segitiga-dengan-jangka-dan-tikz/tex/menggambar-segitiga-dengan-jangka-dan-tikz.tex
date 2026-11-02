@@ -1,0 +1,23 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{calc}
+\definecolor{bgc}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\pagecolor{bgc}
+\begin{document}
+\begin{tikzpicture}[scale=1.1]
+  \draw[very thin,black!40] (-4.5,-2.2) grid (4.5,3.2);
+  \coordinate (A) at (-3,0);
+  \coordinate (B) at (3,0);
+  \coordinate (C) at (1.4,2.4);
+  \draw[white,very thick] (A) -- (B) -- (C) -- cycle;
+  \draw[aksen,dashed,thick] (A) circle (4.4cm);
+  \draw[aksen,dashed,thick] (B) circle (3.4cm);
+  \filldraw[white] (A) circle (1.5pt) node[below left,white] {$A$};
+  \filldraw[white] (B) circle (1.5pt) node[below right,white] {$B$};
+  \filldraw[white] (C) circle (1.5pt) node[above,white] {$C$};
+  \node[aksen] at ($(A)!0.55!(C)$) {\small $5$};
+  \node[aksen] at ($(B)!0.5!(C)$) {\small $4$};
+  \node[white] at (0,-0.35) {\small $AB = 6$};
+\end{tikzpicture}
+\end{document}
