@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\begin{document}
+
+\section*{Garis $l$ dan Titik $P$ di Luar Garis}
+
+% Garis l mendatar, titik P = (3,4), jarak P ke garis = 4 satuan.
+\begin{tikzpicture}
+  \draw[thick] (-1,0) -- (7,0);
+  \node[right] at (7,0) {$l$};
+  \fill (3,4) circle (2pt);
+  \node[above] at (3,4) {$P$};
+\end{tikzpicture}
+
+\section*{Busur dari $P$ Memotong Garis di $M$ dan $N$}
+
+% Busur berjari-jari 5 satuan dari P memotong garis di
+% M = (0,0) dan N = (6,0). Jadi PM = PN = 5 satuan.
+% Setengah jarak MN = 3 satuan, jarak tegak = 4 satuan (3-4-5).
+\begin{tikzpicture}
+  \draw[thick] (-1,0) -- (7,0);
+  \node[right] at (7,0) {$l$};
+  \begin{scope}
+    \clip (-1,-1.5) rectangle (7,0.5);
+    \draw[dashed, blue] (3,4) circle (5);
+  \end{scope}
+  \fill (3,4) circle (2pt);
+  \fill (0,0) circle (2pt);
+  \fill (6,0) circle (2pt);
+  \node[above] at (3,4) {$P$};
+  \node[below] at (0,0) {$M$};
+  \node[below] at (6,0) {$N$};
+\end{tikzpicture}
+
+\section*{Dua Busur dari $M$ dan $N$ Bertemu di $Q$}
+
+% Busur berjari-jari 5 satuan dari M dan dari N bertemu di
+% Q = (3,-4) di bawah garis. Jadi QM = QN = 5 satuan.
+\begin{tikzpicture}
+  \draw[thick] (-1,0) -- (7,0);
+  \node[right] at (7,0) {$l$};
+  \begin{scope}
+    \clip (-1,-4.5) rectangle (7,0);
+    \draw[dashed, red] (0,0) circle (5);
+    \draw[dashed, red] (6,0) circle (5);
+  \end{scope}
+  \fill (3,4) circle (2pt);
+  \fill (0,0) circle (2pt);
+  \fill (6,0) circle (2pt);
+  \fill (3,-4) circle (2pt);
+  \node[above] at (3,4) {$P$};
+  \node[below] at (0,0) {$M$};
+  \node[below] at (6,0) {$N$};
+  \node[below] at (3,-4) {$Q$};
+\end{tikzpicture}
+
+\section*{Garis $PQ$ dan Titik Kaki $F$}
+
+% Garis PQ tegak lurus garis l, kaki F = (3,0) adalah
+% titik tengah MN. Tanda siku-siku digambar di F.
+\begin{tikzpicture}
+  \draw[thick] (-1,0) -- (7,0);
+  \node[right] at (7,0) {$l$};
+  \draw[thick, blue] (3,4) -- (3,-4);
+  \draw (3,0) -- (3.4,0) -- (3.4,0.4) -- (3,0.4);
+  \fill (3,4) circle (2pt);
+  \fill (0,0) circle (2pt);
+  \fill (6,0) circle (2pt);
+  \fill (3,-4) circle (2pt);
+  \fill (3,0) circle (2pt);
+  \node[above] at (3,4) {$P$};
+  \node[below] at (0,0) {$M$};
+  \node[below] at (6,0) {$N$};
+  \node[below] at (3,-4) {$Q$};
+  \node[below] at (3,0) {$F$};
+\end{tikzpicture}
+
+\end{document}
