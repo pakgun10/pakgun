@@ -1,0 +1,43 @@
+\documentclass[tikz,border=14pt]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{calc}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[line width=1.2pt, text=white, scale=1.0]
+  % garis l1 dan l2 (sejajar), transversal m
+  \coordinate (L1a) at (0,0);
+  \coordinate (L1b) at (9,0);
+  \coordinate (L2a) at (-0.8,-4);
+  \coordinate (L2b) at (8.2,-4);
+  \coordinate (Ta) at (1.0,1.8);
+  \coordinate (Tb) at (7.0,-5.8);
+
+  \draw[color=aksen] (L1a) node[left]{\large $l_1$} -- (L1b);
+  \draw[color=aksen] (L2a) node[left]{\large $l_2$} -- (L2b);
+  \draw[white] (Ta) node[above]{\large $m$} -- (Tb);
+
+  % titik potong
+  \coordinate (P) at (3,0);
+  \coordinate (Q) at (5,-4);
+
+  % sudut sehadap di atas garis: 1 (di P, atas-kanan) dan 5 (di Q, atas-kanan)
+  \draw[aksen] ($(P)+(0.9,0)$) arc[start angle=0, end angle=60, radius=0.9];
+  \node[aksen] at ($(P)+(40:1.35)$) {\large $\alpha$};
+  \draw[aksen] ($(Q)+(0.9,0)$) arc[start angle=0, end angle=60, radius=0.9];
+  \node[aksen] at ($(Q)+(40:1.35)$) {\large $\alpha$};
+
+  % sudut bersudut berhadapan: di Q, atas-kiri (dalam) 120 derajat
+  \draw[white] ($(Q)+(-0.7,0)$) arc[start angle=180, end angle=120, radius=0.7];
+  \node[white] at ($(Q)+(150:1.45)$) {\large $180^{\circ}-\alpha$};
+
+  % sudut dalam sepihak di P: kiri-bawah (di bawah l1, kiri transversal)
+  \draw[white] ($(P)+(-0.7,0)$) arc[start angle=180, end angle=240, radius=0.7];
+  \node[white] at ($(P)+(215:1.45)$) {\large $180^{\circ}-\alpha$};
+
+  % tanda sejajar (panah) pada l1 dan l2
+  \draw[aksen] ($(L1a)!0.5!(L1b)+( -0.1,0.12)$) -- ($(L1a)!0.5!(L1b)+(0.1,0)$) -- ($(L1a)!0.5!(L1b)+(-0.1,-0.12)$);
+  \draw[aksen] ($(L2a)!0.5!(L2b)+(-0.1,0.12)$) -- ($(L2a)!0.5!(L2b)+(0.1,0)$) -- ($(L2a)!0.5!(L2b)+(-0.1,-0.12)$);
+\end{tikzpicture}
+\end{document}
