@@ -1,0 +1,53 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{accent}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[
+  line cap=round, line join=round,
+  every node/.style={color=white, font=\large},
+  accentline/.style={color=accent, very thick},
+  pale/.style={color=white!70!bg, thick},
+]
+  % Sudut AOB = 60 derajat, O di titik asal
+  \coordinate (O) at (0,0);
+  \coordinate (P) at (30:5);
+  \coordinate (Q) at (-30:5);
+  \coordinate (M) at (0:5);
+  \coordinate (Mp) at (0:6.4);
+
+  % kaki sudut
+  \draw[very thick, color=white] (O) -- (P) node[right] {$B$};
+  \draw[very thick, color=white] (O) -- (Q) node[right] {$A$};
+
+  % busur pertama dari O (jari-jari r = 2.6)
+  \draw[pale] (30:2.6) arc (30:-30:2.6);
+  \fill[color=white] (30:2.6) circle (2pt) node[above left=1pt] {$P$};
+  \fill[color=white] (-30:2.6) circle (2pt) node[below left=1pt] {$Q$};
+
+  % dua busur kedua dari P dan Q, jari-jari sama s = 2.6
+  \draw[accentline] (P) arc (0:60:2.6);
+  \draw[accentline] (Q) arc (-60:0:2.6);
+  \fill[color=accent] (M) circle (2.5pt) node[above right=2pt] {$M$};
+
+  % garis bagi OM (terus sampai Mp, dashed di luar sudut)
+  \draw[accentline] (O) -- (M);
+  \draw[accentline, dashed] (M) -- (Mp) node[right] {};
+
+  % busur kecil penanda dua sudut sama besar
+  \draw[color=accent] (0:1.35) arc (0:30:1.35);
+  \draw[color=accent] (0:1.6) arc (0:-30:1.6);
+  \node[color=accent] at (15:2.05) {$\alpha$};
+  \node[color=accent] at (-15:2.05) {$\alpha$};
+
+  % label O
+  \fill[color=white] (O) circle (2pt) node[below left=2pt] {$O$};
+
+  % tanda keterangan jari-jari sama
+  \node[color=white!75!bg, font=\small, anchor=west] at (6.6,-3.2)
+    {$OP=OQ=r$};
+  \node[color=white!75!bg, font=\small, anchor=west] at (6.6,-3.9)
+    {$PM=QM=s$};
+\end{tikzpicture}
+\end{document}
