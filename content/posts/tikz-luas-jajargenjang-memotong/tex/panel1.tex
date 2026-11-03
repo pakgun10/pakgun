@@ -1,0 +1,27 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{aksen}{RGB}{247,181,56}
+\definecolor{bgdark}{HTML}{171D2B}
+\begin{document}
+\pagecolor{bgdark}
+\color{white}
+\begin{tikzpicture}[scale=1.1]
+  % Panel 1: jajargenjang utuh
+  \begin{scope}
+    \coordinate (A) at (0,0);
+    \coordinate (B) at (6,0);
+    \coordinate (C) at (8.2,3);
+    \coordinate (D) at (2.2,3);
+    \fill[color=aksen!25] (A) -- (B) -- (C) -- (D) -- cycle;
+    \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+    \draw[dashed,thick] (D) -- (2.2,0) node[below] {$H$};
+    \fill (D) circle (0.055) node[above] {$D$};
+    \fill (A) circle (0.055) node[below] {$A$};
+    \fill (B) circle (0.055) node[below] {$B$};
+    \fill (C) circle (0.055) node[above right] {$C$};
+    \node[color=aksen!45!black] at (1.15,0.35) {dipotong};
+    \draw[<->,thick,color=aksen!60!black] (2.2,0) -- (2.2,3) node[midway,left] {$t$};
+    \draw[<->,thick] (0,-0.7) -- (6,-0.7) node[midway,below] {$a$};
+  \end{scope}
+\end{tikzpicture}
+\end{document}
