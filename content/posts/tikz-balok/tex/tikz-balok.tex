@@ -1,0 +1,34 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{acc}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[line cap=round,line join=round,white,line width=1.1pt,scale=1.15]
+  % dimensi balok: panjang 6, lebar 2.6, tinggi 2.4
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (6,0);
+  \coordinate (C) at (6,2.4);
+  \coordinate (D) at (0,2.4);
+  \coordinate (E) at (1.9,1.4);   % titik belakang-bawah
+  \coordinate (F) at (7.9,1.4);
+  \coordinate (G) at (7.9,3.8);
+  \coordinate (H) at (1.9,3.8);
+  % rusuk terlihat
+  \draw[white] (A)--(B)--(C)--(D)--cycle;
+  \draw[white] (B)--(F)--(G)--(C);
+  \draw[white] (D)--(H)--(G);
+  % rusuk tersembunyi (putus-putus, warna aksen)
+  \draw[acc,dashed,line width=0.9pt] (A)--(E);
+  \draw[acc,dashed,line width=0.9pt] (E)--(F);
+  \draw[acc,dashed,line width=0.9pt] (E)--(H);
+  % titik sudut
+  \foreach \P/\pos in {A/below left,B/below right,C/above right,D/above left,E/below left,F/below right,G/above right,H/above left}
+    \node[\pos=2pt,white,font=\small] at (\P) {\P};
+  % label dimensi
+  \node[acc,font=\small,below=6pt] at (3,0) {panjang $= p$};
+  \node[acc,font=\small,above=6pt] at (4.9,3.8) {panjang $= p$};
+  \node[acc,font=\small,left=6pt] at (0,1.2) {tinggi $= t$};
+  \node[acc,font=\small,rotate=33.7,anchor=south] at (0.95,0.7) {\,lebar $= \ell$};
+\end{tikzpicture}
+\end{document}
