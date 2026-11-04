@@ -5,7 +5,7 @@ date: 2026-11-03T08:30:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "PapanTulis adalah papan tulis digital di board.pakgun.web.id: bisa ditulis pakai jari, mouse, atau stylus di PID, laptop, tablet, dan HP, dengan halaman dan sesi bernama, bisa dipakai tanpa login, dan tersimpan di server bila sudah login."
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.jpg"
 
 tags: ["Media Pembelajaran", "Ide Mengajar", "PapanTulis"]
 categories: ["Teknologi Pendidikan"]
@@ -16,7 +16,7 @@ math:
 
 Di kelas, papan tulis itu teman kerja yang paling setia sekaligus paling merepotkan. Spidolnya habis di tengah penjelasan, tulisan kemarin sudah terhapus pagi ini, dan murid yang duduk di belakang tidak selalu bisa membaca tulisan dari tempatnya. Panel interaktif di depan kelas (PID) sudah membantu, tetapi saya masih membutuhkan papan yang tulisannya bisa saya simpan, saya buka lagi besok, dan saya lanjutkan di perangkat lain. Dari kebutuhan sesederhana itulah PapanTulis dibuat.
 
-PapanTulis adalah papan tulis digital yang bisa Bapak dan Ibu buka di [https://board.pakgun.web.id/](https://board.pakgun.web.id/). Tidak perlu memasang aplikasi apa pun. Buka tautannya di peramban, lalu langsung menulis, pakai jari, mouse, atau stylus, di PID, laptop, tablet, maupun HP.
+PapanTulis adalah papan tulis digital yang bisa Bapak dan Ibu buka di <https://board.pakgun.web.id/>. Tidak perlu memasang aplikasi apa pun. Buka tautannya di peramban, lalu langsung menulis, pakai jari, mouse, atau stylus, di PID, laptop, tablet, maupun HP.
 
 <!--more-->
 
@@ -44,14 +44,14 @@ Akun baru diperlukan kalau Bapak dan Ibu ingin sesi-sesinya tersimpan di server,
 
 Beberapa cara yang sudah saya coba dan bisa langsung ditiru:
 
-- Guru menampilkan soal di layar, lalu murid maju menuliskan langkah penyelesaiannya di depan kelas.
-- Satu halaman dipakai untuk satu jawaban kelompok, sehingga hasil diskusi tiap kelompok tidak bercampur.
-- Stabilo dipakai untuk menandai bagian yang salah, bukan untuk menghapus seluruh pekerjaan murid.
-- Hasil diskusi disimpan sebagai PNG per halaman, lalu dibagikan ke murid sebagai catatan.
-- Halaman dibagi berdasarkan tahap pembelajaran, bukan berdasarkan siapa yang menulis paling cepat.
+* Guru menampilkan soal di layar, lalu murid maju menuliskan langkah penyelesaiannya di depan kelas.
+* Satu halaman dipakai untuk satu jawaban kelompok, sehingga hasil diskusi tiap kelompok tidak bercampur.
+* Stabilo dipakai untuk menandai bagian yang salah, bukan untuk menghapus seluruh pekerjaan murid.
+* Hasil diskusi disimpan sebagai PNG per halaman, lalu dibagikan ke murid sebagai catatan.
+* Halaman dibagi berdasarkan tahap pembelajaran, bukan berdasarkan siapa yang menulis paling cepat.
 
 ## Penutup
 
 PapanTulis tidak bermaksud menggantikan papan tulis biasa, apalagi menggantikan guru. Ia hanya menjawab satu kebutuhan kecil yang sering mengganggu: tulisan di kelas yang hilang begitu bel berbunyi. Dengan papan ini, tulisan itu bisa disimpan per halaman, diberi nama per sesi, dan dibuka lagi kapan pun diperlukan.
 
-Silakan dicoba di [https://board.pakgun.web.id/](https://board.pakgun.web.id/). Kalau hanya ingin mencoba, tidak perlu login. Kalau ingin sesi-sesinya tersimpan di server dan bisa dibuka dari perangkat lain, mintalah akun kepada admin, lalu masuk dan mulailah dari sesi pertama Bapak dan Ibu sendiri.
+Silakan dicoba di <https://board.pakgun.web.id/>. Kalau hanya ingin mencoba, tidak perlu login. Kalau ingin sesi-sesinya tersimpan di server dan bisa dibuka dari perangkat lain, mintalah akun kepada admin, lalu masuk dan mulailah dari sesi pertama Bapak dan Ibu sendiri.
