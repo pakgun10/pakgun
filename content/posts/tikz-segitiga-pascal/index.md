@@ -86,6 +86,8 @@ Kelas paling seru biasanya saat kita "membongkar" segitiga yang sudah jadi. Bebe
 
 Yang ketiga favorit saya untuk diskusi penutup. Saya tanya, "Kenapa jumlah barisnya selalu dua pangkat $n$?" Kadang ada yang bisa menjelaskan dengan bahasanya sendiri: karena setiap angka di baris atas "diwariskan" ke dua anak di bawahnya, jadi tiap baris jumlahnya jadi dua kali baris sebelumnya. Penjelasan seperti itu tidak bisa lahir dari menghafal rumus — dia lahir dari melihat gambar yang jujur.
 
+Yang tidak kalah penting: segitiga ini murah secara pikiran tapi kaya secara pertanyaan. Saya pernah memberi lembar berisi segitiga sampai baris kedelapan, kosong pada beberapa angka yang saya hilangkan sengaja, dan tugasnya cuma satu — "lengkapi yang hilang, dan katakan kenapa kamu yakin." Tidak ada satu pun siswa yang bertanya rumusnya apa. Mereka langsung bekerja dengan penjumlahan, dan justru dari situ muncul pertanyaan-pertanyaan yang lebih dalam: apakah pola ini berhenti? Apakah ada angka yang muncul dua kali? Pertanyaan seperti itu tidak muncul kalau yang saya berikan adalah daftar rumus.
+
 ## Menutup Refleksi
 
 Kalau dipikir-pikir, segitiga Pascal ini contoh bagus kenapa saya peduli pada kualitas gambar bahan ajar. Gambar yang salah — satu angka tidak sesuai penjumlahan, satu jarak tidak konsisten — tidak hanya jelek, dia mengajarkan sesuatu yang keliru secara diam-diam. Siswa percaya gambar lebih cepat daripada percaya kata-kata guru.
