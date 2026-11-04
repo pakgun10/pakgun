@@ -1,0 +1,20 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{aksen}{RGB}{247,181,56}
+\definecolor{bgdark}{HTML}{171D2B}
+\begin{document}
+\pagecolor{bgdark}
+\color{white}
+\begin{tikzpicture}[scale=1.15]
+  \def\digits#1#2#3{#1&#2&#3}
+  % garis rata: 5 - 2 = 3 (satu kolom)
+  \begin{scope}
+    \node[anchor=east, color=aksen!80] at (-0.6,3.4) {\large $-$};
+    \node at (0,3.4) {\large 5};
+    \node at (0,2.6) {\large 2};
+    \draw[thick] (-0.45,2.25) -- (0.45,2.25);
+    \node[color=aksen!90] at (0,1.6) {\large 3};
+    \node[color=aksen!60, font=\footnotesize] at (0,0.6) {langkah satu kolom};
+  \end{scope}
+\end{tikzpicture}
+\end{document}
