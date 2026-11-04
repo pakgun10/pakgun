@@ -1,0 +1,32 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{acc}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[scale=1.35]
+  \node[white] at (0,0) {$2$};
+  \node[white] at (2,0) {$24$};
+  \node[white] at (4,0) {$36$};
+  \node[white] at (0,-1) {$2$};
+  \node[white] at (2,-1) {$12$};
+  \node[white] at (4,-1) {$18$};
+  \node[white] at (0,-2) {$3$};
+  \node[white] at (2,-2) {$6$};
+  \node[white] at (4,-2) {$9$};
+  \node[white] at (0,-3) {$2$};
+  \node[white] at (2,-3) {$2$};
+  \node[white] at (4,-3) {$3$};
+  \node[white] at (0,-4) {$3$};
+  \node[white] at (2,-4) {$1$};
+  \node[white] at (4,-4) {$3$};
+  \node[white] at (2,-5) {$1$};
+  \node[white] at (4,-5) {$1$};
+  \draw[thick,acc] (1,0.5) -- (1,-5.5);
+  \foreach \y in {0,-1,-2,-3,-4} {
+    \draw[thick,acc] (0.4,\y-0.5) -- (4.9,\y-0.5);
+  }
+  \node[white,anchor=west] at (5.6,-2.1) {FPB $= 2\cdot 2\cdot 3 = 12$};
+  \node[white,anchor=west] at (5.6,-3.1) {KPK $= 12\cdot 2\cdot 3 = 72$};
+\end{tikzpicture}
+\end{document}

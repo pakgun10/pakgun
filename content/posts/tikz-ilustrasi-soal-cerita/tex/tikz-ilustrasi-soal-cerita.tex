@@ -1,0 +1,20 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{arrows.meta}
+\pagecolor{black}
+\begin{document}
+\begin{tikzpicture}[line width=1pt]
+  \color{white}
+  % Tandon balok: panjang 4cm, tinggi 3cm (rasio 2 : 1,5 sesuai data soal)
+  \draw[fill=blue!25] (0,0) -- (4,0) -- (4,3) -- (0,3) -- cycle;
+  \draw (0,3) -- (0.7,3.7) -- (4.7,3.7) -- (4,3);
+  \draw (4,0) -- (4.7,0.7) -- (4.7,3.7);
+  % label balok
+  \draw[yellow] (4.7,0.35) node[right] {$1$ m};
+  \draw (2,1.5) node {tandon};
+  % ukuran panjang
+  \draw[<->] (0,-0.5) -- (4,-0.5) node[midway, below] {$2$ m};
+  % ukuran tinggi
+  \draw[<->] (-0.6,0) -- (-0.6,3) node[midway, left] {$1{,}5$ m};
+\end{tikzpicture}
+\end{document}
