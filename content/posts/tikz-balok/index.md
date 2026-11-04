@@ -1,6 +1,6 @@
 ---
 title: "Menggambar Balok dengan TikZ: Delapan Titik yang Semua Rusuknya Ada"
-date: 2026-11-04T20:00:00+07:00
+date: 2026-11-03T20:00:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Balok terlihat sederhana, tapi menggambarnya jujur di TikZ menuntut keputusan soal rusuk tersembunyi, titik belakang, dan sisi mana yang boleh terlihat."
