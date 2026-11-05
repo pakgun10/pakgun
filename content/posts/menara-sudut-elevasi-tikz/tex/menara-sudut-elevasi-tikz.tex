@@ -1,0 +1,81 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{calc,arrows.meta,angles,quotes}
+
+\pagecolor[HTML]{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\definecolor{teks}{HTML}{FFFFFF}
+\definecolor{garis}{HTML}{94A3B8}
+\color{teks}
+
+\newcommand{\gambarutama}{%
+\begin{tikzpicture}[x=0.45cm,y=0.45cm,line cap=round,
+  every node/.style={text=teks,font=\small}]
+  \draw[very thick,garis] (-4,0) -- (30,0);
+  \foreach \i in {-2,0,...,28} \draw[garis!50] (\i,0) -- ++(0.7,-0.45);
+  \fill[aksen!18] (-0.9,0) rectangle (0.9,24);
+  \draw[very thick,aksen] (-0.9,24) -- (0.9,24);
+  \draw[very thick,aksen] (0,0) -- (0,24);
+  \node[text=teks,font=\small,rotate=90] at (-2.6,12) {menara $h$};
+  \coordinate (E) at (22,2);
+  \fill[teks] (E) circle (2.5pt);
+  \node[below=14pt] at (E) {mata pengamat $(h_m=1{,}6\,\mathrm{m})$};
+  \coordinate (D) at (0,2);
+  \draw[dashed,garis] (E) -- (D);
+  \node[above=2pt,text=garis] at (11,2.1) {garis horizontal};
+  \draw[very thick,aksen] (E) -- (0,24);
+  \fill[aksen] (0,24) circle (2.5pt);
+  \coordinate (P) at (0,24);
+  \pic[draw=aksen,thick,angle radius=42pt,"$\alpha=45^\circ$",angle eccentricity=1.6,
+       pic text options={text=aksen}]
+    {angle=P--E--D};
+\end{tikzpicture}
+}
+
+\newcommand{\gambarsegitiga}{%
+\begin{tikzpicture}[x=0.5cm,y=0.5cm,line cap=round,
+  every node/.style={text=teks,font=\small}]
+  \coordinate (E) at (22,2);
+  \coordinate (D) at (0,2);
+  \coordinate (B) at (0,24);
+  \fill[aksen!15] (E) -- (D) -- (B) -- cycle;
+  \draw[very thick,garis] (E) -- (D);
+  \draw[very thick,aksen] (D) -- (B);
+  \draw[dashed,aksen,very thick] (E) -- (B);
+  \draw[teks,thick] (0.9,2) -- (0.9,2.9) -- (0,2.9);
+  \node[below=5pt,text=garis] at (11,2) {$22$ m};
+  \node[left=6pt,text=aksen] at (0,13) {$22$ m};
+  \node[above right=1pt,text=teks,rotate=0] at (11.6,13.8) {garis pandang};
+  \fill[teks] (E) circle (2.5pt) node[below right=2pt] {$E$};
+  \fill[teks] (D) circle (2.5pt) node[below left=1pt] {$D$};
+  \fill[aksen] (B) circle (2.5pt) node[above left=2pt] {$B$};
+  \draw[very thick,garis] (-4,2) -- (26,2);
+  \foreach \i in {-2,0,...,24} \draw[garis!50] (\i,2) -- ++(0.7,-0.45);
+  \node[below=6pt,text=garis] at (11,1.4) {tanah};
+\end{tikzpicture}
+}
+
+\begin{document}
+
+\section*{Menara dan Sudut Elevasi: Garis Pandang yang Bisa Dihitung}
+
+Gambar utama pada artikel --- situasi menara, mata pengamat, garis horizontal,
+dan sudut elevasi:
+
+\gambarutama
+
+\bigskip
+Segitiga yang "dipungut" dari gambar di atas:
+
+\gambarsegitiga
+
+\bigskip
+Perhitungan pada artikel:
+\[
+\tan 45^\circ = \frac{BD}{DE} = \frac{BD}{22} \quad\Rightarrow\quad BD = 22\ \mathrm{m},
+\qquad h = 1{,}6 + 22 = 23{,}6\ \mathrm{m}.
+\]
+
+\end{document}
