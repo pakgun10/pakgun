@@ -1,0 +1,26 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{calc}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{acc}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[scale=1.35,line width=1pt,text=white,>=stealth]
+  \coordinate (A) at (0,4);
+  \coordinate (B) at (-1.6,0);
+  \coordinate (C) at (3.6,0);
+  \coordinate (Ga) at ($(B)!0.6!(C)$);
+  \coordinate (Mb) at ($(A)!0.5!(C)$);
+  \coordinate (Tc) at ($(A)!($(C)!(A)!(B)$)!(B)$);
+  \node[fill=white,circle,inner sep=1.2pt,label={above left:$A$}] at (A) {};
+  \node[fill=white,circle,inner sep=1.2pt,label={below left:$B$}] at (B) {};
+  \node[fill=white,circle,inner sep=1.2pt,label={below right:$C$}] at (C) {};
+  \draw[white] (A)--(B)--(C)--cycle;
+  \draw[acc,dashed] (A)--(Ga) node[below,pos=1,text=acc] {\small $g_a$};
+  \draw[acc,dashed] (B)--(Mb) node[above right=1pt,pos=0.55,text=acc] {\small $m_b$};
+  \draw[acc,dashed] (C)--(Tc) node[below=3pt,pos=0.62,text=acc] {\small $t_c$};
+  \node[text=white] at ($(B)!0.5!(C)+(0,-0.35)$) {\small sisi $a$};
+  \node[text=white] at ($(A)!0.5!(C)+(0.45,0.2)$) {\small sisi $b$};
+  \node[text=white] at ($(A)!0.5!(B)+(-0.5,0.1)$) {\small sisi $c$};
+\end{tikzpicture}
+\end{document}
