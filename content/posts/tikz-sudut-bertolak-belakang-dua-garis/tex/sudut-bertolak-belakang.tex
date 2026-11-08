@@ -1,0 +1,44 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bgcol}{HTML}{171D2B}
+\definecolor{accent}{HTML}{F7B538}
+\definecolor{setcol}{HTML}{7DA2C9}
+\pagecolor{bgcol}
+\begin{document}
+\begin{tikzpicture}[scale=1.0, color=white, font=\large]
+  % Dua garis berpotongan: sudut bertolak belakang 50 dan 130 derajat
+  % Garis AB mendatar, garis CD miring 50 derajat (koordinat polar)
+  % Sudut kanan atas 50 derajat, kiri bawah 50 derajat (busur tunggal)
+  % Sudut kiri atas dan kanan bawah 130 derajat (busur ganda)
+  \coordinate (O) at (0, 0);
+
+  % Kedua garis
+  \draw[thick] (-3.5, 0) -- (3.5, 0);
+  \draw[thick] (230:3.5) -- (50:3.5);
+
+  % Busur TUNGGAL untuk pasangan sudut 50 derajat
+  \draw (O) ++(0:0.8)   arc (0:50:0.8);
+  \draw (O) ++(180:0.8) arc (180:230:0.8);
+  % Busur GANDA untuk pasangan sudut 130 derajat
+  \draw (O) ++(50:1.05)  arc (50:180:1.05);
+  \draw (O) ++(50:1.25)  arc (50:180:1.25);
+  \draw (O) ++(230:1.05) arc (230:360:1.05);
+  \draw (O) ++(230:1.25) arc (230:360:1.25);
+
+  % Titik potong
+  \fill (O) circle (2pt);
+  \node[below right] at (O) {$O$};
+
+  % Label ujung-ujung garis
+  \node[left]  at (-3.5, 0) {$A$};
+  \node[right] at (3.5, 0)  {$B$};
+  \node[above] at (50:3.8)  {$C$};
+  \node[below] at (230:3.8) {$D$};
+
+  % Label sudut: 50 derajat (busur tunggal), 130 derajat (busur ganda)
+  \node at (25:1.2)  {$50^{\circ}$};
+  \node at (205:1.2) {$50^{\circ}$};
+  \node at (115:1.6) {$130^{\circ}$};
+  \node at (295:1.6) {$130^{\circ}$};
+\end{tikzpicture}
+\end{document}
