@@ -1,0 +1,13 @@
+{{- /* GezyKomen — widget komentar untuk blog Pak Gun.
+  Override partial comment.html tema DoIt: menggantikan semua sistem
+  komentar bawaan tema (Utterances, Waline, Disqus, dll) dengan widget
+  GezyKomen di https://komentar.pakgun.web.id. Tanpa login, cukup isi nama.
+  data-path = path artikel, supaya komentar tiap artikel terpisah. */ -}}
+{{- $comment := .Scratch.Get "comment" | default dict -}}
+{{- if $comment.enable -}}
+    <div id="comments" class="tw:print:hidden! tw:pt-32 tw:pb-8">
+        <div id="gezykomen" data-path="{{ .RelPermalink }}"></div>
+        <link rel="stylesheet" href="https://komentar.pakgun.web.id/widget.css">
+        <script src="https://komentar.pakgun.web.id/widget.js"></script>
+    </div>
+{{- end -}}
