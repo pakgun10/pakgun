@@ -4,7 +4,7 @@ date: 2026-11-09T08:01:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Grafik perbandingan senilai adalah garis lurus dari titik asal — tetapi grafik perbandingan berbalik nilai melengkung. Di tulisan ini saya menggambar kurva y = 240/x dengan TikZ, dari tabel pekerja dan hari sampai garis lurus yang menipu."
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.webp"
 
 tags: ["TikZ", "Perbandingan Berbalik Nilai", "Grafik", "Bahan Ajar"]
 categories: ["Matematika", "TikZ"]
