@@ -1,0 +1,42 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bgcol}{HTML}{171D2B}
+\definecolor{accent}{HTML}{F7B538}
+\definecolor{setcol}{HTML}{7DA2C9}
+\pagecolor{bgcol}
+\begin{document}
+% Gambar 1: tabung polos — dua elips dan dua garis tegak
+% Elips atas utuh, elips bawah: belakang putus-putus, depan penuh
+\begin{tikzpicture}[scale=1.0, color=white, font=\large]
+  % Elips atas: digambar utuh
+  \draw[thick] (0, 2) ellipse (2 and 0.6);
+  % Dua garis tegak selimut
+  \draw[thick] (-2, 2) -- (-2, -2);
+  \draw[thick] (2, 2) -- (2, -2);
+  % Elips bawah, bagian belakang (tersembunyi): garis putus-putus
+  \draw[thick, dashed] (2, -2) arc (0:180:2 and 0.6);
+  % Elips bawah, bagian depan (terlihat): garis penuh
+  \draw[thick] (-2, -2) arc (180:360:2 and 0.6);
+\end{tikzpicture}
+
+% Gambar 2: tabung berlabel — jari-jari r dan tinggi t
+% r = 7 cm, t = 10 cm pada soal penutup artikel
+% V = pi r^2 t = 22/7 x 49 x 10 = 1540 cm^3
+\begin{tikzpicture}[scale=1.0, color=white, font=\large]
+  % Elips atas utuh
+  \draw[thick] (0, 2) ellipse (2 and 0.6);
+  % Dua garis tegak selimut
+  \draw[thick] (-2, 2) -- (-2, -2);
+  \draw[thick] (2, 2) -- (2, -2);
+  % Elips bawah: belakang putus-putus, depan penuh
+  \draw[thick, dashed] (2, -2) arc (0:180:2 and 0.6);
+  \draw[thick] (-2, -2) arc (180:360:2 and 0.6);
+  % Jari-jari: dari pusat elips atas ke ujung kanan
+  \fill[accent] (0, 2) circle (0.06);
+  \draw[thick, accent] (0, 2) -- (2, 2);
+  \node[accent, above] at (1, 2) {$r$};
+  % Tinggi: garis putus-putus di tengah tabung
+  \draw[thick, dashed, accent] (0, 2) -- (0, -2);
+  \node[accent, right] at (0.15, 0) {$t$};
+\end{tikzpicture}
+\end{document}
