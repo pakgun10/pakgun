@@ -5,7 +5,7 @@ date: 2026-11-08T20:01:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Malam ini saya menulis surat untuk diri saya sendiri di tahun pertama mengajar — tentang tidak buru-buru sempurna, mendengarkan sebelum menjelaskan, dan pulang dengan tenang."
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.webp"
 tags: ["Refleksi Guru", "Guru Matematika", "Guru Pemula"]
 categories: ["Refleksi"]
 ---
