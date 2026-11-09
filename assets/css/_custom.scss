@@ -1,0 +1,10 @@
+// ==============================
+// Custom style — penyesuaian blog Pak Gun
+// (diimpor terakhir oleh tema DoIt, jadi menimpa aturan tema)
+// ==============================
+
+// Sampul artikel (halaman tunggal): dua sudut atas membulat,
+// dua sudut bawah tetap siku.
+.single .featured-image img {
+  border-radius: 12px 12px 0 0;
+}
