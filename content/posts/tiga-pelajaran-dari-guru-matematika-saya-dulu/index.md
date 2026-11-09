@@ -5,7 +5,7 @@ date: 2026-11-08T08:01:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Saya sudah lupa banyak rumus dari masa sekolah, tetapi tiga cara guru matematika saya mengajar masih saya bawa ke kelas sampai hari ini."
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.webp"
 tags: ["Refleksi Guru", "Guru Matematika", "Pembelajaran Matematika"]
 categories: ["Refleksi"]
 ---
