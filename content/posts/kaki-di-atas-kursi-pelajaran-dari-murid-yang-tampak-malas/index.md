@@ -5,7 +5,7 @@ date: 2026-11-09T12:05:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Dua murid duduk dengan kaki di atas kursi, beberapa murid lain tampak malas belajar. Siang itu saya hampir menegur dengan marah — lalu saya memilih berhenti sejenak, dan justru di sanalah pelajarannya."
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.webp"
 tags: ["Refleksi Guru", "Guru Matematika", "Kelas"]
 categories: ["Refleksi"]
 ---
