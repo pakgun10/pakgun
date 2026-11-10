@@ -33,6 +33,8 @@ Saya tulis di papan:
 Untung 1 gorengan = Rp1.000 − Rp700 = Rp300
 Untung 100 gorengan = 300 × 100 = … ?
 
+## Kelas yang Mendadak Sunyi
+
 Lalu kelas itu mendadak sunyi.
 
 Sunyi yang aneh, karena beberapa menit sebelumnya kelas ini masih ramai seusai upacara. Sekarang tidak ada lagi yang bersuara lantang. Ada yang menunduk, ada yang melirik teman di sebelahnya, ada yang pura-pura sibuk membuka buku, seolah-olah jawaban itu bersembunyi di antara halaman-halamannya.
@@ -46,6 +48,8 @@ Lalu, dari baris belakang, terdengar suara yang sangat lirih, hampir tenggelam o
 Suara itu ragu-ragu, seperti takut didengar. Tapi ia berani keluar juga.
 
 Jawaban itu masih keliru. 300 × 100 bukan 3.000. Tapi saya tidak langsung membenarkannya dengan keras. Saya tidak mau suara lirih yang baru saja berani muncul itu langsung padam.
+
+## Nolnya Jangan Sampai Tertinggal
 
 "Dekat," kata saya pelan. "Coba kita hitung sama-sama, pelan-pelan. Nolnya jangan sampai ada yang tertinggal."
 
@@ -79,6 +83,8 @@ Ada juga anak yang mengecek dari ujung yang lain. "Modal seratus gorengan, tujuh
 
 Saya tidak mengejar siapa yang paling cepat menjawab. Saya mengejar siapa yang akhirnya berani mencoba, lalu yakin dengan hitungannya sendiri. Karena keyakinan itu tidak datang dari jawaban yang saya berikan, melainkan dari langkah yang mereka temukan sendiri, satu demi satu, dan dari cara mengecek yang membuat mereka berkata, "Oh, ternyata begitu."
 
+## Pahlawan yang Berani Meski Takut
+
 Di situlah saya teringat kembali pada upacara pagi tadi.
 
 Kita sering membayangkan pahlawan sebagai orang yang berteriak lantang, maju paling depan, dan tidak pernah ragu. Padahal para pahlawan tahun 1945 pun pasti pernah ragu. Mereka maju bukan karena tidak takut, melainkan karena mereka memilih untuk tetap maju meski takut. Senjatanya terbatas, latihannya singkat, musuhnya jauh lebih kuat. Tapi mereka tidak berhenti di diam.
@@ -90,6 +96,8 @@ Melawan rasa itu juga butuh keberanian. Keberanian untuk membuka mulut dan berka
 Dan guru pun punya perjuangannya sendiri. Perjuangan untuk tidak terburu-buru. Untuk tidak menyamakan cepat dengan pintar. Untuk sabar mengulang dari awal, mengingatkan tanpa merendahkan, dan menemani sampai anak itu berkata, "Oh, ternyata begitu," dengan wajah yang lega.
 
 Kadang saya tergoda untuk mengejar materi secepat-cepatnya. Kurikulum menanti, ujian menanti, target menanti. Tapi Hari Pahlawan mengingatkan saya: kemerdekaan tidak diraih dalam satu hari. Ia diperjuangkan pelan-pelan, dengan pengorbanan yang tidak selalu terlihat. Begitu juga belajar. Tidak ada anak yang tiba-tiba pandai hanya karena sekali dijelaskan. Ada proses yang harus dihormati.
+
+## Menjaga Agar Tak Ada Anak yang Menyerah
 
 Jadi, apa makna Hari Pahlawan bagi saya sebagai guru?
 
