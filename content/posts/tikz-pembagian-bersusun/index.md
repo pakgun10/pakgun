@@ -1,93 +1,97 @@
 ---
-title: "Membagi Bersusun dengan TikZ: Langkah Menyimpan yang Jadi Kelihatan"
-date: 2026-11-06T20:00:00+07:00
+title: "Menggambar Pembagian Bersusun dengan TikZ: Supaya Langkah Turunkan Tidak Lagi Hilang di Tengah Jalan"
+date: 2026-11-11T14:00:00+07:00
 draft: false
 authors: ["Gunanto"]
-description: "Cara saya menggambar proses pembagian bersusun 824 : 4 dengan TikZ, supaya setiap langkah menyimpan dan menurunkan angka terlihat jelas bagi siswa SMP."
+description: "Pembagian bersusun sering gagal bukan karena siswa tidak bisa membagi, tapi karena langkahnya tidak terlihat. Catatan cara saya menggambar porogapit dengan TikZ."
 featuredImage: "featured-image.png"
-tags: ["TikZ", "LaTeX", "matematika SMP"]
+tags: ["TikZ", "LaTeX", "pembagian bersusun", "media pembelajaran"]
 categories: ["Matematika"]
 math:
   enable: true
 ---
 
-Minggu lalu saya mengajar pembagian bersusun di kelas VII. Materi yang terlihat sederhana, tapi begitu latihan dimulai, tangan-tangan di kelas langsung terbagi dua: ada yang lancar, ada yang diam sambil menatap buku. Bagas, salah satu anak yang biasanya aktif, akhirnya mengangkat tangan juga. "Pak, angkanya kok bisa hilang sendiri?" Ia benar-benar bingung karena di papan tulis, angka 2 pada hasil 206 tiba-tiba muncul begitu saja, tanpa kelihatan dari mana asalnya.
+Bapak/Ibu mungkin pernah mengalami ini di kelas: siswa bisa membagi dengan lancar secara lisan, tapi begitu diminta menyelesaikan $848 : 4$ secara bersusun, hasilnya berantakan. Angka melayang entah di kolom mana, langkah "turunkan" terlewat, dan tiba-tiba jawabannya 22 alih-alih 212. Dulu saya mengira mereka tidak paham pembagiannya. Ternyata setelah saya duduk di samping mereka dan mengamati cara kerjanya satu per satu, masalahnya bukan di pembagian. Masalahnya di **peta langkah** yang tidak terlihat.
 
-Keluhan Bagas itu bukan hal baru. Setiap tahun saya menemui pola yang sama ketika mengajarkan pembagian bersusun, dan akar masalahnya hampir selalu sama: langkah "menyimpan" dalam proses pembagian tidak terlihat.
+<!--more-->
 
-## Masalahnya bukan angkanya, tapi yang tidak terlihat
+## Diagnosis dari bangku samping
 
-Dalam pembagian bersusun, siswa diminta melakukan tiga hal yang saling bertumpuk: membagi, mengurangkan, dan menurunkan angka berikutnya. Yang tertulis di kertas hanya hasil akhir dari setiap operasi. Angka yang sudah dikurangkan hilang dari papan, angka yang "diturunkan" berpindah posisi seketika, dan sisa pembagian lupa dicatat. Semua proses itu terjadi di kepala, atau di garis-garis samar yang cepat terhapus.
+Kelas 4 di SD (atau kelas 7 yang sedang merapikan kembali hitungan dasarnya di SMP) punya pola kesalahan yang menarik dalam pembagian bersusun. Kalau saya suruh mereka membagi secara mental, $848 : 4 = 212$ hampir selalu keluar dengan benar. Mereka tahu bahwa 8 dibagi 4 adalah 2, mereka tahu urutan digitnya. Tapi begitu kerangka porogapit muncul di lembar kerja, tiga hal sering hilang di tengah jalan:
 
-Rara, murid saya yang teliti, pernah menulis hasil 26 untuk 824 : 4. Ia lupa menulis nol di tengah, karena saat menghitung 2 : 4 ia merasa "tidak ada hasilnya" lalu langsung melompat ke angka berikutnya. Nol itu bukan sekadar formalitas; tanpa nol, posisi angka 6 bergeser dan nilainya berubah total. Dari 206 menjadi 26. Justru nol di tengah itulah bagian yang paling sering hilang, dan hilangnya karena langkah di baliknya tidak pernah digambar.
+1. Angka hasil bagi ditulis di kolom yang tidak sejajar dengan digit yang sedang dibagi.
+2. Langkah "turunkan digit berikutnya" terlewat, terutama kalau sisa pembagian sebelumnya adalah 0.
+3. Pengurangan yang seharusnya tertulis di bawah tidak ditulis sama sekali, sehingga siswa kehilangan jejak dari mana angka berikutnya berasal.
 
-Sebagai guru, saya jadi berpikir: kalau masalahnya adalah langkah yang tidak terlihat, kenapa tidak saya buat gambar yang benar-benar menampilkan setiap langkah itu, satu per satu, dengan warna yang berbeda? Di situlah TikZ masuk.
+Poin ketiga itulah yang paling sering saya temukan. Siswa menganggap porogapit sebagai tempat menulis jawaban, bukan sebagai **catatan proses**. Padahal justru kekuatan porogapit ada di jejaknya: setiap angka yang tertulis punya cerita tentang dirinya, dari mana ia datang dan kenapa ia ada di kolom itu.
 
-![](pembagian-bersusun-824.png)
+Ketika saya membuat lembar kerja atau slide, masalah ini justru berlipat di tangan saya sendiri. Gambar pembagian bersusun yang saya buat pakai aplikasi pengolah kata sering tidak jujur pada posisi kolomnya: digit yang seharusnya sejajar malah sedikit bergeser, garis kurangannya miring, dan siswa yang melihatnya bingung membaca peta langkah yang malah menyesatkan itu.
 
-Gambar di atas adalah hasil akhirnya: porogapit 824 : 4 di panel kiri, dengan setiap angka yang ditulis, dikurangkan, dan diturunkan digambar secara eksplisit di posisinya. Panel kanan merangkum tiga langkahnya dalam kalimat pendek. Semua digambar dengan TikZ di LaTeX, latar gelap supaya angka berwarna lebih menonjol saat ditampilkan lewat proyektor.
+## Porogapit di TikZ: setiap angka punya koordinat
 
-## Menggambar pembagian bersusun dengan TikZ
+Sejak saya mulai menggambar bahan ajar dengan TikZ, masalah posisi ini hilang dengan sendirinya. Di TikZ, setiap angka yang saya tulis punya koordinat yang saya tetapkan sendiri. Kalau saya ingin digit 4 di kolom kedua sejajar dengan digit 4 di bilangan yang dibagi, saya tinggal memberi mereka koordinat $x$ yang sama. Tidak ada fitur "auto-fit" yang memindahkan angka ke tempat yang saya tidak mau.
 
-Ide dasarnya sederhana: porogapit adalah kumpulan koordinat, dan setiap angka adalah sebuah node yang saya letakkan di koordinat tertentu. Karena TikZ menggambar berdasarkan posisi, saya tidak bisa "mencatat di pinggir" seperti saat menulis di papan — setiap angka harus punya tempat yang jelas. Justru keterbatasan ini yang memaksa proses berpikir siswa jadi eksplisit.
-
-Inti dari gambar tersebut adalah potongan kode berikut:
+Berikut kerangka dasarnya untuk $84 : 4 = 21$. Saya pakai koordinat sentimeter biasa, dan setiap digit mendapat titik koordinatnya sendiri:
 
 ```latex
-\begin{tikzpicture}
-  \fill[bg] (-0.8,-1.0) rectangle (18.8,9.0);
-
-  % tanda pembagian
-  \draw[aksen, line width=1.6pt] (0,5.2) -- (0,2.0) -- (2.6,2.0);
-  \node[aksen, font=\huge] at (0.45,5.2) {4};
-
-  % hasil di atas (aksen)
-  \node[aksen, font=\huge] at (1.35,5.2) {2};
-  \node[aksen, font=\huge] at (2.35,5.2) {0};
-  \node[aksen, font=\huge] at (3.35,5.2) {6};
-
-  % 824
-  \node[teks, font=\huge] at (1.35,4.0) {8};
-  \node[teks, font=\huge] at (2.35,4.0) {2};
-  \node[teks, font=\huge] at (3.35,4.0) {4};
-
-  % langkah 1: 8 - 8
-  \node[biru, font=\huge] at (1.35,2.9) {8};
-  \draw[biru, line width=1.2pt] (0.9,3.35) -- (1.8,3.35);
-  \node[teks, font=\huge] at (1.35,2.2) {0};
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sffamily]
+  % hasil bagi
+  \node[aksen,font=\Large\bfseries] at (2.55,1.20) {2};
+  \node[aksen,font=\Large\bfseries] at (3.55,1.20) {1};
+  % kurung siku
+  \draw[white,line width=1.4pt] (1.05,0.65) -- (4.35,0.65);
+  \draw[white,line width=1.4pt] (1.05,0.65) -- (1.05,-3.55);
+  % pembagi
+  \node[font=\Large] at (0.35,0.15) {4};
+  % bilangan yang dibagi
+  \node[font=\Large] at (2.55,0.15) {8};
+  \node[font=\Large] at (3.55,0.15) {4};
+  % langkah 1
+  \node[font=\Large] at (2.55,-0.95) {8};
+  \draw[white!55,line width=0.8pt] (2.28,-1.35) -- (2.82,-1.35);
+  % langkah 2 : turunkan 4
+  \node[font=\Large] at (3.55,-2.00) {4};
+  \node[font=\Large] at (3.55,-2.95) {4};
+  \draw[white!55,line width=0.8pt] (3.28,-3.35) -- (3.82,-3.35);
+  \node[white!65,font=\Large] at (3.55,-4.05) {0};
 \end{tikzpicture}
 ```
 
-Mari saya bedah koordinatnya, karena di sinilah "rahasia" gambar ini berada:
+Perhatikan satu hal yang justru jadi alasan saya suka TikZ untuk materi ini: koordinat $x$ tiap digit dikunci, jadi `2.55` untuk kolom pertama dan `3.55` untuk kolom kedua. Semua angka di kolom pertama (digit 8 di 848, hasil bagi 2, hasil pengurangan 8) berbagi koordinat $x$ yang sama. Demikian pula kolom kedua. Karena itu hasilnya **jujur pada posisi kolom** — tidak ada digit yang bergeser sedikit ke samping, tidak ada garis pengurangan yang miring.
 
-- **Kolom vertikal** adalah posisi nilai tempat. Angka 8, 2, dan 4 dari 824 diletakkan di $x = 1.35$, $2.35$, dan $3.35$ — jarak satu satuan antar kolom. Hasil 2, 0, 6 menempati kolom yang sama persis, hanya di baris $y = 5.2$ di atasnya. Dengan cara ini, siswa bisa melihat bahwa angka 2 pada hasil memang berada "di atas angka 8", bukan di posisi acak.
-- **Angka pembagi** 4 digambar di kiri atas, di ujung garis pembagian yang saya tarik dari $(0,5.2)$ turun ke $(0,2.0)$ lalu mendatar ke $(2.6,2.0)$. Garis ini digambar dengan warna aksen kuning supaya matanya langsung tertuju ke sana dulu.
-- **Angka yang dihitung** (yang "disimpan") diberi warna biru muda dan diletakkan di bawah garis pembatas. Pada langkah pertama, angka 8 biru di $y = 2.9$ berarti "8 inilah yang dikurangkan", dan hasilnya 0 di $y = 2.2$ langsung berada di bawahnya. Garis horizontal biru di $y = 3.35$ adalah tanda bahwa di baris itu terjadi operasi pengurangan.
-- **Angka yang diturunkan** cukup ditempatkan di kolom berikutnya pada baris yang sesuai. Pada langkah kedua, angka 2 biru di $(2.35, 2.0)$ memperlihatkan bahwa 2 itu memang "turun" ke bawah, bukan muncul dari nontonan.
+Hasil render lengkapnya, dengan keterangan langkah di sisi kanan, terlihat seperti ini:
 
-Warna juga bukan hiasan. Putih untuk angka asli 824 dan hasil antara, kuning untuk pembagi dan hasil akhir, biru untuk angka yang sedang dioperasikan, hijau untuk catatan penutup. Ketika saya menampilkan gambar ini di kelas dan bertanya, "angka mana yang barusan dikurangkan?" — semua tangan menunjuk ke yang biru. Tidak ada lagi mitos angka yang hilang sendiri.
+![Porogapit 84 : 4 = 21 dengan keterangan empat langkah di sisi kanan. Setiap angka di porogapit punya koordinat kolom yang terkunci.](support-diagram.png)
 
-![](tex/panel-1.png)
+## Empat langkah yang saya ajarkan siswa
 
-Panel per langkah seperti di atas saya buat juga, supaya saya bisa menampilkan satu langkah saja pada satu slide, tanpa membebani siswa dengan gambar utuh yang belum selesai.
+Diagram di atas sengaja saya beri keterangan langkah, karena di kelas inilah yang saya minta siswa ucapkan dalam hati (atau keras-keras, kalau suasana kelas sedang ramai) setiap kali menyelesaikan satu siklus porogapit:
 
-## Cara saya memakainya di kelas
+1. **Bagi**: $8 : 4 = 2$, tulis 2 di atas garis, sejajar dengan digit yang sedang dibagi.
+2. **Kali**: $2 \times 4 = 8$, tulis di bawah digit 8, kurangkan, sisanya 0.
+3. **Turunkan**: turunkan digit 4 berikutnya, tetap di kolomnya.
+4. **Ulangi**: $4 : 4 = 1$, tulis di atas, kalikan, kurangkan, sisanya 0.
 
-Sekarang urutan mengajarnya berubah. Dulu saya menulis di papan sambil berbicara, dan siswa menyalin hasil akhir tiap langkah. Sekarang saya tampilkan gambar langkah pertama saja: 8 dibagi 4, hasilnya 2, tulis di atas angka 8. Siswa menebak dulu apa yang akan muncul berikutnya, baru saya lanjut ke langkah kedua. Tepat saat 8 biru dan garis pengurangnya muncul, biasanya ada suara "ohhh" dari belakang kelas. Suara kecil itu yang saya kejar setiap mengajar.
+Sebenarnya hanya ada dua kata kunci yang harus hidup di kepala siswa: **bagi-kali-kurang-turunkan**, lalu ulangi sampai digit habis. Menariknya, di kelas saya justru langkah "turunkan" yang paling sering dilupakan, bukan "bagi". Mungkin karena bagi adalah operasi yang paling menarik perhatian, sementara menurunkan satu digit terasa seperti pekerjaan rumah tangga yang tidak penting.
 
-Danu, yang sebelumnya selalu tertukar antara "turunkan" dan "kurangkan", akhirnya bisa menjelaskan ulang langkah ketiga dengan kalimatnya sendiri: "Turunkan 4 jadi 24, 24 dibagi 4 sama dengan 6, tulisnya paling kanan, sisanya nol." Kalau seorang siswa bisa mengucapkan ulang proses itu lengkap dengan posisinya, saya yakin gambar ini bekerja.
+Untuk mengatasi itu, saya mulai membiasakan satu kebiasaan kecil: setiap kali ada langkah turunkan, siswa **menulis digit turunannya secara eksplisit** di porogapit, bukan "langsung lompat" ke pembagian berikutnya. Di TikZ, saya menggambarkan digit turunan itu sedikit terpisah secara vertikal dari hasil pengurangan sebelumnya (lihat koordinat $y$ pada digit 4 di langkah 2 di atas), supaya siswa yang membaca lembar kerja bisa melihat bahwa ada **dua peristiwa berbeda**: pengurangan, lalu penurunan.
 
-Satu hal yang saya tekankan pada siswa: nol di hasil bukan berarti "tidak ada apa-apa". $2 : 4$ tetap menghasilkan 0 yang wajib ditulis, karena yang sedang kita bagi adalah digit, bukan nilainya. Setelah gambar ini dipakai, kesalahan lupa-nol di kelas saya nyaris tidak muncul lagi di ulangan berikutnya.
+## Kenapa koordinat eksplisit itu penting untuk siswa
 
-## Kompilasi dan penyesuaian
+Ada satu hal yang saya sadari setelah berganti ke TikZ: dengan menggambar sendiri setiap angka pada koordinat eksplisit, saya jadi dipaksa berpikir seperti siswa yang belum paham. Saya tidak bisa asal menaruh angka dan berharap aplikasi menata ulang posisinya dengan baik. Setiap digit harus saya putuskan kolomnya, dan karena itu pula saya jadi sadar kolom mana yang sering salah dibaca siswa.
 
-Untuk menggambar versi sendiri, Bapak/Ibu cukup mengganti angka-angka di dalam node dan menyesuaikan koordinatnya. Beberapa catatan praktis dari pengalaman saya:
+Sebagai contoh, angka 0 di bawah hasil pengurangan terakhir. Di banyak lembar kerja buatan aplikasi, angka 0 itu dihilangkan karena "tidak penting". Tapi justru di situ letak pembelajarannya: 0 sisa pembagian terakhir adalah **bukti** bahwa pembagian selesai dan tidak ada sisa. Kalau 0 itu hilang, siswa yang sedang ragu tidak punya jangkar untuk memastikan dirinya sudah selesai atau belum.
 
-- Gunakan `standalone` sebagai document class supaya hasil PDF-nya pas ukuran gambar, mudah dipangkas jadi PNG.
-- Definisikan warna sekali di preamble (`\definecolor{aksen}{HTML}{F7B538}` misalnya) supaya konsisten di semua gambar materi.
-- Jarak antar kolom satu satuan memudahkan penambahan digit: kalau mau mengganti 824 dengan 1548, tinggal geser kolom dan tambah satu node.
-- Untuk contoh dengan sisa, catatan sisa cukup dijadikan node kecil di bawah, seperti tulisan "sisa 0" pada gambar saya.
+Saya juga mulai memanfaatkan diagram TikZ ini di lembar kerja yang saya sebar sebelum materi dijelaskan. Siswa diminta melengkapi porogapit yang sudah sebagian terisi, tapi digit yang harus mereka isi sengaja saya buat kosong pada langkah "turunkan". Pola kesalahan yang muncul dari lembar kerja itu sangat informatif: siswa yang melompati langkah turunkan akan meninggalkan digit kosong di posisi yang tepat sama, dan saya bisa langsung melihat polanya di atas kertas.
 
-Pembagian bersusun memang materi lama, tapi cara membuatnya terlihat bisa baru. TikZ memaksa kita, sang guru, untuk menuliskan proses berpikir dalam bentuk koordinat — dan koordinat tidak membiarkan ada langkah yang menghilang. Bagas tidak lagi bertanya dari mana angkanya datang; sekarang ia yang menunjuk ke layar dan menjelaskan ke teman sebangkunya.
+![Porogapit yang sengaja dikosongkan di langkah turunkan, untuk melihat siapa yang masih melompati langkah.](support-diagram-2.png)
 
-> 📎 **Berkas TikZ lengkap:** [pembagian-bersusun.tex](tex/pembagian-bersusun.tex) — siap kompilasi (butuh paket `tikz`).
+Siswa yang sudah paham mengisi digit turunan di kolom yang tepat. Siswa yang masih melompatinya akan langsung menulis hasil bagi tanpa digit turunan, dan dari sana saya bisa mengajaknya bicara: "Coba ceritakan, dari mana angka 4 di langkah kedua kamu dapat?" Pertanyaan itu hampir selalu membuat mereka menyadari sendiri langkah yang terlewat.
+
+## Penutup: porogapit sebagai catatan proses, bukan tempat jawaban
+
+Kalau Bapak/Ibu ingin mencoba, kerangka di atas cukup disalin dan diganti angkanya. Yang penting dipertahankan bukan angkanya, tapi **konsistensi koordinat kolom**: semua digit pada kolom yang sama berbagi koordinat $x$ yang sama. Dari konsistensi itulah gambar jadi jujur, dan dari gambar yang jujur itulah siswa belajar membaca porogapit sebagai catatan proses, bukan sekadar tempat menulis jawaban.
+
+Pada akhirnya, yang saya ingin capai dari semua latihan porogapit ini sederhana: siswa tidak lagi melihat pembagian bersusun sebagai ritual misterius yang akhirnya menghasilkan angka, tapi sebagai **cerita langkah demi langkah** yang bisa mereka baca ulang, periksa ulang, dan jelaskan ulang kepada temannya. Kalau itu tercapai, saya rasa gambar porogapit yang saya buat di TikZ sudah tidak sia-sia.
+
+> 📎 **Berkas TikZ lengkap:** [tikz-pembagian-bersusun.tex](tex/tikz-pembagian-bersusun.tex) — siap kompilasi (butuh paket `tikz`).

@@ -1,0 +1,50 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{lmodern}
+\definecolor{pagebg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\pagecolor{pagebg}
+\color{white}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sffamily]
+  % ---------- porogapit 84 : 4 = 21 ----------
+  % hasil bagi
+  \node[aksen,font=\sffamily\LARGE\bfseries] at (2.55,1.20) {2};
+  \node[aksen,font=\sffamily\LARGE\bfseries] at (3.55,1.20) {1};
+  % kurung siku
+  \draw[white,line width=1.4pt] (1.05,0.65) -- (4.35,0.65);
+  \draw[white,line width=1.4pt] (1.05,0.65) -- (1.05,-3.55);
+  % pembagi
+  \node[font=\sffamily\LARGE] at (0.35,0.15) {4};
+  % bilangan yang dibagi
+  \node[font=\sffamily\LARGE] at (2.55,0.15) {8};
+  \node[font=\sffamily\LARGE] at (3.55,0.15) {4};
+  % langkah 1
+  \node[font=\sffamily\LARGE] at (2.55,-0.95) {8};
+  \draw[white!55,line width=0.8pt] (2.28,-1.35) -- (2.82,-1.35);
+  % langkah 2 : turunkan 4
+  \node[font=\sffamily\LARGE] at (3.55,-2.00) {4};
+  \node[font=\sffamily\LARGE] at (3.55,-2.95) {4};
+  \draw[white!55,line width=0.8pt] (3.28,-3.35) -- (3.82,-3.35);
+  \node[white!65,font=\sffamily\LARGE] at (3.55,-4.05) {0};
+
+  % ---------- keterangan langkah ----------
+  \node[aksen,anchor=west,font=\sffamily\small\bfseries] at (5.35,0.95) {1};
+  \node[white,anchor=west,align=left,font=\sffamily\small,text width=5.3cm] at (5.62,0.95)
+    {$8 : 4 = 2$ \ \ $\rightarrow$ \ tulis \textbf{2} di atas garis};
+
+  \node[aksen,anchor=west,font=\sffamily\small\bfseries] at (5.35,-0.75) {2};
+  \node[white,anchor=west,align=left,font=\sffamily\small,text width=5.3cm] at (5.62,-0.75)
+    {$2 \times 4 = 8$ \ \ $\rightarrow$ \ tulis 8 di bawah 8, kurangkan, sisanya 0};
+
+  \node[aksen,anchor=west,font=\sffamily\small\bfseries] at (5.35,-2.10) {3};
+  \node[white,anchor=west,align=left,font=\sffamily\small,text width=5.3cm] at (5.62,-2.10)
+    {turunkan 4 \ $\rightarrow$ \ $4 : 4 = 1$, \ tulis \textbf{1} di atas};
+
+  \node[aksen,anchor=west,font=\sffamily\small\bfseries] at (5.35,-3.15) {4};
+  \node[white,anchor=west,align=left,font=\sffamily\small,text width=5.3cm] at (5.62,-3.15)
+    {$1 \times 4 = 4$ \ \ $\rightarrow$ \ kurangkan, sisanya 0.\\[2pt]
+     Jadi $84 : 4 = 21$.};
+\end{tikzpicture}
+\end{document}
