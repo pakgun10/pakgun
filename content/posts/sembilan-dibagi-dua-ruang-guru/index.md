@@ -1,6 +1,6 @@
 ---
 title: "Ketika Cerita Tentang 9 : 2 Menyebar di Ruang Guru"
-date: 2026-11-08T15:30:00+07:00
+date: 2026-11-11T12:10:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Sebuah cerita dari ruang guru tentang murid kelas 9 yang tidak bisa menjawab sembilan dibagi dua — dan bagaimana dua puluh satu guru yang mengiyakan sepakat menjadikannya tantangan bersama."
@@ -11,7 +11,7 @@ math:
   enable: true
 ---
 
-Seperti biasanya, jam istirahat di ruang guru adalah waktu berbagai cerita mengalir. Ada yang mengeluh soal proyektor rusak, ada yang bercanda soal hal-hal kecil. Tapi sore itu, saya duduk terdiam ketika Bu Nur, guru IPS kami, bercerita ke seluruh ruang guru, dengan nada setengah kaget setengah lugu:
+Seperti biasanya, jam istirahat di ruang guru adalah waktu berbagai cerita mengalir. Ada yang mengeluh soal proyektor rusak, ada yang bercanda soal hal-hal kecil. Tapi saat istirahat kedua itu, sekitar pukul 12.10, saya duduk terdiam ketika Bu Nur, guru IPS kami, bercerita ke seluruh ruang guru, dengan nada setengah kaget setengah lugu:
 
 "Murid kelas 9 tadi saya tanya sembilan dibagi dua, tidak bisa jawab. Kelas sembilan, Bapak!"
 
@@ -51,7 +51,7 @@ Tapi ketika saya tanya lagi lewat soal cerita sederhana — sembilan buku dibagi
 
 ## Dari Anggukan Menjadi Tantangan Bersama
 
-Yang membuat sore itu berbeda adalah kalimat yang muncul setelah anggukan-anggukan itu. Bukan "memang murid sekarang begitu", melainkan "ini harus kita atasi bersama". Guru-guru di ruangan itu tidak mau cerita ini berhenti sebagai bahan obrolan istirahat. Mereka ingin menjadikannya tantangan bersama.
+Yang membuat siang itu berbeda adalah kalimat yang muncul setelah anggukan-anggukan itu. Bukan "memang murid sekarang begitu", melainkan "ini harus kita atasi bersama". Guru-guru di ruangan itu tidak mau cerita ini berhenti sebagai bahan obrolan istirahat. Mereka ingin menjadikannya tantangan bersama.
 
 Tantangan yang baik harus punya bentuk kecil yang bisa dimulai besok pagi. Pertama, setiap guru — apa pun mata pelajarannya — berani berhenti sejenak ketika menemukan hitungan dasar di tengah pelajarannya, lalu menanyakannya dengan tenang, tanpa nada menguji. Kedua, kami saling berbagi cerita kecil tentang apa yang berhasil, bukan hanya tentang apa yang gagal. Ruang guru perlu mendengar kabar baik itu juga. Ketiga, ini bukan urusan guru matematika sendirian. Hitungan dasar muncul di IPS, di IPA, di mana-mana — maka memperbaikinya pun harus di mana-mana.
 
@@ -63,7 +63,7 @@ Kedua, cerita di ruang guru itu tajam. Ia bisa membangun kepedulian kolektif, ta
 
 Ketiga — dan ini yang paling personal — saya jadi bertanya-tanya: berapa banyak murid yang saya ceritakan ke rekan lain tanpa saya coba pahami dulu? Mungkin lebih banyak dari yang saya mau akui.
 
-Ruang guru tetap jadi tempat cerita yang menyenangkan. Tapi sejak sore itu, saya mencoba melatih satu kebiasaan kecil, sambil menjaga kesepakatan kami di ruang guru: setiap kali mendengar "murid itu tidak bisa X", saya mencoba menyisipkan pertanyaan pelan, "sudah dicoba tanyakan dengan cara yang berbeda?"
+Ruang guru tetap jadi tempat cerita yang menyenangkan. Tapi sejak siang itu, saya mencoba melatih satu kebiasaan kecil, sambil menjaga kesepakatan kami di ruang guru: setiap kali mendengar "murid itu tidak bisa X", saya mencoba menyisipkan pertanyaan pelan, "sudah dicoba tanyakan dengan cara yang berbeda?"
 
 Kadang jawabannya ya. Sering kali belum. Tapi minimal, cerita yang beredar mulai punya dua sisi — dan murid kita pantas mendapatkan dua sisi itu.
 
