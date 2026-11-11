@@ -33,7 +33,7 @@ Dan itu kemampuan yang berbeda. Itu numerasi: matematika yang harus menyelamatka
 
 Bukan ceritanya. Cerita seperti ini penting — guru lain harus tahu apa yang terjadi di kelasnya masing-masing. Yang membuat saya duduk agak jauh adalah *cara ceritanya berjalan*: satu murid, satu kegagalan, lalu cerita itu menjadi milik seluruh ruang guru dalam lima menit.
 
-Saya paham Bu Nur tidak bermaksud jahat. Mungkin ia butuh validasi, mungkin sekadar pelampiasan kaget. Tapi saya cuma membayangkan kalau murid itu tahu — bahwa kegagalan kecilnya jadi bahan pembicaraan puluhan guru. Jembatan kepercayaan itu bisa runtuh lebih cepat daripada dibangun.
+Saya yakin Bu Nur tidak berniat menyudutkan siapa pun. Mungkin ia hanya butuh didengar — rasa kagetnya butuh tempat untuk diceritakan, dan ruang guru adalah tempat pertama yang ia temukan. Tapi saya cuma membayangkan kalau murid itu tahu — bahwa kegagalan kecilnya jadi bahan pembicaraan puluhan guru. Jembatan kepercayaan itu bisa runtuh lebih cepat daripada dibangun.
 
 Lalu ada lapisan yang lebih mengganjal lagi: kelompok murid yang duduk di kelas tapi kakinya naik ke atas kursi, yang tampak mengantuk saat pelajaran berjalan, yang entah berapa kali saya tegur dengan hasil yang begitu-begitu saja. Kalau murid seperti itu dikasih soal hitungan, jawabannya tentu kosong. Tapi apakah cerita yang beredar di ruang guru menjelaskan *kenapa* dia kosong? Jarang. Yang beredar biasanya hanya bagian "tidak bisa"-nya saja.
 
