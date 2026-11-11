@@ -1,0 +1,41 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{arrows.meta}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{acc}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,
+  lab/.style={text=white,font=\small},
+  acc/.style={text=acc,font=\small\bfseries}]
+% --- batang pecahan 3/4 ---
+\begin{scope}[shift={(0,0)}]
+  \foreach \i in {0,1,2,3}{
+    \ifnum\i<3 \fill[acc!85] (\i*1.2,0) rectangle ++(1.2,0.8); \fi
+    \draw[white,line width=0.8pt] (\i*1.2,0) rectangle ++(1.2,0.8);
+  }
+  \node[lab] at (2.4,-0.5) {$\dfrac{3}{4}$};
+\end{scope}
+% --- panah ---
+\node[acc] at (5.5,0.4) {$=$};
+% --- garis bilangan 0 - 1, titik 0,75 ---
+\begin{scope}[shift={(6.6,0.4)}]
+  \draw[white,line width=0.8pt,->] (0,0) -- (6.4,0);
+  \foreach \i in {0,...,8}{
+    \draw[white,line width=0.8pt] (\i*0.8,0.12) -- (\i*0.8,-0.12);}
+  \node[lab,below=7pt] at (0,-0.1) {$0$};
+  \node[lab,below=7pt] at (4,-0.1) {$0{,}75$};
+  \node[lab,below=7pt] at (6.4,-0.1) {$1$};
+  \fill[acc] (4,0) circle (2.4pt);
+\end{scope}
+% --- panah ---
+\node[acc] at (14.2,0.4) {$=$};
+% --- pita persen 75 dari 100 kotak ---
+\begin{scope}[shift={(15.2,0)}]
+  \foreach \i in {0,...,9}{
+    \ifnum\i<7 \fill[acc!85] (\i*0.6,0) rectangle ++(0.6,0.8); \fi
+    \draw[white,line width=0.6pt] (\i*0.6,0) rectangle ++(0.6,0.8);}
+  \node[lab] at (3,-0.5) {$75\%$};
+\end{scope}
+\end{tikzpicture}
+\end{document}
