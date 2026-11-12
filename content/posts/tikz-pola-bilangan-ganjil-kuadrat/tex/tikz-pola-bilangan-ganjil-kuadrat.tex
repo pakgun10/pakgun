@@ -1,0 +1,22 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bgdark}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bgdark}
+\begin{tikzpicture}[x=1cm, y=1cm, scale=0.62]
+  \foreach \n/\ofs in {1/0, 2/8, 3/16} {
+    \foreach \k in {1,...,\n} {
+      \fill[aksen, opacity=0.45] (\ofs+\k-1,0) rectangle ++(1,1);
+      \foreach \j in {1,...,\k} {
+        \fill[aksen] (\ofs+\k-1,\j-1) rectangle ++(1,1);
+      }
+    }
+    \draw[white, line width=1.4pt] (\ofs,0) rectangle ++(\n,\n);
+    \draw[white, thin] (\ofs,0) grid ++(\n,\n);
+    \node[white, font=\Large] at (\ofs+\n/2, -1.0) {$n=\n$};
+    \node[white, font=\Large] at (\ofs+\n/2, \n+0.9) {$\n^2=\the\numexpr\n*\n\relax$};
+  }
+  \node[white, font=\Large] at (12, -3.2) {$1+3+5+\dots+(2n-1)=n^2$};
+\end{tikzpicture}
+\end{document}
