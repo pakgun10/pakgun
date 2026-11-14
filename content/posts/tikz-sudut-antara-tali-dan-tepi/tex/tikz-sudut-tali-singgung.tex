@@ -1,0 +1,44 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{calc}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\definecolor{teks}{HTML}{FFFFFF}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[>=stealth, line width=1.1pt]
+  % koordinat dasar
+  \coordinate (C) at (0,0);
+  \def\r{4}
+  % lingkaran utama
+  \draw[teks] (C) circle (\r);
+  % titik pusat
+  \fill[aksen] (C) circle (2.5pt) node[below left=1pt, teks] {$C$};
+  % titik singgung T di (r,0)
+  \coordinate (T) at (\r,0);
+  \fill[aksen] (T) circle (2.5pt);
+  % titik A di sudut 55 derajat
+  \coordinate (A) at (55:\r);
+  \fill[aksen] (A) circle (2.5pt) node[above left=2pt, teks] {$A$};
+  % jari-jari ke A dan ke T
+  \draw[teks] (C) -- (A);
+  \draw[teks] (C) -- (T);
+  % tali AB dan busur AB
+  \coordinate (B) at (155:\r);
+  \draw[aksen, line width=1.6pt] (A) -- (B);
+  \fill[aksen] (B) circle (2.5pt) node[above left=2pt, teks] {$B$};
+  \draw[teks!40, dashed, line width=0.8pt] (A) arc (55:155:\r);
+  % sudut pusat alpha
+  \draw[aksen, ->] (25:1.1) arc (25:55:1.1);
+  \node[teks] at (40:1.5) {$\alpha$};
+  % garis singgung di T
+  \draw[aksen] ($(T)+(0.9,0.9)$) -- (T) -- ($(T)+(0.9,-0.9)$);
+  \node[teks] at (6.2, 1.4) {garis singgung};
+  % label jari-jari dan tali
+  \node[teks] at (27.5:2.55) {$r$};
+  \node[teks] at (105:4.55) {tali $AB$};
+  % sudut antara tali dan garis singgung di A
+  \draw[aksen, ->] ($(A)+(0:0.85)$) arc (0:-32.5:0.85);
+  \node[teks] at ($(A)+(-0.05,-1.2)$) {$\tfrac{1}{2}\alpha$};
+\end{tikzpicture}
+\end{document}
