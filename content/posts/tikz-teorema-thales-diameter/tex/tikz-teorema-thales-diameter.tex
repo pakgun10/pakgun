@@ -1,0 +1,36 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{calc}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{acc}{HTML}{F7B538}
+\definecolor{sec}{HTML}{7DD3FC}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[scale=2.6, line cap=round, line join=round]
+  \coordinate (O) at (0,0);
+  \coordinate (A) at (-1.6,0);
+  \coordinate (B) at (1.6,0);
+  \coordinate (C) at (110:1.6);
+  \coordinate (D) at (250:1.6);
+  \draw[thick, white!60] (O) circle (1.6);
+  \draw[very thick, acc] (A) -- (B);
+  \draw[very thick, white] (A) -- (C) -- (B);
+  \draw[thick, sec] (A) -- (D) -- (B);
+  \fill[acc] (A) circle (1.5pt) node[below left, white] {$A$};
+  \fill[acc] (B) circle (1.5pt) node[below right, white] {$B$};
+  \fill[white] (C) circle (1.5pt) node[above, white] {$C$};
+  \fill[sec] (D) circle (1.5pt) node[below, sec] {$D$};
+  \fill[white] (O) circle (1.5pt) node[below, white] {$O$};
+  % kotak siku di C, orientasi mengikuti kaki CA dan CB
+  \coordinate (P) at ($(C)!0.10!(A)$);
+  \coordinate (Q) at ($(C)!0.10!(B)$);
+  \coordinate (R) at ($(P)+(Q)-(C)$);
+  \draw[acc, thick] (P) -- (R) -- (Q);
+  \draw[acc] ($(A)!0.35!(O)$) arc[start angle=0, end angle=55, radius=0.56];
+  \draw[sec] ($(B)!0.35!(O)$) arc[start angle=180, end angle=125, radius=0.56];
+  \node[white, font=\small] at (-0.5,0.30) {$\alpha$};
+  \node[white, font=\small] at (0.5,0.30) {$\beta$};
+  \node[acc, font=\small] at (0.45,-0.70) {$\angle ACB = 90^\circ$};
+  \node[sec, font=\small] at (0.0,-1.22) {$\angle ADB = 90^\circ$};
+\end{tikzpicture}
+\end{document}
