@@ -1,0 +1,21 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[scale=0.45, text=white]
+  % Persegi panjang 10 x 6
+  \draw[thick, aksen] (0,0) -- (10,0) -- (10,6) -- (0,6) -- cycle;
+  % Segitiga sama kaki di sisi atas: alas 10, tinggi 4
+  \draw[thick, aksen] (0,6) -- (5,10) -- (10,6);
+  % Garis bantu tinggi segitiga
+  \draw[dashed, white] (5,10) -- (5,6);
+  \draw[white] (5,6.3) -- (4.7,6.3) -- (4.7,6.6);
+  % Label sisi
+  \node[below] at (5,0) {10 cm};
+  \node[right] at (10.3,3) {6 cm};
+  \node[above] at (5,10.2) {puncak di tengah sisi atas};
+  \node[left] at (5,8) {tinggi 4 cm};
+\end{tikzpicture}
+\end{document}
