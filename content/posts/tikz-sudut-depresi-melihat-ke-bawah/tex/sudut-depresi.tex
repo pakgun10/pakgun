@@ -1,0 +1,80 @@
+\documentclass[tikz, border=8pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\definecolor{navy}{HTML}{14213D}
+\definecolor{teal}{HTML}{0E7C7B}
+\definecolor{emas}{HTML}{C9A227}
+\definecolor{abu}{HTML}{E8E8E8}
+
+% Sudut depresi: sudut antara garis mendatar dari mata pengamat
+% dan garis pandang ke benda yang berada di bawahnya.
+%
+% Gambar 1: menara 12 m, sudut depresi 45 derajat,
+% jarak menara ke perahu 12 m (tan 45 = 1).
+% Gambar 2: menara 10 m, sudut depresi 30 derajat,
+% jarak 10 / tan 30 = 10 akar 3 = 17,32 m.
+% Sudut depresi di A sama dengan sudut elevasi di C
+% (sudut dalam berseberangan pada dua garis sejajar).
+
+\begin{document}
+
+% ---------------- Gambar 1: sudut depresi 45 derajat ----------------
+\begin{tikzpicture}[x=1.3cm, y=1.3cm]
+  % Tanah
+  \draw[navy, very thick] (-0.9,0) -- (3.7,0);
+  % Menara (A di puncak, (0,3))
+  \draw[fill=abu, draw=navy, very thick] (-0.45,0) rectangle (0,3);
+  \node[anchor=east, font=\small\bfseries, navy] at (-0.6,1.5) {12 m};
+  \node[anchor=south, font=\small\bfseries, navy] at (0,3.12) {A};
+  % Pengamat
+  \fill[navy] (0,3) circle (0.06cm);
+  % Garis mendatar (khayalan) dari A ke B = (3,3)
+  \draw[teal, thick, dashed] (0,3) -- (3.3,3);
+  \node[anchor=south, font=\small, teal] at (1.65,3.12) {garis mendatar};
+  \node[anchor=south, font=\small\bfseries, navy] at (3,3.12) {B};
+  % Garis pandang dari A ke perahu C = (3,0)
+  \draw[emas, very thick] (0,3) -- (3,0);
+  % Busur sudut depresi di A: dari -45 derajat sampai 0 derajat
+  \draw[teal, very thick] (0,3) ++(-45:0.7) arc (-45:0);
+  \node[anchor=west, font=\small\bfseries, teal] at (1.0,2.6) {$45^\circ$};
+  % Tanda siku-siku di B
+  \draw[navy, thick] (2.8,3) -- (2.8,2.8) -- (3,2.8);
+  % Perahu di C
+  \fill[teal] (2.8,0) -- (3.2,0) -- (3.1,0.18) -- (2.9,0.18) -- cycle;
+  \node[anchor=north, font=\small\bfseries, navy] at (3,-0.12) {perahu};
+  % Jarak di tanah
+  \node[anchor=north, font=\small\bfseries, navy] at (1.5,-0.12) {12 m};
+\end{tikzpicture}
+
+% ---------------- Gambar 2: sudut depresi = sudut elevasi ----------------
+\begin{tikzpicture}[x=1.1cm, y=1.1cm]
+  % Tanah
+  \draw[navy, very thick] (-0.9,0) -- (4.1,0);
+  % Menara (A di puncak, (0,2))
+  \draw[fill=abu, draw=navy, very thick] (-0.45,0) rectangle (0,2);
+  \node[anchor=east, font=\small\bfseries, navy] at (-0.6,1) {10 m};
+  \node[anchor=south, font=\small\bfseries, navy] at (0,2.12) {A};
+  % Pengamat
+  \fill[navy] (0,2) circle (0.06cm);
+  % Garis mendatar (khayalan) dari A ke B = (3.464,2)
+  \draw[teal, thick, dashed] (0,2) -- (3.8,2);
+  \node[anchor=south, font=\small, teal] at (1.73,2.12) {garis mendatar};
+  \node[anchor=south, font=\small\bfseries, navy] at (3.464,2.12) {B};
+  % Garis pandang dari A ke benda C = (3.464,0)
+  \draw[emas, very thick] (0,2) -- (3.464,0);
+  % Busur sudut depresi di A: dari -30 derajat sampai 0 derajat
+  \draw[teal, very thick] (0,2) ++(-30:0.6) arc (-30:0);
+  \node[anchor=west, font=\small\bfseries, teal] at (0.95,1.75) {$30^\circ$};
+  % Busur sudut elevasi di C: dari 150 derajat sampai 180 derajat
+  \draw[teal, very thick] (3.464,0) ++(150:0.6) arc (150:180);
+  \node[anchor=east, font=\small\bfseries, teal] at (2.5,0.25) {$30^\circ$};
+  % Tanda siku-siku di B
+  \draw[navy, thick] (3.264,2) -- (3.264,1.8) -- (3.464,1.8);
+  % Benda di C
+  \fill[teal] (3.464,0) circle (0.08cm);
+  \node[anchor=north, font=\small\bfseries, navy] at (3.464,-0.12) {C};
+  % Jarak di tanah
+  \node[anchor=north, font=\small\bfseries, navy] at (1.73,-0.12) {17,32 m};
+\end{tikzpicture}
+
+\end{document}
