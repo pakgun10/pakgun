@@ -1,0 +1,69 @@
+\documentclass[tikz, border=8pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\definecolor{navy}{HTML}{14213D}
+\definecolor{teal}{HTML}{0E7C7B}
+\definecolor{emas}{HTML}{C9A227}
+\definecolor{abu}{HTML}{E8E8E8}
+
+% Diagram garis ganda: rata-rata nilai ulangan harian
+% Kelas VII.A: 70, 74, 78, 76, 82  (rata-rata 76)
+% Kelas VII.B: 66, 72, 75, 79, 81  (rata-rata 74,6)
+% Sumbu tegak 60--90, tiap garis grid berjarak 5 poin.
+
+\begin{document}
+
+\begin{tikzpicture}[x=1.7cm, y=0.22cm]
+  % Garis grid mendatar tiap 5 poin, dari 60 sampai 90
+  \foreach \nilai in {60,65,70,75,80,85,90} {
+    \draw[abu, thin] (0,\nilai) -- (6,\nilai);
+    \node[anchor=east, font=\small, navy] at (-0.15,\nilai) {\nilai};
+  }
+  % Sumbu
+  \draw[navy, very thick, ->] (0,58) -- (0,92);
+  \draw[navy, very thick, ->] (0,58) -- (6.2,58);
+  \node[anchor=east, font=\small\bfseries, navy] at (-0.15,93) {Nilai};
+  \node[anchor=west, font=\small\bfseries, navy] at (6.25,58) {Ulangan};
+  % Label ulangan 1--5 di sumbu mendatar
+  \foreach \x/\nama in {1/U1, 2/U2, 3/U3, 4/U4, 5/U5} {
+    \node[anchor=north, font=\small\bfseries, navy] at (\x,56) {\nama};
+  }
+
+  % --- Garis kelas VII.A: navy, penanda lingkaran ---
+  \draw[navy, very thick]
+    (1,70) -- (2,74) -- (3,78) -- (4,76) -- (5,82);
+  \foreach \x/\nilai in {1/70, 2/74, 3/78, 5/82} {
+    \draw[fill=white, draw=navy, very thick] (\x,\nilai) circle (0.09cm);
+    \node[anchor=south, font=\small\bfseries, navy] at (\x,\nilai+1.6) {\nilai};
+  }
+  % Ulangan 4: label VII.A di bawah titik, supaya tidak
+  % bertabrakan dengan label VII.B yang juga di dekatnya.
+  \draw[fill=white, draw=navy, very thick] (4,76) circle (0.09cm);
+  \node[anchor=north, font=\small\bfseries, navy] at (4,76-1.6) {76};
+
+  % --- Garis kelas VII.B: teal, penanda persegi ---
+  \draw[teal, very thick]
+    (1,66) -- (2,72) -- (3,75) -- (4,79) -- (5,81);
+  \foreach \x/\nilai in {1/66, 2/72, 3/75, 5/81} {
+    \draw[fill=white, draw=teal, very thick]
+      (\x-0.09cm,\nilai-0.09cm) rectangle (\x+0.09cm,\nilai+0.09cm);
+    \node[anchor=north, font=\small\bfseries, teal] at (\x,\nilai-1.6) {\nilai};
+  }
+  % Ulangan 4: label VII.B di atas titik, berpasangan
+  % dengan label VII.A yang dipindah ke bawah.
+  \draw[fill=white, draw=teal, very thick]
+    (4-0.09cm,79-0.09cm) rectangle (4+0.09cm,79+0.09cm);
+  \node[anchor=south, font=\small\bfseries, teal] at (4,79+1.6) {79};
+
+  % --- Legenda di pojok kiri atas ---
+  \draw[fill=white, draw=navy] (0.15,88.5) rectangle (2.55,91.8);
+  \draw[navy, very thick] (0.35,90.9) -- (0.85,90.9);
+  \draw[fill=white, draw=navy, very thick] (0.6,90.9) circle (0.09cm);
+  \node[anchor=west, font=\small\bfseries, navy] at (1.0,90.9) {VII.A};
+  \draw[teal, very thick] (0.35,89.4) -- (0.85,89.4);
+  \draw[fill=white, draw=teal, very thick]
+    (0.51,89.31) rectangle (0.69,89.49);
+  \node[anchor=west, font=\small\bfseries, navy] at (1.0,89.4) {VII.B};
+\end{tikzpicture}
+
+\end{document}
