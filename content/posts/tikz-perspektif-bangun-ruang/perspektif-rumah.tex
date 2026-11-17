@@ -1,0 +1,47 @@
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{calc}
+\definecolor{latar}{HTML}{171D2B}
+\pagecolor{latar}
+\begin{document}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{tikzpicture}[scale=1, every node/.style={text=white, font=\small}]
+  % ===== Rumah: balok + prisma atap, perspektif satu titik hilang =====
+  \coordinate (VP) at (10,3.4);
+  % bidang depan badan rumah
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (3.2,0);
+  \coordinate (C) at (3.2,2.4);
+  \coordinate (D) at (0,2.4);
+  % bidang belakang badan rumah (menuju VP, sedikit lebih rendah)
+  \coordinate (A2) at (5.6,0.75);
+  \coordinate (B2) at (6.9,0.75);
+  \coordinate (C2) at (6.9,2.65);
+  \coordinate (D2) at (5.6,2.65);
+  % puncak atap depan dan belakang
+  \coordinate (P1) at (1.6,3.6);
+  \coordinate (P2) at (6.3,3.55);
+
+  % garis bantu menuju titik hilang
+  \draw[gray!40, thin] (A) -- (VP) (B) -- (VP) (C) -- (VP) (D) -- (VP) (P1) -- (VP);
+
+  % rusuk tersembunyi (putus-putus)
+  \draw[dashed, white!70] (A2) -- (B2) -- (C2) -- (D2) -- cycle;
+  \draw[dashed, white!70] (A2) -- (P2);
+
+  % badan rumah rusuk terlihat
+  \draw[thick, white] (A) -- (B) -- (C) -- (D) -- cycle;
+  \draw[thick, white] (B) -- (B2) (C) -- (C2) (D) -- (D2);
+  \draw[thick, white] (C2) -- (B2);
+  % atap
+  \draw[thick, aksen] (D) -- (P1) -- (C);
+  \draw[thick, aksen] (P1) -- (P2) -- (C2);
+  \draw[thick, aksen] (D2) -- (P2);
+
+  % titik hilang
+  \fill[aksen] (VP) circle (2.5pt);
+  \draw[aksen, thin, dashed] (D2) -- ($(VP)+(0,-0.35)$);
+  \node[below, text=aksen] at ($(VP)+(0,-0.4)$) {titik hilang};
+  \node[below, text=white] at (1.6,-0.25) {bidang depan};
+\end{tikzpicture}
+\end{document}
