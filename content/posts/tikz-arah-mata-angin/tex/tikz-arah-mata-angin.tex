@@ -1,0 +1,32 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[line cap=round, text=white]
+  % lingkaran kompas
+  \draw[very thick, aksen] (0,0) circle (3);
+  \draw[thin, white!40] (0,0) circle (2.7);
+  % tick tiap 15 derajat, panjang di kardinal
+  \foreach \a in {0,15,...,345}{
+    \pgfmathsetmacro{\len}{mod(\a,90)==0 ? 0.55 : (mod(\a,45)==0 ? 0.4 : 0.22)}
+    \draw[white!70] (\a:3) -- (\a:3-\len);
+  }
+  % arah mata angin
+  \foreach \a/\t in {90/U, 270/S, 0/T, 180/B}{
+    \node[aksen, font=\bfseries\large] at (\a:2.25) {\t};
+  }
+  \foreach \a/\t in {45/TL, 135/BL, 225/BD, 315/TB}{
+    \node[white!80, font=\small] at (\a:2.25) {\t};
+  }
+  % jarum
+  \draw[very thick, aksen, -{Latex[length=4mm]}] (0,0) -- (90:1.8);
+  \draw[very thick, white, -{Latex[length=3mm]}] (0,0) -- (270:1.5);
+  \fill[aksen] (0,0) circle (0.12);
+  % derajat utara
+  \node[white!70, font=\small] at (90:3.45) {$0^\circ$};
+  \node[white!70, font=\small] at (0:3.45) {$90^\circ$};
+  \node[white!70, font=\small] at (180:3.45) {$270^\circ$};
+\end{tikzpicture}
+\end{document}
