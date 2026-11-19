@@ -1,0 +1,31 @@
+\documentclass[tikz,border=14pt]{standalone}
+\usepackage{xcolor}
+\definecolor{bg}{HTML}{171D2B}
+\definecolor{accent}{HTML}{F7B538}
+\usetikzlibrary{angles,quotes}
+\begin{document}
+\pagecolor{bg}
+\begin{tikzpicture}[scale=1.25, text=white, font=\small]
+  \coordinate (A) at (2.6,3);
+  \coordinate (B) at (0,0);
+  \coordinate (C) at (6,0);
+  \coordinate (P) at (-2.2,3);
+  \coordinate (Q) at (8.2,3);
+  % garis melalui A sejajar BC
+  \draw[thick, accent] (P) -- (Q);
+  % segitiga
+  \draw[thick, white] (A) -- (B) -- (C) -- cycle;
+  % sudut dalam segitiga
+  \pic[draw, white, angle radius=0.6cm, angle eccentricity=1.7, "$\alpha$" {text=accent}] {angle = A--C--B};
+  \pic[draw, white, angle radius=0.6cm, angle eccentricity=1.7, "$\beta$"  {text=accent}] {angle = C--B--A};
+  % sudut di A: kiri = beta (sehadap dengan B), kanan = alpha (sehadap dengan C)
+  \pic[draw, accent, angle radius=0.5cm, angle eccentricity=1.85, "$\beta$"  {text=accent}] {angle = P--A--B};
+  \pic[draw, accent, angle radius=0.5cm, angle eccentricity=1.85, "$\alpha$" {text=accent}] {angle = C--A--Q};
+  % titik dan nama
+  \fill[accent] (A) circle (1.8pt) node[above=13pt, white] {$A$};
+  \fill[accent] (B) circle (1.8pt) node[below left=-2pt, white] {$B$};
+  \fill[accent] (C) circle (1.8pt) node[below right=-2pt, white] {$C$};
+  \node[accent, above] at (7.0,3) {\scriptsize $\parallel BC$};
+  \useasboundingbox (-2.8,-0.8) rectangle (8.8,4.0);
+\end{tikzpicture}
+\end{document}

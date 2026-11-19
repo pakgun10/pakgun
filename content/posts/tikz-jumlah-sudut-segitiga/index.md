@@ -1,89 +1,68 @@
 ---
-weight: 1
-title: "Tiga Sudut, Satu Garis Lurus: Bukti Jumlah Sudut Segitiga dengan TikZ"
-date: 2026-11-02T08:01:00+07:00
+title: "Tiga Sudut yang Selalu Bersepakat: Jumlah Sudut dalam Segitiga dengan TikZ"
+date: 2026-11-19T13:00:00+07:00
 draft: false
 authors: ["Gunanto"]
-description: "Siswa saya hafal bahwa jumlah sudut segitiga adalah 180 derajat, tetapi belum percaya sampai ia melihatnya sendiri: tiga sudut yang dipotong dari satu segitiga, dijajarkan, dan ternyata tepat membentuk satu garis lurus."
+description: "Mengajari siswa membuktikan jumlah sudut dalam segitiga dengan memotong sudut dan menggabungkan mereka di satu titik, lalu menggambarnya dengan TikZ agar busurnya jujur pada besarannya."
 featuredImage: "featured-image.png"
-tags: ["TikZ", "LaTeX", "Segitiga", "Sudut", "Bahan Ajar"]
-categories: ["Matematika", "TikZ"]
+tags: ["TikZ", "geometri", "sudut", "media pembelajaran"]
+categories: ["Matematika"]
 math:
   enable: true
 ---
 
-Pekan lalu, di kelas VII, seorang siswa mengangkat tangan di tengah pelajaran segitiga dan bertanya dengan jujur, "Pak, kok bisa pas 180 derajat? Siapa yang mengatur supaya jumlahnya selalu segitu?" Saya tersenyum, karena pertanyaannya tepat sekali. Di buku, kalimat itu tertulis sebagai fakta: jumlah sudut dalam segitiga adalah $180^\circ$. Siswa menghafalnya, menggunakannya untuk mencari sudut yang belum diketahui, dan mendapat nilai bagus. Tetapi menghafal bukanlah percaya. Selama ia belum melihat sendiri mengapa jumlahnya selalu pas, kalimat itu hanya terasa seperti aturan yang diturunkan dari langit, bukan sesuatu yang masuk akal.
-
-Saya tidak menjawabnya dengan dalil yang lebih panjang. Saya mengajak kelas itu menggambar satu segitiga, mengukur ketiga sudutnya, lalu memotong dan menempelkannya berjajar. Hasilnya, seperti yang akan saya tunjukkan dengan TikZ, adalah satu garis lurus — dan garis lurus besar sudutnya $180^\circ$. Bukti ini tidak memakai rumus apa pun, hanya gunting, tempelan, dan mata yang memperhatikan.
+Ada satu saat di kelas VII yang tidak pernah saya lupa. Kami sedang mengukur sudut-sudut dalam segitiga dengan busur derajat, dan satu kelompok mengangkat tangan dengan wajah bingung. "Pak, punya kami cuma 177 derajat. Apakah segitiganya cacat?" Semua kelompok lain juga mendapat angka yang berbeda-beda: 178, 180, 182, satu bahkan 176. Di papan tulis saya menuliskan kalimat yang sudah dicetak rapi di buku paket, "Jumlah sudut dalam segitiga adalah 180 derajat." Dan anak-anak menatap dua hal yang tidak cocok: kalimat yang mantap, dan pengukuran mereka yang rancu.
 
 <!--more-->
 
-## Segitiga yang sudutnya diukur dulu
+## Ketika pengukuran bilang tidak persis 180
 
-Langkah pertama adalah menggambar satu segitiga yang sudutnya tidak istimewa sama sekali. Saya sengaja tidak memakai segitiga siku-siku atau segitiga sama sisi, karena siswa sering mengira aturan 180 derajat hanya berlaku untuk segitiga yang "cantik". Segitiga yang saya gambar punya tiga sudut yang berbeda-beda: $61^\circ$, $45^\circ$, dan $74^\circ$. Kalau dijumlahkan, $61 + 45 + 74 = 180$, tepat. Tetapi di titik ini, jumlah itu masih sekadar hitungan di atas kertas, belum menjadi keyakinan.
+Momen itu sebenarnya momen emas, bukan momen gagal. Karena justru di situ siswa belajar sesuatu yang lebih dalam daripada rumus: pengukuran selalu punya galat. Busur derajat yang dibaca sedikit miring, garis sisi yang di gambar tidak persis lurus, mata yang menakar di antara dua tanda — semuanya membuat hasil ukur mendekati tapi tidak pernah persis 180. Kalau saya buru-buru bilang "kalian yang salah ukur", mereka hanya akan menuruti buku. Kalau saya biarkan mereka bergumul sebentar, mereka mulai bertanya hal yang jauh lebih berharga: kenapa yakin jumlahnya tepat 180? Siapa yang membuktikannya?
 
-Dengan TikZ, segitiga beserta tanda sudutnya saya gambar seperti ini. Setiap sudut diberi warna berbeda: biru untuk sudut $A$, merah untuk sudut $B$, dan emas untuk sudut $C$. Pewarnaan ini bukan hiasan: warna itulah yang membuat siswa bisa mengikuti jejak setiap sudut ketika ketiganya dipindahkan ke garis lurus.
+Pertanyaan itulah yang ingin saya jawab bukan dengan ucapan, tapi dengan pengalaman. Dan pengalaman itu ternyata bisa digambar — di kertas, dengan gunting, dan nanti di layar dengan TikZ.
+
+## Bukti dengan gunting: tiga sudut yang berpapasan
+
+Cara klasiknya sederhana dan sudah ratusan tahun dipakai guru: minta siswa menggambar sembarang segitiga di kertas, memotong ketiga sudutnya dengan gunting, lalu menyusun ketiga potongan itu bertemu di satu titik. Hasilnya selalu sama: ketiga sudut yang "berpapasan" itu berjajar rapi membentuk garis lurus. Dan garis lurus, seperti yang sudah mereka tahu, berjumlah 180 derajat.
+
+Aktivitas ini punya daya yang tidak dimiliki kalimat buku paket. Anak yang memotong sudutnya sendiri, menempelnya sendiri, dan melihat sendiri ketiga potongan itu membentuk lurusan, tidak perlu saya meyakinkan. Ia yang meyakinkan dirinya. Ada pula kejutan kecil yang selalu muncul: siswa yang menggambar segitiga paling jomplang — yang satu sudutnya hampir rata, yang lain tumpul — tetap mendapatkan lurusan yang sama. Sifat ini ternyata tidak peduli bentuk segitiganya. Jumlah sudut dalam segitiga adalah sifat yang tetap, dan bukti gunting membuat ketetapan itu terlihat.
+
+Tapi aktivitas gunting punya kelemahan yang sama seperti busur derajat: ia meyakinkan, tapi tidak membuktikan dengan ketat. Potongan kertas bisa miring saat ditempel. Untuk langkah berikutnya — bukti yang bisa dipertanggungjawabkan — saya bawa kelas ke gambar yang rapi.
+
+## Dari gunting ke gambar: menulis bukti dengan bantuan TikZ
+
+Bukti standarnya seperti ini. Ambil segitiga $ABC$. Tarik garis melalui $A$ yang sejajar dengan sisi $BC$. Sekarang perhatikan sudut di kanan-atas $A$ — sebut saja $\alpha$. Sudut itu dan sudut di $C$ adalah sudut dalam berseberangan pada dua garis sejajar, jadi besarnya sama. Begitu pula sudut di kiri-atas $A$, sebut saja $\beta$: ia sama besar dengan sudut di $B$. Maka di titik $A$ kini berjajar tiga sudut sepanjang garis lurus: $\beta$, lalu sudut dalam segitiga di $A$ yang saya sebut $\gamma$, lalu $\alpha$. Karena $\beta$ dan $\alpha$ masing-masing mewakili sudut $B$ dan sudut $C$, jumlah ketiga sudut dalam segitiga itu tepat sama dengan $180^{\circ}$ — setengah putaran, sepanjang garis lurus.
+
+Di kertas papan tulis, gambar seperti ini hampir selalu tidak sejajar sejajar — garis yang saya tarik sedikit menikung, sudut yang saya tandai tidak persis sebesar pasangannya, dan siswa yang kritis langsung berkomentar. Di sinilah TikZ mengambil alih. Karena TikZ menghitung sudutnya dari koordinat, bukan dari goresan tangan, gambar hasilnya jujur: garisnya benar-benar sejajar, dan sudut-sudut yang saya klaim sama besar memang tampak sama besar.
+
+Berikut inti kode yang saya pakai (berkas lengkapnya saya lampirkan di bawah):
 
 ```latex
-\begin{tikzpicture}
-  \coordinate (A) at (0,0);
-  \coordinate (B) at (5,0);
-  \coordinate (C) at (1.8,3.2);
+\usetikzlibrary{angles,quotes}
+\begin{tikzpicture}[scale=1.2]
+  \coordinate (A) at (2,2.2);
+  \coordinate (B) at (0,0);
+  \coordinate (C) at (5,0);
   \draw[thick] (A) -- (B) -- (C) -- cycle;
-  \node[below left] at (A) {$A$};
-  \node[below right] at (B) {$B$};
-  \node[above] at (C) {$C$};
-  \pic[draw, fill=blue!20, angle radius=0.8cm, "$61^\circ$"]
-    {angle = B--A--C};
-  \pic[draw, fill=red!20, angle radius=0.8cm, "$45^\circ$"]
-    {angle = C--B--A};
-  \pic[draw, fill=goldenrod!30, angle radius=0.8cm, "$74^\circ$"]
-    {angle = A--C--B};
+  \draw[thick, accent] (-1,2.2) -- (6,2.2);      % garis sejajar BC lewat A
+  % sudut dalam segitiga
+  \pic[draw, "$\alpha$", angle eccentricity=1.5] {angle = B--C--A};
+  \pic[draw, "$\beta$",  angle eccentricity=1.5] {angle = A--B--C};
+  \pic[draw, "$\gamma$", angle eccentricity=1.4] {angle = C--A--B};
 \end{tikzpicture}
 ```
 
-Perintah `\pic` dengan pustaka `angles` mengerjakan bagian tersulit kalau digambar manual: menggambar busur tepat di antara dua sisi yang bertemu di satu titik. Saya hanya menyebutkan tiga titiknya, misalnya `B--A--C` untuk sudut di $A$. Karena segitiganya digambar dari koordinat, besar sudut yang tertulis memang sesuai bentuknya, bukan tempelan angka.
+Ketika saya menampilkan gambar hasil kompile ini di kelas, ada siswa yang bertanya, "Pak, kalau segitiganya diganti, angkanya ikut berubah?" Jawabannya ya — dan itu justru pelajaran. Besar tiap sudut berubah, tapi jumlahnya tidak. Kalau saya mengganti koordinat $A$ di kode, dua sudut berubah besar, sudut ketiga menyesuaikan, dan jumlahnya tetap 180. Ketetapan itu tidak disebutkan, ia diam-diam menunjukkan dirinya. Untuk gambar lengkap beserta label sudut dan penjelasannya, silakan lihat gambar di bawah.
 
-## Memotong ketiga sudut dan menempelkannya berjajar
+![](gambar-bukti-sudut-segitiga.png)
+*Gambar 1. Bukti jumlah sudut segitiga: garis melalui $A$ sejajar dengan $BC$; sudut $\beta$ dan $\alpha$ di titik $A$ berpasangan dengan sudut di $B$ dan $C$, sehingga ketiganya berjajar sepanjang garis lurus.*
 
-Inilah bagian yang membuat kelas itu diam sejenak. Bayangkan ketiga sudut segitiga tadi dipotong dengan gunting, lalu ditempelkan satu demi satu di atas satu garis lurus, tanpa celah dan tanpa tumpang tindih. Sudut biru $61^\circ$ paling kiri, sudut merah $45^\circ$ di tengah, dan sudut emas $74^\circ$ menutup barisan di kanan. Ketika potongan terakhir ditempelkan, sisi terluarnya jatuh tepat di atas garis lurus itu, tidak kurang dan tidak lebih.
+## Yang diwariskan aktivitas ini
 
-Gambar kedua menunjukkan hasil tempelan itu. Tiga juring berwarna dijajarkan dari satu titik yang sama di atas garis: juring biru sampai $119^\circ$, juring merah melanjutkannya sampai $74^\circ$, dan juring emas menutupnya sampai $0^\circ$. Ketiganya bersama-sama menutupi tepat setengah lingkaran, dan setengah lingkaran adalah $180^\circ$. Tidak ada yang perlu dihafal di sini, karena mata sudah melihatnya.
+Apa yang sebenarnya ditinggalkan aktivitas ini di kepala siswa? Menurut saya tiga hal. Pertama, mereka tahu bedanya pengukuran dan pembuktian: busur derajat memberi petunjuk, gunting memberi keyakinan, gambar sejajar memberi alasan. Kedua, mereka mengenal trik geometri yang akan dipakai berkali-kali lagi nanti: menarik garis bantu sejajar. Garis bantu itu seperti membuka jalan tikus — sekali terlihat, siswa mulai berani mencoba menarik garis bantu sendiri di soal lain. Ketiga, mereka melihat bahwa sifat geometri tidak perlu dihafal; ia bisa diperiksa, dibuktikan, dan dipertanggungjawabkan.
 
-```latex
-\begin{tikzpicture}
-  \coordinate (O) at (0,0);
-  \coordinate (P180) at (-1.8,0);
-  \coordinate (P119) at (-0.87,1.57);
-  \coordinate (P74) at (0.50,1.73);
-  \coordinate (P0) at (1.8,0);
-  \draw[thick] (-2.2,0) -- (2.2,0);
-  \fill[blue!30] (O) -- (P119) arc (119:180:1.8) -- cycle;
-  \fill[red!30] (O) -- (P74) arc (74:119:1.8) -- cycle;
-  \fill[goldenrod!40] (O) -- (P0) arc (0:74:1.8) -- cycle;
-  \draw[thick] (O) -- (P180);
-  \draw[thick] (O) -- (P119);
-  \draw[thick] (O) -- (P74);
-  \draw[thick] (O) -- (P0);
-\end{tikzpicture}
-```
+Saya juga belajar satu hal dari kegiatan ini. Jangan menaruh kalimat "jumlah sudut dalam segitiga adalah 180" di papan sebelum siswa bergumul dengan pengukuran yang tidak persis 180. Kalimat itu jauh lebih berarti setelah mereka mengalaminya sendiri. Pengalaman dulu, penamaan kemudian. Urutan ini yang membuat rumus tidak terasa seperti barang jadi yang diturunkan dari langit, tapi seperti kesimpulan yang mereka ambil sendiri.
 
-Satu hal teknis yang patut diperhatikan pada kode juring di atas: busur setiap juring ditulis dari sudut yang lebih kecil ke sudut yang lebih besar, misalnya `arc (119:180:1.8)` untuk juring biru. TikZ menggambar busur berlawanan arah jarum jam, sehingga urutan yang terbalik akan menghasilkan juring yang memutar jauh mengitari lingkaran, bukan potongan kecil yang kita maksud. Kesalahan kecil ini hasilnya besar, dan saya sendiri pernah mengalaminya.
+Dan untuk saya pribadi, kegiatan ini adalah contoh kecil bagaimana TikZ bukan sekadar alat menggambar cantik. Ia alat kejujuran matematis: gambar yang dibuat dari koordinat tidak bisa bohong. Kalau sudut yang saya klaim sama besar ternyata tampak berbeda, berarti klaim saya yang salah, dan saya perbaiki sampai gambar jujur. Di kelas yang semakin akrab dengan gambar digital, kejujuran seperti ini yang ingin saya ajarkan terlebih dulu.
 
-Di kelas, saya tidak mulai dari gambar TikZ ini. Saya mulai dari kertas: setiap kelompok menggunting segitiga dari kertas bekas, mewarnai ketiga sudutnya, lalu menempelkannya di buku. Baru setelah mereka melihat garis lurus itu terbentuk di tangan mereka sendiri, saya menampilkan gambar TikZ-nya di layar. TikZ di sini bukan pengganti pengalaman menggunting, melainkan cara mengabadikannya menjadi bahan ajar rapi yang bisa dipakai ulang tahun depan.
-
-## Tiga kesalahan yang sering saya temui
-
-Pertama, siswa mengukur sudut dengan busur derajat yang titik pusatnya tidak tepat di titik sudut. Hasilnya meleset beberapa derajat, jumlahnya menjadi 178 atau 183, lalu ia menyimpulkan aturannya salah. Padahal yang salah adalah pengukurannya. Sebelum membicarakan bukti apa pun, saya selalu memeriksa cara mereka meletakkan busur: titik pusat tepat di titik sudut, dan garis nol berimpit dengan salah satu sisi.
-
-Kedua, siswa mengira aturan ini hanya berlaku untuk segitiga tertentu. "Kalau segitiganya lancip semua, Pak, apa tetap 180?" Pertanyaan seperti ini justru bagus, karena membuka jalan untuk mencoba segitiga lain: segitiga tumpul, siku-siku, atau yang sangat gepeng. Di TikZ, mencoba segitiga lain semudah mengubah satu koordinat. Setelah tiga segitiga berbeda semuanya menghasilkan garis lurus yang sama, kecurigaan itu pelan-pelan hilang.
-
-Ketiga, siswa mencampuradukkan sudut dalam dengan sudut luar segitiga. Ketika satu sisi diperpanjang, sudut yang terbentuk di luar itu sering ikut dihitung ke dalam jumlah 180 derajat, padahal ia bukan bagian dari tiga sudut dalam. Di sinilah warna pada gambar pertama kembali membantu: hanya tiga warna itulah yang boleh dipotong dan ditempelkan.
-
-## Penutup: dari hafalan menjadi keyakinan
-
-Siswa yang bertanya pekan lalu itu kini tidak lagi bertanya siapa yang mengatur jumlahnya selalu pas. Ia sudah melihat sendiri jawabannya, bukan karena saya mengatakannya dengan lebih meyakinkan, melainkan karena tangannya sendiri yang memotong dan menempelkan. Itulah bedanya menghafal dan memahami: hafalan berhenti pada kalimatnya, pemahaman berhenti pada buktinya.
-
-Kalau Bapak dan Ibu mengajar materi ini minggu depan, saran saya sederhana: beri waktu sepuluh menit untuk menggunting sebelum memberi rumus. Biarkan siswa yang menemukan garis lurusnya. Gambar TikZ di artikel ini bisa dipakai sebagai penutup pelajaran atau lembar kerja cetak. Aturan yang ditemukan sendiri selalu lebih lama tinggalnya daripada aturan yang sekadar didiktekan.
-
-📎 **Berkas TikZ lengkap:** [jumlah-sudut-segitiga.tex](tex/jumlah-sudut-segitiga.tex) — dokumen siap kompilasi (butuh paket `tikz`). Silakan ganti angka-angkanya untuk dokumen Anda sendiri.
+> 📎 **Berkas TikZ lengkap:** [tikz-jumlah-sudut-segitiga.tex](tex/tikz-jumlah-sudut-segitiga.tex) — siap kompilasi (butuh paket `tikz` dan `tikz-angles`).
