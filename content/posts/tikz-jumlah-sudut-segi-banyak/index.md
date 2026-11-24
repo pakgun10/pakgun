@@ -1,15 +1,15 @@
-+++
-title = "Berputar Penuh 360°: Jumlah Sudut Dalam Segi Banyak yang Saya Gambar dengan TikZ"
-date = "2026-11-23T09:00:00+07:00"
-draft = false
-authors = ["Gunanto"]
-description = "Membantu siswa menemukan rumus jumlah sudut dalam segi banyak lewat segitiga yang digambar jujur dengan TikZ."
-featuredImage = "featured-image.png"
-tags = ["TikZ", "geometri", "segi banyak"]
-categories = ["Matematika"]
+---
+title: "Berputar Penuh 360°: Jumlah Sudut Dalam Segi Banyak yang Saya Gambar dengan TikZ"
+date: 2026-11-23T09:00:00+07:00
+draft: false
+authors: ["Gunanto"]
+description: "Membantu siswa menemukan rumus jumlah sudut dalam segi banyak lewat segitiga yang digambar jujur dengan TikZ."
+featuredImage: "featured-image.png"
+tags: ["tikz", "geometri", "segi banyak"]
+categories: ["Matematika"]
 math:
   enable: true
-+++
+---
 
 Di kelas VII, materi segi banyak sering berhenti di hafalan. Rumus jumlah sudut dalam segi banyak, $180°(n-2)$, dicatat, dipakai, lalu dilupakan. Tahun lalu saya mencoba hal berbeda: alih-alih memberi rumus dulu, saya mengajak siswa menemukannya sendiri lewat segitiga. Dan supaya gambar yang saya tunjukkan tidak menambah kebingungan, saya menggambarnya dengan TikZ.
 
