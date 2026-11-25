@@ -66,6 +66,8 @@ Sebenarnya saya bisa saja mengambil gambar jaring-jaring dari internet. Tapi pen
 
 Ada juga manfaat kecil yang tak terduga: karena gambar saya buat dari kode, lembar kerja yang sama bisa saya pakai ulang setiap tahun dengan susunan yang saya acak ulang. Siswa tahun ini tidak menerima lembar yang persis sama dengan kakak kelasnya — dan itu murni karena mengubah empat koordinat lebih cepat daripada mengedit gambar.
 
+Bapak/Ibu mungkin bertanya: sebelas jaring-jaring itu kok bisa dihitung? Di kelas saya, hitungannya keluar sendiri dari siswa — mereka menempel hasil lipatan mereka di papan, yang berhasil di satu sisi, yang gagal di sisi lain, dan ketika papan itu penuh kami menghitung bersama. Sebelas. Angka yang tidak pernah saya sebut di awal, tapi di akhir jam pelajaran menjadi milik kelas.
+
 ## Penutup: janji kecil yang harus ditepati
 
 Kubus itu bangun yang menjanjikan kesamaan: enam sisi, semua persegi, semua sama. Mengajar topik ini dengan gambar yang proporsional adalah cara paling sederhana untuk menepati janji itu sejak menit pertama. TikZ membantu saya menepatinya tanpa drama — cukup grid, koordinat yang konsisten, dan sedikit kebiasaan mengukur sebelum menggambar.
