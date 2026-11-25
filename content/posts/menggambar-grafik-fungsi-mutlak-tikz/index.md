@@ -1,14 +1,16 @@
-+++
-title = "Menggambar Grafik Fungsi Mutlak dengan TikZ: Kakimu yang Harus Sama Panjang"
-date = 2026-11-25T20:30:00+07:00
-draft = false
-authors = ["Gunanto"]
-description = "Grafik y = |x| sering digambar asal jadi huruf V yang miring. Dengan TikZ, kemiringan kakinya bisa dihitung dan dibuktikan sama."
-featuredImage = "featured-image.png"
-tags = ["tikz", "fungsi mutlak", "grafik fungsi", "media pembelajaran"]
-categories = ["Matematika"]
-math = true
-+++
+---
+title: Menggambar Grafik Fungsi Mutlak dengan TikZ: Kakimu yang Harus Sama Panjang
+date: 2026-11-25T20:30:00+07:00
+draft: false
+authors: ["Gunanto"]
+description: Grafik y = |x| sering digambar asal jadi huruf V yang miring. Dengan TikZ, kemiringan kakinya bisa dihitung dan dibuktikan sama.
+featuredImage: featured-image.png
+tags: ["tikz", "fungsi mutlak", "grafik fungsi", "media pembelajaran"]
+categories: ["Matematika"]
+math:
+  enable: true
+---
+
 
 Kemarin saya mengajar fungsi mutlak ke kelas IX. Di papan tulis, saya gambar huruf V besar, lalu tanya: "Kalau titik tikusnya ini, kakinya sama panjang nggak?" Semua mengangguk. Tapi ketika saya minta mereka menggambar sendiri di buku, dari sepuluh anak, tujuh menggambar V yang kiri sempit dan kanan lebar — atau sebaliknya. Grafik fungsi mutlak itu memang bentuknya V, tapi V-nya punya aturan: keduanya simetris terhadap sumbu vertikal, dan kemiringannya harus konsisten dengan nilai koefisien di dalam tanda mutlak.
 
