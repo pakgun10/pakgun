@@ -5,7 +5,7 @@ date: 2026-11-24T00:01:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Sehari sebelum Hari Guru Nasional 2026, saya mengenang Hari Guru pertama saya sebagai guru muda pada tahun 2000 — pagi yang sederhana, dan justru karena itu tidak pernah saya lupakan."
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.webp"
 
 tags: ["Hari Guru", "Refleksi Guru", "Guru"]
 categories: ["Refleksi"]
