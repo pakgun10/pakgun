@@ -53,6 +53,10 @@ Slide dengan gambar TikZ ini saya pakai sebagai pembuka, bukan pengganti latihan
 
 Ada satu momen yang saya suka. Seorang siswa bertanya, "Kalau titiknya digeser, misalnya $|x - 3|$, kakinya tetap sama panjang?" Jawabannya ya — hanya titik tikusnya yang pindah ke $(3,0)$, dan itulah bahan diskusi pertemuan berikutnya. Gambar yang jujur memang melahirkan pertanyaan yang baik.
 
+Pertanyaan itu juga yang akhirnya mengantar kami ke variasi lain. Pekan berikutnya kami mencoba $y = 2|x|$: bentuknya tetap V, tapi kakinya jadi lebih curam karena setiap nilai mutlak dikalikan dua. Lalu $y = |x| + 1$, di mana seluruh V terangkat satu kotak ke atas tanpa berubah bentuk sama sekali. Dengan kode TikZ yang sudah terbukti, membuat semua variasi itu hanya soal mengubah beberapa angka di koordinat — dan setiap perubahan bisa langsung dibandingkan berdampingan di slide. Anak-anak tidak lagi menghafal "kalau dikali, jadi curam; kalau ditambah, naik" sebagai mantra, tapi melihat sendiri kenapa hal itu terjadi: koefisien mengubah kemiringan, konstanta mengangkat titik.
+
+Yang menarik, pergeseran horizontal justru yang paling sering salah dibaca. Ketika kami menggambar $y = |x - 3|$, hampir separuh kelas menebak grafiknya bergeser ke kiri, karena "ada tandanya minus". Membuktikan lewat koordinat — titik $x = 5$ memberikan nilai 2, titik $x = 1$ juga memberikan nilai 2 — akhirnya meyakinkan mereka bahwa V-nya pindah ke kanan. Di sini saya bersyukur sudah menggambar semuanya dengan koordinat yang benar: kalau gambar kuncinya keliru, miskonsepsi justru kami perkuat bersama-sama di depan kelas.
+
 > 📎 **Berkas TikZ lengkap:** [grafik-mutlak.tex](tex/grafik-mutlak.tex) — siap kompilasi (butuh paket `tikz`).
 
 Untuk guru yang ingin mencoba: mulailah dari dua titik kakinya saja, cek bahwa keduanya benar-benar memenuhi definisi, lalu tambahkan grid dan label. Gambar yang bisa dipertanggungjawabkan itu tidak lebih sulit dari gambar yang asal jadi — hanya butuh kebiasaan menghitung sebelum menggambar, persis seperti yang kita tanamkan pada siswa.
