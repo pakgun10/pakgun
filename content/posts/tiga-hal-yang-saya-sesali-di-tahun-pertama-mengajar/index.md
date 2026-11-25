@@ -5,7 +5,7 @@ date: 2026-11-23T12:01:00+07:00
 draft: false
 authors: ["Gunanto"]
 description: "Menjelang Hari Guru Nasional 2026, saya menuliskan tiga penyesalan dari tahun-tahun pertama saya mengajar — bukan untuk diratapi, melainkan karena justru dari situlah saya paling banyak belajar menjadi guru."
-featuredImage: "featured-image.png"
+featuredImage: "featured-image.webp"
 
 tags: ["Hari Guru", "Refleksi Guru", "Guru Muda"]
 categories: ["Refleksi"]
