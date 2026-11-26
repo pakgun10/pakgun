@@ -1,6 +1,6 @@
 ---
-title: Menggambar Grafik Fungsi Mutlak dengan TikZ: Kakimu yang Harus Sama Panjang
-date: 2026-11-25T20:30:00+07:00
+title: "Menggambar Grafik Fungsi Mutlak dengan TikZ: Kakimu yang Harus Sama Panjang"
+date: "2026-11-25T20:30:00+07:00"
 draft: false
 authors: ["Gunanto"]
 description: Grafik y = |x| sering digambar asal jadi huruf V yang miring. Dengan TikZ, kemiringan kakinya bisa dihitung dan dibuktikan sama.

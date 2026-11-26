@@ -1,14 +1,21 @@
-+++
-title = "Modul Ajar Hasil AI yang Tidak Langsung Saya Pakai: Guru sebagai Penyunting"
-date = "2026-10-25T18:20:00+07:00"
-draft = false
-authors = ["Gunanto"]
-description = "Pengalaman menyunting modul ajar hasil AI: kenapa draf pertama mesin tidak pernah cukup, dan kenapa justru di sanalah peran guru terlihat paling jelas."
-featuredImage = "featured-image.png"
-tags = ["AI", "modul ajar", "perencanaan pembelajaran", "refleksi"]
-categories = ["AI dalam Pendidikan"]
-math = { enable = true }
-+++
+---
+title: 'Modul Ajar Hasil AI yang Tidak Langsung Saya Pakai: Guru sebagai Penyunting'
+date: '2026-10-25T18:20:00+07:00'
+draft: false
+authors:
+- Gunanto
+description: 'Pengalaman menyunting modul ajar hasil AI: kenapa draf pertama mesin tidak pernah cukup, dan kenapa justru di sanalah peran guru terlihat paling jelas.'
+featuredImage: featured-image.png
+tags:
+- AI
+- modul ajar
+- perencanaan pembelajaran
+- refleksi
+categories:
+- AI dalam Pendidikan
+math:
+  enable: true
+---
 
 Sabtu sore pekan lalu, saya duduk di depan layar dengan satu tugas yang setiap guru kenal baik: menyiapkan modul ajar untuk pekan berikutnya. Kurikulum sudah berubah beberapa kali sejak saya mulai mengajar, tetapi satu hal tidak pernah berubah — pekerjaan administratif perencanaan selalu lebih memakan waktu daripada memikirkan bagaimana anak-anak akan belajarnya nanti.
 

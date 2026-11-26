@@ -1,0 +1,38 @@
+% Peta konsep materi pecahan - pakgun.gezytech.web.id
+% Kompilasi: pdflatex tikz-peta-konsep.tex
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{amsmath}
+\usetikzlibrary{arrows.meta,positioning}
+
+\begin{document}
+\pagecolor{#171D2B}
+\definecolor{aksen}{HTML}{F7B538}
+\color{white}
+
+\begin{tikzpicture}[
+  konsep/.style={draw=aksen, thick, rounded corners=4pt, fill=#1!25,
+                 text=white, minimum width=3.2cm, minimum height=1.0cm,
+                 font=\small, align=center},
+  hubungan/.style={-{Stealth[length=3mm]}, draw=aksen, thick},
+  label/.style={midway, above, font=\footnotesize, text=aksen},
+]
+
+  \node[konsep=orange] (PECAHAN) at (0,0) {Pecahan};
+
+  \node[konsep=blue] (SENILAI)   at (0,-2.5) {Pecahan\\Senilai};
+  \node[konsep=teal] (DESIMAL)   at (-4.5,-2.5) {Pecahan\\Desimal};
+  \node[konsep=teal] (CAMPURAN)  at (5.2,-2.5) {Pecahan\\Campuran};
+
+  \node[konsep=purple] (OPERASI) at (0,-5.0) {Operasi\\Pecahan};
+  \node[konsep=purple] (SAMADENGAN) at (-4.5,-5.0) {Penjumlahan\\dengan Penyebut Sama};
+  \node[konsep=purple] (BEDAPENYEBUT) at (5.2,-5.0) {Penjumlahan\\dengan Penyebut Berbeda};
+
+  \draw[hubungan] (PECAHAN) -- (SENILAI) node[label] {beragam bentuk};
+  \draw[hubungan] (PECAHAN) -- (DESIMAL) node[label, sloped] {ditulis dengan koma};
+  \draw[hubungan] (PECAHAN) -- (CAMPURAN) node[label, pos=0.4, sloped, below] {bentuk campuran};
+  \draw[hubungan] (SENILAI) -- (OPERASI) node[label, right=2pt] {dasar operasi};
+  \draw[hubungan] (DESIMAL) -- (SAMADENGAN) node[label] {dicoba di penjumlahan};
+  \draw[hubungan] (CAMPURAN) -- (BEDAPENYEBUT) node[label] {dicoba di penjumlahan};
+
+\end{tikzpicture}
+\end{document}
