@@ -1,1 +1,7 @@
-content/posts/*/tex/*.pdf
+/public/
+/resources/
+.hugo_build.lock
+tex/*.aux
+tex/*.log
+tex/*.pdf
+content/posts/*/tex/*-*.png
